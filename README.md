@@ -1,4 +1,4 @@
-CodeFluent Entities Documentation 
+CodeFluent Entities Documentation
 ===================
 
 Create high-quality software always aligned with your business
