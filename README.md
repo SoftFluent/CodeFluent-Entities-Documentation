@@ -12,6 +12,8 @@ Model your business
 -------------
 Leverage the centralized platform-independent model describing your business application thanks to the Visual Studio integrated Modeler.
 
+![Model your business](/img/readme/model-your-business.png)
+
 **Model-First**: Transform your business into a model using a natural and visual modeling approach. You don't need to learn anything to start.
 
 **Visual Studio Integration**: The graphical modeler is fully integrated in Microsoft Visual Studio (from 2008 to 2015).
@@ -26,7 +28,7 @@ Define your foundations
 -------------
 From your business model, CodeFluent Entities generates Transact-SQL scripts and C# code. Focus on what makes the difference.
 
-IMAGE ??
+![Define your foundations](/img/readme/define-your-foundations.png)
 
 **Human-readable**: No code generated at runtime, everything is human-readable and can be changed if needed.
 
@@ -53,7 +55,5 @@ Create your application by using the generated data access layer composed of .NE
 **Database sorting**: Sorting is done in the persistence layer to ensure optimal performances.
 
     Customer customer = Customer.LoadbyName("Contoso");
-        
     customer.IsProspect = false;
-    
     customer.Save();
