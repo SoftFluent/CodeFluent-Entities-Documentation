@@ -6,4 +6,5 @@
    * Use the Data Access Layer
    * Update your model
    * Extend your Data Access Layer
+   * Generate your data layers
 
