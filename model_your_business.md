@@ -20,3 +20,5 @@ You may also need an enumeration to constraint possible values of a property, fo
 
 Use the ribbon again.
 
+And configure the possible values.
+
