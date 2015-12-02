@@ -24,5 +24,9 @@ And configure the possible values.
 
 ![](img/getting-started/model-your-business-07.png)
 
+![](img/getting-started/model-your-business-08.png)
+
+
+
 Then edit the datatype of the property from the "Type Name" property grid value.
 
