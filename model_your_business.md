@@ -41,7 +41,9 @@ You can also add property with an entity data type.
 11
 
 This will ask you to define the relationship you are going to create. Here we need to create a Customer property on the Order entity and assume that one Customer can have many Orders.
-You can also use a Entity Collection data type.
 
 12
 
+You can also use a Entity Collection data type.
+
+13
