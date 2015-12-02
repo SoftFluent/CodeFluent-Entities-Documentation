@@ -2,8 +2,7 @@
 
 Create the project from the Visual Studio templates in the CodeFluent Entities category. Select the blank one.
 
-
-
+![](img/getting-started/model-your-business-00.png)
 
 CodeFluent Entities allows you to define entities and enumerations. You can use the ribbon of the graphical modeler, directly integrated into the Visual Studio.
 
