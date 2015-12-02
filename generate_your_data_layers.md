@@ -104,3 +104,4 @@ See below a *_Save stored procedure creation script:
 
 ## Generate the data access layer
 
+Now add the Producer for your C# data access layer.
