@@ -108,4 +108,4 @@ Now add the Producer for your C# data access layer and target the C# class libra
 
 ![](img/getting-started/generate-your-data-layers-05.png)
 
-If you build your model, you can have a look at the entity and entity collection classes source code:
+If you build your model, you can have a look at the entity and entity collection classes source code.
