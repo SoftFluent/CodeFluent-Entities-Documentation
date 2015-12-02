@@ -21,7 +21,7 @@ Build your CodeFluent entities model and see the generated T-SQL scripts.
 
 ![](img/getting-started/generate-your-data-layers-04.png)
 
-The most important scripts for now are:
+The most important scripts at this point are:
 * **_procedures.sql**: Use it to update the stored procedures
 * **_tables.sql**: Use it to create your database schema
 
