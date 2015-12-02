@@ -19,5 +19,6 @@ Configure the connectionString and target the SQL Server database project.
 
 Build your CodeFluent entities model and see the generated T-SQL scripts.
 
+![](img/getting-started/generate-your-data-layers-04.png)
 
 ## Generate the data access layer
