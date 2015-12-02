@@ -25,7 +25,7 @@ The most important scripts at this point are:
 * **_procedures.sql**: Use it to update the stored procedures
 * **_tables.sql**: Use it to create your database schema
 
-See below a *_Save stored procedure creation script:
+See below the **Customer_Save** stored procedure creation script:
 
     CREATE PROCEDURE [dbo].[Customer_Save]
     (
@@ -120,7 +120,7 @@ You have for entity collection classes:
 * SaveAll method
 * ... 
 
-See below the LoadAll() method for the Product entity collection class:
+See below the **LoadAll** method for the Product entity collection class:
 
     [System.ComponentModel.DataObjectMethodAttribute(System.ComponentModel.DataObjectMethodType.Select, true)]
     public static OrderProcess.Marketing.ProductCollection LoadAll()
@@ -129,7 +129,7 @@ See below the LoadAll() method for the Product entity collection class:
         return ret;
     }
 
-See below the PageLoadAll() method:
+See below the **PageLoadAll** method:
 
     [System.ComponentModel.DataObjectMethodAttribute(System.ComponentModel.DataObjectMethodType.Select, true)]
     public static OrderProcess.Marketing.ProductCollection PageLoadAll(int pageIndex, int pageSize, CodeFluent.Runtime.PageOptions pageOptions)
@@ -171,7 +171,7 @@ See below the PageLoadAll() method:
         return ret;
     }
 
-See below the PageDataLoadAll() method:
+See below the **PageDataLoadAll** method:
 
     public static System.Data.IDataReader PageDataLoadAll(CodeFluent.Runtime.PageOptions pageOptions)
     {
