@@ -14,3 +14,4 @@ When you add a property to an entity, you need to specify the data type.
 
 ![](img/getting-started/model-your-business-04.png)
 
+You can also need an enumeration to constraint possible values of a property.
