@@ -7,5 +7,4 @@
    * Use the Data Access Layer
    * Update your model
    * Extend your Data Access Layer
-   * Work as a team
 
