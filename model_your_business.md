@@ -18,9 +18,11 @@ You may also need an enumeration to constraint possible values of a property, fo
 
 ![](img/getting-started/model-your-business-05.png)
 
+![](img/getting-started/model-your-business-06.png)
+
 And configure the possible values.
 
-![](img/getting-started/model-your-business-06.png)
+![](img/getting-started/model-your-business-07.png)
 
 Then edit the datatype of the property from the "Type Name" property grid value.
 
