@@ -17,3 +17,5 @@ Configure the connectionString and target the SQL Server database project.
 
 ![](img/getting-started/generate-your-data-layers-02.png)
 
+
+## Generate the data access layer
