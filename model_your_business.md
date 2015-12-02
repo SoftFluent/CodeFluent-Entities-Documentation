@@ -37,3 +37,10 @@ Then edit the data type of the "Status" property from the "Type Name" property g
 ![](img/getting-started/model-your-business-10.png)
 
 You can also add property with an entity data type.
+
+11
+
+This will ask you to define the relationship you are going to create. Here we only need to create a Customer property on the Order entity and assume that one Customer can have many Orders.
+
+12
+
