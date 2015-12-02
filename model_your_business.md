@@ -45,6 +45,9 @@ Then edit the data type of the "Status" property from the "Type Name" property g
 
 ![](img/getting-started/model-your-business-10.png)
 
+
+## Add relationships
+
 You can also add property with an entity data type.
 
 ![](img/getting-started/model-your-business-11.png)
