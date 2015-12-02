@@ -22,4 +22,5 @@ You may also need an enumeration to constraint possible values of a property, fo
 
 And configure the possible values.
 
+Then edit the datatype of the property from the "Type Name" property grid value.
 
