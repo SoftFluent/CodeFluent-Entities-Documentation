@@ -116,6 +116,6 @@ You have for entity classes:
 * ...
 
 You have for entity collection classes:
-* Load methods (object oriented load, paginated one or using an IDataTeader instead of objects)
+* Load methods (object oriented load "Load*", paginated one "*PageLoad*" or using an IDataTeader instead of objects "DataLoad*" / "PageDataLoad*")
 * SaveAll method
 * ...
