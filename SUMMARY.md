@@ -6,4 +6,5 @@
    * Add source code generators
    * Use the Data Access Layer
    * Update your model
+   * Extend your Data Access Layer
 
