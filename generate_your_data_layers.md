@@ -8,3 +8,8 @@ Then you can add a "Producer" (the term  we use for "code generator") to generat
 
 ![](img/getting-started/generate-your-data-layers-01.png)
 
+Configure the connectionString and target the SQL Server database project.
+
+![](img/getting-started/generate-your-data-layers-02.png)
+
+![](img/getting-started/generate-your-data-layers-03.png)
