@@ -16,3 +16,7 @@ When you add a property to an entity, you need to specify the data type.
 
 You may also need an enumeration to constraint possible values of a property, for example a status.
 
+![](img/getting-started/model-your-business-05.png)
+
+Use the ribbon again.
+
