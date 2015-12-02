@@ -30,9 +30,10 @@ And configure the possible values.
 
 ![](img/getting-started/model-your-business-08.png)
 
-Then edit the datatype of the "Status" property from the "Type Name" property grid value.
+Then edit the data type of the "Status" property from the "Type Name" property grid value.
 
 ![](img/getting-started/model-your-business-09.png)
 
 ![](img/getting-started/model-your-business-10.png)
 
+You can also add property with an entity data type.
