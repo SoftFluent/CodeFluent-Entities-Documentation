@@ -193,3 +193,63 @@ See below the **PageDataLoadAll** method:
         System.Data.IDataReader reader = CodeFluentContext.Get(OrderProcess.Constants.OrderProcessStoreName).Persistence.ExecuteReader();
         return reader;
     }
+
+See below the **Save** method:
+
+    public virtual bool Save()
+    {
+        bool localSave = this.BaseSave(false);
+        return localSave;
+    }
+    
+    protected virtual bool BaseSave(bool force)
+    {
+        if ((this.EntityState == CodeFluent.Runtime.CodeFluentEntityState.ToBeDeleted))
+        {
+            this.Delete();
+            return false;
+        }
+        CodeFluent.Runtime.CodeFluentEntityActionEventArgs evt = new CodeFluent.Runtime.CodeFluentEntityActionEventArgs(this, CodeFluent.Runtime.CodeFluentEntityAction.Saving, true);
+        this.OnEntityAction(evt);
+        if ((evt.Cancel == true))
+        {
+            return false;
+        }
+        CodeFluentPersistence.ThrowIfDeleted(this);
+        this.Validate();
+        if (((force == false) 
+                    && (this.EntityState == CodeFluent.Runtime.CodeFluentEntityState.Unchanged)))
+        {
+            return false;
+        }
+        CodeFluent.Runtime.CodeFluentPersistence persistence = CodeFluentContext.Get(OrderProcess.Constants.OrderProcessStoreName).Persistence;
+        persistence.CreateStoredProcedureCommand(null, "Product", "Save");
+        persistence.AddParameter("@Product_Reference", this.Reference, CodeFluentPersistence.DefaultGuidValue);
+        persistence.AddParameter("@Product_Name", this.Name, default(string));
+        persistence.AddParameter("@Product_Price", this.Price, CodeFluentPersistence.DefaultDecimalValue);
+        persistence.AddRawParameter("@Product_IsAvailable", this.IsAvailable);
+        persistence.AddParameter("@_trackLastWriteUser", persistence.Context.User.Name);
+        persistence.AddParameter("@_rowVersion", this.RowVersion);
+        System.Data.IDataReader reader = null;
+        try
+        {
+            reader = persistence.ExecuteReader();
+            if ((reader.Read() == true))
+            {
+                this.ReadRecordOnSave(reader);
+            }
+            CodeFluentPersistence.NextResults(reader);
+        }
+        finally
+        {
+            if ((reader != null))
+            {
+                reader.Dispose();
+            }
+            persistence.CompleteCommand();
+        }
+        this.OnEntityAction(new CodeFluent.Runtime.CodeFluentEntityActionEventArgs(this, CodeFluent.Runtime.CodeFluentEntityAction.Saved, false, false));
+        this.EntityState = CodeFluent.Runtime.CodeFluentEntityState.Unchanged;
+        return true;
+    }
+
