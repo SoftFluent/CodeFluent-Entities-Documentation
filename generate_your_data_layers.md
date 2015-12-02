@@ -110,6 +110,8 @@ Now add the Producer for your C# data access layer and target the C# class libra
 
 If you build your model, you can have a look at the entity and entity collection classes source code.
 
+![](img/getting-started/generate-your-data-layers-06.png)
+
 You have for entity classes:
 * Properties according to your modeled entity
 * Save and Delete method
