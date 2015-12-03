@@ -27,12 +27,9 @@ Add a loop to display the list of your products.
     }
 
 
-
-
-
 ## Add instances
 
-
+Your application source code should be ready for display, now let's add some data into our model.
 
 ## Run the application
 
