@@ -1,7 +1,7 @@
 # Summary
 
 * [Overview](README.md)
-* [Getting started](getting_started.md)
+* [Getting started](Getting started)
    * [Model your business](model_your_business.md)
    * [Generate your data layers](generate_your_data_layers.md)
    * Use your Data Access Layer
