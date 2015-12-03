@@ -5,6 +5,6 @@
    * [Model your business](model_your_business.md)
    * [Generate your data layers](generate_your_data_layers.md)
    * [Use your Data Access Layer](use_your_data_access_layer.md)
-   * Update your model
+   * [Update your model](update_your_model.md)
    * Extend your Data Access Layer
 
