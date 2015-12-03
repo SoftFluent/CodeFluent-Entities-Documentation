@@ -58,3 +58,4 @@ By this one:
 
 We will display only the available products in the prompt.
 
+![](img/getting-started/update-your-model-06.png)
