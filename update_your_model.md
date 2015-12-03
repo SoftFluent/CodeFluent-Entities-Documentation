@@ -48,5 +48,12 @@ If you build your model again, you can see this stored procedure generated and d
 
 ## Update your application
 
-Edit Load method used
-Run
+Now if we replace in the console application this instruction:
+
+    foreach (Product product in ProductCollection.LoadAll())
+
+By this one:
+
+    foreach (Product product in ProductCollection.LoadByAvailable(true))
+
+We will display only the available products in the promp.
