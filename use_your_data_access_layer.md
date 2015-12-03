@@ -17,7 +17,7 @@ Add a loop to display the list of your products.
         {
             static void Main(string[] args)
             {
-                foreach (Product product in ProductCollection.LoadByAvailable(true))
+                foreach (Product product in ProductCollection.LoadByAll())
                 {
                     Console.WriteLine(product.Name);
                 }
