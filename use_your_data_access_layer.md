@@ -29,7 +29,11 @@ Add a loop to display the list of your products.
 
 ## Add instances
 
-Your application source code should be ready for display, now let's add some data into our model.
+Your application source code should be ready for display, now let's add some data into our model. Select the Product entity and open the Instances Grid windows from the ribbon.
+
+![](img/getting-started/use-your-dal-02.png)
+
+
 
 ## Run the application
 
