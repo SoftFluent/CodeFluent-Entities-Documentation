@@ -57,3 +57,4 @@ By this one:
     foreach (Product product in ProductCollection.LoadByAvailable(true))
 
 We will display only the available products in the prompt.
+
