@@ -18,6 +18,14 @@ And your instances are also up to date:
 
 ## Add a method
 
+We are going to add a new Load method to our Product entity that use this new property.
+
+![](img/getting-started/update-your-model-03.png)
+![](img/getting-started/update-your-model-04.png)
+
+We will write this method in CFQL (CodeFluent Query Language) to generate the associated stored procedure.
+
+![](img/getting-started/update-your-model-05.png)
 
 CFQL
 show generated SP
