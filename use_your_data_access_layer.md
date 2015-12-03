@@ -37,8 +37,9 @@ Fill the grid with all the products you need to initialize your database.
 
 ![](img/getting-started/use-your-dal-03.png)
 
+Build your model and your database is now up to date.
 
-
+![](img/getting-started/use-your-dal-04.png)
 
 ## Run the application
 
