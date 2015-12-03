@@ -4,7 +4,7 @@
 
 Add a console application project into your solution and add a reference to your generated C# project.
 
-
+![](img/getting-started/use-your-dal-01.png)
 
 Add a loop to display the list of your products.
 
