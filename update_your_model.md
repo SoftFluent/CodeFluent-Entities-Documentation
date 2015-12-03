@@ -11,12 +11,13 @@ Have a look at the **tables_diffs.sql** script in the SQL Server database projec
     /* column 'Product_IsAvailable' was not found in table 'Product'. */
     ALTER TABLE [dbo].[Product] ADD [Product_IsAvailable] [bit] NULL
 
-And your instances are up to date too:
+And your instances are also up to date:
 
 ![](img/getting-started/update-your-model-02.png)
 
 
 ## Add a method
+
 
 CFQL
 show generated SP
