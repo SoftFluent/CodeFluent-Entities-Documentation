@@ -45,7 +45,6 @@ If you build your model again, you can see this stored procedure generated and d
     RETURN
     GO
 
-show generated SP
 
 ## Update your application
 
