@@ -44,3 +44,5 @@ Build your model and your database is now up to date.
 ## Run the application
 
 Now run the application. It should display our three products.
+
+![](img/getting-started/use-your-dal-05.png)
