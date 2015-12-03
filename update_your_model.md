@@ -18,7 +18,6 @@ And your instances are up to date too:
 
 ## Add a method
 
-
 CFQL
 show generated SP
 
