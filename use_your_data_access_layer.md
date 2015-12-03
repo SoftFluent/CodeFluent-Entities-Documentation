@@ -33,6 +33,11 @@ Your application source code should be ready for display, now let's add some dat
 
 ![](img/getting-started/use-your-dal-02.png)
 
+Fill the grid with all the products you need to initialize your database.
+
+![](img/getting-started/use-your-dal-03.png)
+
+
 
 
 ## Run the application
