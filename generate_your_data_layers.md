@@ -126,15 +126,18 @@ You have for entity collection classes:
 
 See below the **LoadAll** method for the Product entity collection class:
 
+```csharp
     [System.ComponentModel.DataObjectMethodAttribute(System.ComponentModel.DataObjectMethodType.Select, true)]
     public static OrderProcess.Marketing.ProductCollection LoadAll()
     {
         OrderProcess.Marketing.ProductCollection ret = OrderProcess.Marketing.ProductCollection.PageLoadAll(int.MinValue, int.MaxValue, null);
         return ret;
     }
+```
 
 See below the **PageLoadAll** method:
 
+```csharp
     [System.ComponentModel.DataObjectMethodAttribute(System.ComponentModel.DataObjectMethodType.Select, true)]
     public static OrderProcess.Marketing.ProductCollection PageLoadAll(int pageIndex, int pageSize, CodeFluent.Runtime.PageOptions pageOptions)
     {
@@ -174,9 +177,11 @@ See below the **PageLoadAll** method:
         }
         return ret;
     }
+```
 
 See below the **PageDataLoadAll** method:
 
+```csharp
     public static System.Data.IDataReader PageDataLoadAll(CodeFluent.Runtime.PageOptions pageOptions)
     {
         CodeFluent.Runtime.CodeFluentPersistence persistence = CodeFluentContext.Get(OrderProcess.Constants.OrderProcessStoreName).Persistence;
@@ -197,9 +202,11 @@ See below the **PageDataLoadAll** method:
         System.Data.IDataReader reader = CodeFluentContext.Get(OrderProcess.Constants.OrderProcessStoreName).Persistence.ExecuteReader();
         return reader;
     }
+```
 
 See below the **Save** method:
 
+```csharp
     public virtual bool Save()
     {
         bool localSave = this.BaseSave(false);
@@ -256,4 +263,5 @@ See below the **Save** method:
         this.EntityState = CodeFluent.Runtime.CodeFluentEntityState.Unchanged;
         return true;
     }
+```
 
