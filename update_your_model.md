@@ -69,7 +69,7 @@ Now if we replace in the console application these instructions:
     }
 
 By these:
-
+```csharp
     using System;
     using OrderProcess.Marketing;
     
@@ -87,7 +87,7 @@ By these:
             }
         }
     }
-
+```
 We will display only the available products in the prompt.
 
 ![](img/getting-started/update-your-model-06.png)
