@@ -27,7 +27,7 @@ The most important scripts at this point are:
 
 See below the **Customer_Save** stored procedure creation script:
 
-```tsql
+```sql
     CREATE PROCEDURE [dbo].[Customer_Save]
     (
      @Customer_Id [uniqueidentifier],
