@@ -20,6 +20,8 @@ Run the installer and follow the steps.
 
 ![](img/first-setup/first-setup-05.png)
 
+![](img/first-setup/first-setup-06.png)
+
 
 
 ## Register
