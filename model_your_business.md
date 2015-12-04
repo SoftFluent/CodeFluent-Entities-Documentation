@@ -3,9 +3,13 @@
 
 ## Create your first project
 
-Create the project from the Visual Studio templates in the CodeFluent Entities category. Select the blank one, we will use the OrderProcess namespace as default.
+Create the project from the Visual Studio templates in the CodeFluent Entities category.
 
 ![](img/getting-started/model-your-business-00.png)
+
+Select the blank one, we will use the OrderProcess namespace as default.
+
+![](img/getting-started/model-your-business-14.png)
 
 
 ## Create an entity
