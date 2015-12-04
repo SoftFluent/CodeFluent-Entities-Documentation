@@ -8,6 +8,7 @@ Add a console application project into your solution and add a reference to your
 
 Add a loop to display the list of your products.
 
+```csharp
     using System;
     using OrderProcess.Marketing;
     
@@ -25,6 +26,7 @@ Add a loop to display the list of your products.
             }
         }
     }
+```
 
 
 ## Add instances
