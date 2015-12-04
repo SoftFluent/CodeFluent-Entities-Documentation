@@ -1,8 +1,8 @@
 # Generate your data layers
 
 You will need to create Visual Studio projects to host your generated source code:
-* C# class library project
-* SQL Server database project
+* C# class library project - **OrderProcess**
+* SQL Server database project - **OrderProcess.Persistence**
 
 
 ## Generate the persistence layer
