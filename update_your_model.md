@@ -49,6 +49,7 @@ If you build your model again, you can see this stored procedure generated and d
 ## Update your application
 
 Now if we replace in the console application these instructions:
+
 ```csharp
     using System;
     using OrderProcess.Marketing;
@@ -70,6 +71,7 @@ Now if we replace in the console application these instructions:
 ```
 
 By these:
+
 ```csharp
     using System;
     using OrderProcess.Marketing;
@@ -89,6 +91,7 @@ By these:
         }
     }
 ```
+
 We will display only the available products in the prompt.
 
 ![](img/getting-started/update-your-model-06.png)
