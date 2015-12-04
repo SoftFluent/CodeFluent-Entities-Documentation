@@ -8,6 +8,7 @@ As you can see from the declaration of the **Product** class, every generated cl
 
 If you need to add a property, you create a separated partial class, in a **Product.partial.cs** in our case, and put some logic in it:
 
+```csharp
     using OrderProcess.Sales;
     
     namespace OrderProcess.Marketing
@@ -36,6 +37,7 @@ If you need to add a property, you create a separated partial class, in a **Prod
             }
         }
     }
+```
 
 This way you avoid using too much layers or wrappers to separate the generated classes from the developed ones.
 
