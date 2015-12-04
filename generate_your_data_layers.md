@@ -27,6 +27,7 @@ The most important scripts at this point are:
 
 See below the **Customer_Save** stored procedure creation script:
 
+```tsql
     CREATE PROCEDURE [dbo].[Customer_Save]
     (
      @Customer_Id [uniqueidentifier],
@@ -100,6 +101,7 @@ See below the **Customer_Save** stored procedure creation script:
         
     RETURN
     GO
+```
 
 
 ## Generate the data access layer
