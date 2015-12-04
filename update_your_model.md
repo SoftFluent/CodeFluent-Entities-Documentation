@@ -30,6 +30,7 @@ We will write this method in CFQL (CodeFluent Query Language) to generate the as
 
 If you build your model again, you can see this stored procedure generated and deployed:
 
+```sql
     CREATE PROCEDURE [dbo].[Product_LoadByAvailable]
     (
      @availability [bit],
@@ -44,7 +45,7 @@ If you build your model again, you can see this stored procedure generated and d
     
     RETURN
     GO
-
+```
 
 ## Update your application
 
