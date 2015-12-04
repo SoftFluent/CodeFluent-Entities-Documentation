@@ -38,3 +38,5 @@ You can also add a business method to use in your application:
         order.Status = OrderStatus.InProgress;
         order.Save();
     }
+
+This way you avoid using too much layers to separate the generated classes from the developed ones. Your generated classes are business objects.
