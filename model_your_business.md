@@ -63,3 +63,8 @@ This will ask you to define the relationship you are going to create. Here we ne
 You can also use a Entity Collection data type.
 
 ![](img/getting-started/model-your-business-13.png)
+
+You can also define a relation between two entities by holding SHIFT+click:
+
+![](img/getting-started/model-your-business-15.png)
+
