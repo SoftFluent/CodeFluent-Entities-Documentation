@@ -68,7 +68,7 @@ Now if we replace in the console application these instructions:
         }
     }
 
-By this one:
+By these:
 
     using System;
     using OrderProcess.Marketing;
