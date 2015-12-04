@@ -48,13 +48,45 @@ If you build your model again, you can see this stored procedure generated and d
 
 ## Update your application
 
-Now if we replace in the console application this instruction:
+Now if we replace in the console application these instructions:
 
-    foreach (Product product in ProductCollection.LoadAll())
+    using System;
+    using OrderProcess.Marketing;
+    
+    namespace OrderProcess.Application
+    {
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                foreach (Product product in ProductCollection.LoadAll())
+                {
+                    Console.WriteLine(product.Name);
+                }
+                Console.ReadKey();
+            }
+        }
+    }
 
 By this one:
 
-    foreach (Product product in ProductCollection.LoadByAvailable(true))
+    using System;
+    using OrderProcess.Marketing;
+    
+    namespace OrderProcess.Application
+    {
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                foreach (Product product in ProductCollection.LoadByAvailable(true))
+                {
+                    Console.WriteLine(product.Name);
+                }
+                Console.ReadKey();
+            }
+        }
+    }
 
 We will display only the available products in the prompt.
 
