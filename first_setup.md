@@ -12,6 +12,13 @@ Then download the installer.
 
 Run the installer and follow the steps.
 
+![](img/first-setup/first-setup-02.png)
+
+![](img/first-setup/first-setup-03.png)
+
+![](img/first-setup/first-setup-04.png)
+
+![](img/first-setup/first-setup-05.png)
 
 
 
