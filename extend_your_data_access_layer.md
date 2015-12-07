@@ -8,7 +8,7 @@ As you can see from the declaration of the **Order** class, every generated clas
     public partial class Order
 ```
 
-If you need to add a property, you create a separated partial class, in a **Order.partial.cs** in our case, and put some logic in it:
+If you need to add a method, you create a separated partial class, in a **Order.partial.cs** file in our case, and put some logic in it:
 
 ```csharp
     using OrderProcess.Sales;
