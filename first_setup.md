@@ -30,6 +30,7 @@ Run the installer and follow the steps.
 On your first use of CodeFluent Entities you will need to register your license. Firstly, accept the End User License Agreement.
 
 
+
 You just need to register with your SoftFluent.com account.
 
 In case you have any trouble, you can also get your key from your store account.
