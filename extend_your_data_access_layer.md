@@ -29,6 +29,8 @@ If you need to add a method, you create a separated partial class, in a **Order.
     
                 order.Status = OrderStatus.InProgress;
                 order.Save();
+                
+                return order;
             }
         }
     }
