@@ -12,6 +12,7 @@ If you need to add a method, you create a separated partial class, in a **Order.
 
 ```csharp
     using OrderProcess.Sales;
+    using OrderProcess.Marketing;
     
     namespace OrderProcess.Marketing
     {
