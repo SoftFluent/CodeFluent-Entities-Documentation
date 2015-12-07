@@ -2,30 +2,22 @@
 
 ## Just standard .NET development
 
-As you can see from the declaration of the **Product** class, every generated class is **partial**:
+As you can see from the declaration of the **Order** class, every generated class is **partial**:
 
 ```csharp
-    public partial class Product
+    public partial class Order
 ```
 
-If you need to add a property, you create a separated partial class, in a **Product.partial.cs** in our case, and put some logic in it:
+If you need to add a property, you create a separated partial class, in a **Order.partial.cs** in our case, and put some logic in it:
 
 ```csharp
     using OrderProcess.Sales;
     
     namespace OrderProcess.Marketing
     {
-        public partial class Product
+        public partial class Order
         {
-            public bool IsUnavailable
-            {
-                get
-                {
-                    return !IsAvailable;
-                }
-            }
-    
-            public static void CreateFromProductBasket(ProductCollection products)
+            public static Order CreateFromProductBasket(ProductCollection products)
             {
                 Order order = new Order();
     
