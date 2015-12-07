@@ -36,6 +36,6 @@ If you need to add a method, you create a separated partial class, in a **Order.
     }
 ```
 
-This way you avoid using too much layers or wrappers to separate the generated classes from the developed ones.
+This way you avoid using too much layers or wrappers to separate the generated classes from the human ones.
 
 Your generated classes are business objects, not just data access ones.
