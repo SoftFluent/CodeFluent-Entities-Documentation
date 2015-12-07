@@ -1,4 +1,4 @@
-# First setup
+# Setup and installation
 
 ## Get your free key
 
