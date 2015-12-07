@@ -14,7 +14,7 @@ If you need to add a method, you create a separated partial class, in a **Order.
     using OrderProcess.Sales;
     using OrderProcess.Marketing;
     
-    namespace OrderProcess.Marketing
+    namespace OrderProcess.Sales
     {
         public partial class Order
         {
