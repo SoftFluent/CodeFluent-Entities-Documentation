@@ -1,1 +1,4 @@
 /* CSS for website */
+.summary .custom-link::before { 
+  content: "«\00A0";
+}
