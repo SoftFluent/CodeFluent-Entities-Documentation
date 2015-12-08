@@ -1,6 +1,10 @@
 /* CSS for website */
 .summary .custom-link{
-    color: black !important;
+     display: block;
+  padding-top: 80px;
+  background-image: url('http://www.softfluent.com/img/logo_softfluent.svg');
+  background-repeat: no-repeat;
+}
 }
 .summary .custom-link::before { 
   content: "<img src='http://www.softfluent.com/img/logo_softfluent.svg'/>";
