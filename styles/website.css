@@ -1,7 +1,7 @@
 /* CSS for website */
 .summary .custom-link{
-    display: block;
-    padding-top: 80px;
-    background-image: url('http://www.softfluent.com/img/logo_softfluent.svg');
-    background-repeat: no-repeat;
+    display: block !important;
+    padding-top: 80px !important;
+    background-image: url('http://www.softfluent.com/img/logo_softfluent.svg') !important;
+    background-repeat: no-repeat !important;
 }
