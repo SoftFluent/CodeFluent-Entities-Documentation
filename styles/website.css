@@ -4,4 +4,7 @@
     padding-top: 80px !important;
     background-image: url('http://www.softfluent.com/img/logo_softfluent.svg') !important;
     background-repeat: no-repeat !important;
+    text-align: center !important;
+    border-left: 10px solid #fafafa !important;
+    border-right: 10px solid #fafafa !important;
 }
