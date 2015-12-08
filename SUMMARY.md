@@ -1,6 +1,5 @@
 # Summary
 
-* [Overview](README.md)
 * [Setup and installation](first_setup.md)
 * [Getting started](getting_started.md)
    * [Model your business](model_your_business.md)
