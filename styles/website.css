@@ -3,5 +3,5 @@
     color: black !important;
 }
 .summary .custom-link::before { 
-  content: "«\00A0";
+  content: "<img src='http://www.softfluent.com/img/logo_softfluent.svg'/>";
 }
