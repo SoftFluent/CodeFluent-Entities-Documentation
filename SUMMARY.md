@@ -21,7 +21,7 @@
    * [Connection String](connection_string.md)
    * [Source control and generated files](source_control_and_generated_files.md)
    * [TFS Workspaces](tfs_workspaces.md)
-   * Merge conflicts
+   * [Merge conflicts](merge_conflicts.md)
    * Continuous build
    * Recommended configuration
 * [Legacy](annexe.md)
