@@ -6,7 +6,7 @@ your model.
 CodeFluent Entities provides a “Files” folder where you can add any file. Folders and Files added to this
 folder are under source control if source control is enabled:
 
-IMAGE
+![](img/team-work-06.png)
 
 Of course, you can use these files in your model, for example in instances:
 
