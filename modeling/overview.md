@@ -24,7 +24,7 @@ The top ribbon allow you to add concepts to your model.
 
 ![](img/modeling-03.png)
 
-On an entity, property and method you can add or edit specific concepts.
+On an entities, properties, methods and enumerations you can use it to add or edit specific concepts.
 
 ![](img/modeling-04.png)
 
