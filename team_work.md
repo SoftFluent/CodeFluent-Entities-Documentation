@@ -20,7 +20,7 @@ Be sure we answer all of these questions!
 
 ## [Source control and generated files](source_control_and_generated_files.html)
 
-## [TFS Workspaces](model_your_business.html)
+## [TFS Workspaces](tfs_workspaces.html)
 
 ## [Merge conflicts](model_your_business.html)
 
