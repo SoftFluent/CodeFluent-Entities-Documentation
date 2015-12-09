@@ -14,7 +14,7 @@
 * Modeling
 * Code generators
 * Developing
-* Team work
+* [Team work](team_work.md)
    * Splitting your model into parts
    * Absolute path, relative path and environment variables
    * Database Producer configuration
@@ -25,3 +25,4 @@
    * Reduce merge conflicts with generated files
    * Continuous build
    * Recommended configuration
+
