@@ -1,7 +1,7 @@
 # Setup and installation
 
 
-## [Setup](codefluent-entities/content/setup.html)
+## [Setup](setup.html)
 
-## [Registration](codefluent-entities/content/registration.html)
+## [Registration](registration.html)
 
