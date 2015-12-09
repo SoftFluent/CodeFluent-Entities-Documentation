@@ -33,20 +33,20 @@ We will write this method in CFQL (CodeFluent Query Language) to generate the as
 If you build your model again, you can see this stored procedure generated and deployed:
 
 ```sql
-    CREATE PROCEDURE [dbo].[Product_LoadByAvailable]
-    (
-     @availability [bit],
-     @_orderBy0 [nvarchar] (64) = NULL,
-     @_orderByDirection0 [bit] = 0
-    )
-    AS
-    SET NOCOUNT ON
-    SELECT DISTINCT [Product].[Product_Id], [Product].[Product_Price], [Product].[Product_Name], [Product].[Product_IsAvailable], [Product].[_trackLastWriteTime], [Product].[_trackCreationTime], [Product].[_trackLastWriteUser], [Product].[_trackCreationUser], [Product].[_rowVersion] 
-        FROM [Product]
-        WHERE ([Product].[Product_IsAvailable] = @availability)
-    
-    RETURN
-    GO
+CREATE PROCEDURE [dbo].[Product_LoadByAvailable]
+(
+ @availability [bit],
+ @_orderBy0 [nvarchar] (64) = NULL,
+ @_orderByDirection0 [bit] = 0
+)
+AS
+SET NOCOUNT ON
+SELECT DISTINCT [Product].[Product_Id], [Product].[Product_Price], [Product].[Product_Name], [Product].[Product_IsAvailable], [Product].[_trackLastWriteTime], [Product].[_trackCreationTime], [Product].[_trackLastWriteUser], [Product].[_trackCreationUser], [Product].[_rowVersion] 
+    FROM [Product]
+    WHERE ([Product].[Product_IsAvailable] = @availability)
+
+RETURN
+GO
 ```
 
 ## Update your application
@@ -54,45 +54,45 @@ If you build your model again, you can see this stored procedure generated and d
 Now if we replace in the console application these instructions:
 
 ```csharp
-    using System;
-    using OrderProcess.Marketing;
-    
-    namespace OrderProcess.Application
+using System;
+using OrderProcess.Marketing;
+
+namespace OrderProcess.Application
+{
+    class Program
     {
-        class Program
+        static void Main(string[] args)
         {
-            static void Main(string[] args)
+            foreach (Product product in ProductCollection.LoadAll())
             {
-                foreach (Product product in ProductCollection.LoadAll())
-                {
-                    Console.WriteLine(product.Name);
-                }
-                Console.ReadKey();
+                Console.WriteLine(product.Name);
             }
+            Console.ReadKey();
         }
     }
+}
 ```
 
 By these:
 
 ```csharp
-    using System;
-    using OrderProcess.Marketing;
-    
-    namespace OrderProcess.Application
+using System;
+using OrderProcess.Marketing;
+
+namespace OrderProcess.Application
+{
+    class Program
     {
-        class Program
+        static void Main(string[] args)
         {
-            static void Main(string[] args)
+            foreach (Product product in ProductCollection.LoadByAvailable(true))
             {
-                foreach (Product product in ProductCollection.LoadByAvailable(true))
-                {
-                    Console.WriteLine(product.Name);
-                }
-                Console.ReadKey();
+                Console.WriteLine(product.Name);
             }
+            Console.ReadKey();
         }
     }
+}
 ```
 
 We will display only the available products in the prompt.
