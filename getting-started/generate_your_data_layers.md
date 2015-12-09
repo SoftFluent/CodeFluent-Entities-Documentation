@@ -9,17 +9,17 @@ You will need to create Visual Studio projects to host your generated source cod
 
 Then you can add a "Producer" (the term  we use for "code generator") to generate the persistence layer.
 
-![](img/getting-started/generate-your-data-layers-01.png)
+![](img/generate-your-data-layers-01.png)
 
 Configure the Connection String and target the SQL Server database project.
 
-![](img/getting-started/generate-your-data-layers-03.png)
+![](img/generate-your-data-layers-03.png)
 
-![](img/getting-started/generate-your-data-layers-02.png)
+![](img/generate-your-data-layers-02.png)
 
 Build your CodeFluent entities model and see the generated T-SQL scripts.
 
-![](img/getting-started/generate-your-data-layers-04.png)
+![](img/generate-your-data-layers-04.png)
 
 The most important scripts at this point are:
 * **_procedures.sql**: Use it to update the stored procedures
@@ -108,11 +108,11 @@ GO
 
 Now add the Producer for your C# data access layer and target the C# class library project.
 
-![](img/getting-started/generate-your-data-layers-05.png)
+![](img/generate-your-data-layers-05.png)
 
 If you build your model, you can have a look at the entity and entity collection classes source code.
 
-![](img/getting-started/generate-your-data-layers-06.png)
+![](img/generate-your-data-layers-06.png)
 
 You have for entity classes:
 * Properties according to your modeled entity
