@@ -20,4 +20,20 @@ As we said, the Surfaces folder is where our business model will be designed. Al
 
 ## The ribbon
 
+The top ribbon allow you to add concepts to your model.
+
+![](img/modeling-03.png)
+
+![](img/modeling-04.png)
+
+![](img/modeling-05.png)
+
+![](img/modeling-06.png)
+
+![](img/modeling-07.png)
+
+![](img/modeling-08.png)
+
+![](img/modeling-09.png)
+
 ## Glossary
