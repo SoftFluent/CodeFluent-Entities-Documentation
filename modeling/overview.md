@@ -50,7 +50,7 @@ On an entities, properties, methods and enumerations you can use it to add or ed
 
 ![](img/modeling-08.png)
 
-The modeler pad section allow you to customize you model view.
+The Modeler Pad section allow you to customize you model view.
 
 ![](img/modeling-09.png)
 
