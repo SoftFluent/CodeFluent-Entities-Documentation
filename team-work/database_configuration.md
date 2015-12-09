@@ -24,7 +24,7 @@ used server”, the server he’s used to work with most of the time. To set thi
 * In the advanced tab of the property grid (click the button with the yellow plus sign to access
 it), set the Default Persistence Server property to your server.
 
-IMAGE
+![](img/team-work-09.png)
 
 Doing this ensures the default connection string used by CodeFluent Entities is valid locally. As a
 consequence, developers won’t have to override the default connection string in their models
