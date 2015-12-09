@@ -14,7 +14,14 @@
 * Modeling
 * Code generators
 * Fundamentals
-   * Absolute path, relative path and environment variables
 * Team work
    * Splitting your model into parts
-
+   * Absolute path, relative path and environment variables
+   * Database Producer configuration
+   * Configuration Manager
+   * Connection String
+   * Should I checkin generated files?
+   * Server workspace & local Workspace
+   * Reduce merge conflicts with generated files
+   * Continuous build
+   * Recommended configuration
