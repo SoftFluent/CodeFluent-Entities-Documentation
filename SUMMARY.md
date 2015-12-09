@@ -10,7 +10,7 @@
    * [Use your Data Access Layer](getting-started/use_your_data_access_layer.md)
    * [Update your model](getting-started/update_your_model.md)
    * [Extend your Data Access Layer](getting-started/extend_your_data_access_layer.md)
-* Modeling
+* [Modeling](modeling.md)
    * Overview
    * Import
    * Tips
