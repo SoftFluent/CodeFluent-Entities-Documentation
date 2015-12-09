@@ -17,6 +17,7 @@
 * Code generators
    * Overview
    * Microsoft SQL Server code generator
+   * C# Business Object Model generator
 * Development Guide
 * [Team work](team_work.md)
    * [Project storage](team-work/project_storage.md)
