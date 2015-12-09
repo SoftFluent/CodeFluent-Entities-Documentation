@@ -7,7 +7,7 @@ http://blogs.msdn.com/b/phkelley/archive/2013/05/29/server-workspaces-vs-local-w
 
 Note that Microsoft recommends the use of local workspace:
 
-IMAGE
+![](img/team-work-15.png)
 
 ## Working with server workspace
 
@@ -36,4 +36,4 @@ identical, Visual Studio does not check files out.
 
 After adding and removing entities you may have the following type of pending changes:
 
-IMAGE
+![](img/team-work-16.png)
