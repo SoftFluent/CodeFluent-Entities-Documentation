@@ -18,6 +18,20 @@ As we said, the Surfaces folder is where our business model will be designed. Al
 
 ![](img/modeling-01.png)
 
+You can create surfaces to render and manage a part of your model.
+
+![](img/modeling-10.png)
+
+You can include or exlude namespaces, entities, enumerations.
+
+![](img/modeling-11.png)
+
+And display the part of your model you need.
+
+![](img/modeling-12.png)
+
+This is very useful for large business model.
+
 ## The ribbon
 
 The top ribbon allow you to add concepts to your model.
