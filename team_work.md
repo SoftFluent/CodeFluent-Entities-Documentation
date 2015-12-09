@@ -16,7 +16,7 @@ Be sure we answer all of these questions!
 
 ## [Configuration Manager](model_your_business.html)
 
-## [Model your business](model_your_business.html)
+## [Connection String](model_your_business.html)
 
 ## [Model your business](model_your_business.html)
 
