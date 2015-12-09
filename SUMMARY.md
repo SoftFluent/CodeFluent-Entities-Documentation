@@ -19,6 +19,7 @@
    * Microsoft SQL Server code generator
    * C# Business Object Model generator
 * Development Guide
+   * Application configuration
 * [Team work](team_work.md)
    * [Project storage](team-work/project_storage.md)
    * [Path and environment variables](team-work/path_and_environment_variables.md)
