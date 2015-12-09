@@ -18,7 +18,7 @@
    * [Path and environment variables](path_and_environment_variables.md)
    * [Database configuration](database_configuration.md)
    * [Build configuration](build_configuration.md)
-   * Connection String
+   * [Connection String](connection_string.md)
    * Source control and generated files
    * TFS Workspaces
    * Merge conflicts
