@@ -16,7 +16,7 @@
    * Tips
 * Code generators
    * Overview
-   * Microsoft SQL Server generator
+   * Microsoft SQL Server code generator
 * Development Guide
 * [Team work](team_work.md)
    * [Project storage](team-work/project_storage.md)
