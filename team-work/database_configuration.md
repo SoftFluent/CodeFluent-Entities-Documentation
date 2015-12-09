@@ -37,7 +37,6 @@ anymore, and this way a model can easily be shared between one another.
 If the default connection string does not fit your need, you can set a custom connection string. The
 producer accept only one connection string, so the idea is to use an environment variable. For instance:
 
-
 ```
 %CF_Sample_SqlServer% = "<connection string>"
 ```
