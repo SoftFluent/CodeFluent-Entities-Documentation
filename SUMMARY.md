@@ -11,7 +11,7 @@
    * [Update your model](getting-started/update_your_model.md)
    * [Extend your Data Access Layer](getting-started/extend_your_data_access_layer.md)
 * [Modeling](modeling.md)
-   * Overview
+   * [Overview](modeling/overview.md)
    * Import
    * Tips
 * Code generators
