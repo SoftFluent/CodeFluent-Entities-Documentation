@@ -7,10 +7,12 @@ Let's add a new "IsAvailable" boolean property on the Product entity. Then edit 
 ![](img/getting-started/update-your-model-01.png)
 
 Have a look at the **tables_diffs.sql** script in the SQL Server database project. You can see this generated instruction:
+
 ```sql
 /* column 'Product_IsAvailable' was not found in table 'Product'. */
 ALTER TABLE [dbo].[Product] ADD [Product_IsAvailable] [bit] NULL
 ```
+
 And your instances are also up to date:
 
 ![](img/getting-started/update-your-model-02.png)
