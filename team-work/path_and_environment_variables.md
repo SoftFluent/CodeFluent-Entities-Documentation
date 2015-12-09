@@ -10,7 +10,7 @@ folder are under source control if source control is enabled:
 
 Of course, you can use these files in your model, for example in instances:
 
-IMAGE
+![](img/team-work-07.png)
 
 If you are using a file which is not part of the model, instead of using an absolute path (that may
 possibly work only on your computer) you should use an environment variable, for example:
@@ -21,7 +21,7 @@ possibly work only on your computer) you should use an environment variable, for
 
 This way, every developer can configure his environment to access the right file:
 
-IMAGE
+![](img/team-work-08.png)
 
 Note: When you select any file in your computer, CodeFluent Entities tries to find a “portable path”
 using this fixed set of environment variable automatically: CF_TEMPLATES_PATH,
