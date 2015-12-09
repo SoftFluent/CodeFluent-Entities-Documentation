@@ -14,4 +14,5 @@
 * Modeling
 * Code generators
 * Fundamentals
+* Team work
 
