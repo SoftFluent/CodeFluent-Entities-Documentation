@@ -13,8 +13,7 @@ not change.
 
 IMAGE
 
-The generated file does not contains date and the CodeFluent Entities version number this
-“1.0.01234.05678”:
+The generated file does not contains date and the CodeFluent Entities version number this ```1.0.01234.05678```:
 
 IMAGE
 
