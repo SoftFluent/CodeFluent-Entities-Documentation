@@ -14,6 +14,7 @@
 * Modeling
 * Code generators
 * Fundamentals
+   * Absolute path, relative path and environment variables
 * Team work
    * Splitting your model into parts
 
