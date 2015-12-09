@@ -5,7 +5,7 @@
 CodeFluent Entities allows you to split the model into multiple parts (the storage unit, using an XML
 syntax in .XML or .CFP files) and multiple surfaces (used for visualization and editing).
 
-IMAGE
+![](img/team-work-01.png)
 
 Parts and surfaces are not linked. One surface can contain entities from multiples surfaces or just one
 entity from a part and two entities from another part for example.
@@ -22,14 +22,14 @@ Many concepts in a CodeFluent Entities model are linked to entities and so, will
 part as their related entities. However, you can decide that instances, producers and project resources
 concepts will be stored automatically into separate parts:
 
-IMAGE
+![](img/team-work-02.png)
 
 ## Creating one part per type (entity or enumeration)
 
 CodeFluent Entities allows you to automatically create a new part each time you create a new entity
 or enumeration. This option is available in the Visual Studio options:
 
-IMAGE
+![](img/team-work-03.png)
 
 *Note: This setting is not shared nor linked to a specific project, and therefore must be set on each
 computer.*
@@ -38,7 +38,7 @@ computer.*
 
 You can easily move entities between parts using the property grid’s “Part” property:
 
-IMAGE
+![](img/team-work-04.png)
 
 ## Using namespace default part
 
@@ -46,4 +46,4 @@ By default, new entities are added to the main default part whatever surface you
 however define a default part by type namespace. Select the namespace on the surface and set its
 default part in the property grid:
 
-IMAGE
+![](img/team-work-05.png)
