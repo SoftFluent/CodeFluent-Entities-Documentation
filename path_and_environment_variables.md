@@ -1,2 +1,0 @@
-# Path and environment variables
-
