@@ -15,4 +15,5 @@
 * Code generators
 * Fundamentals
 * Team work
+   * Splitting your model into parts
 
