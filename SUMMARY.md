@@ -13,6 +13,7 @@
 * Modeling
    * Overview
    * Import
+   * Tips
 * Code generators
 * Development Guide
 * [Team work](team_work.md)
