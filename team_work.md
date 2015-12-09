@@ -22,7 +22,7 @@ Be sure we answer all of these questions!
 
 ## [TFS Workspaces](model_your_business.html)
 
-## [Reduce merge conflicts](model_your_business.html)
+## [Merge conflicts](model_your_business.html)
 
 ## [Continuous build](model_your_business.html)
 
