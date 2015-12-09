@@ -1,7 +1,7 @@
 # Setup and installation
 
 
-## [Setup](setup.html)
+## [Setup](setup-and-installation/setup.html)
 
-## [Registration](registration.html)
+## [Registration](setup-and-installation/registration.html)
 

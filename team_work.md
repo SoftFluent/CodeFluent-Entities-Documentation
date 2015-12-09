@@ -8,22 +8,22 @@ Lots of our customers ask us about how to use CodeFluent Entities in a team envi
 Be sure we answer all of these questions!
 
 
-## [Project storage](project_storage.html)
+## [Project storage](team-work/project_storage.html)
 
-## [Path and environment variables](path_and_environment_variables.html)
+## [Path and environment variables](team-work/path_and_environment_variables.html)
 
-## [Database configuration](database_configuration.html)
+## [Database configuration](team-work/database_configuration.html)
 
-## [Build configuration](build_configuration.html)
+## [Build configuration](team-work/build_configuration.html)
 
-## [Connection String](connection_string.html)
+## [Connection String](team-work/connection_string.html)
 
-## [Source control and generated files](source_control_and_generated_files.html)
+## [Source control and generated files](team-work/source_control_and_generated_files.html)
 
-## [TFS Workspaces](tfs_workspaces.html)
+## [TFS Workspaces](team-work/tfs_workspaces.html)
 
-## [Merge conflicts](merge_conflicts.html)
+## [Merge conflicts](team-work/merge_conflicts.html)
 
-## [Continuous build](continuous_build.html)
+## [Continuous build](team-work/continuous_build.html)
 
-## [Recommended configuration](recommended_configuration.html)
+## [Recommended configuration](team-work/recommended_configuration.html)
