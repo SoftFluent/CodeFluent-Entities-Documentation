@@ -22,7 +22,7 @@
    * Connection String
    * Should I checkin generated files?
    * Server workspace & local Workspace
-   * Reduce merge conflicts with generated files
+   * Merge conflicts
    * Continuous build
    * Recommended configuration
 
