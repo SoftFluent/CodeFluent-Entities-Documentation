@@ -14,7 +14,7 @@ Be sure we answer all of these questions!
 
 ## [Database configuration](database_configuration.html)
 
-## [Build configuration](model_your_business.html)
+## [Build configuration](build_configuration.html)
 
 ## [Connection String](model_your_business.html)
 
