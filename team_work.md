@@ -8,7 +8,7 @@ Lots of our customers ask us about how to use CodeFluent Entities in a team envi
 Be sure we answer all of these questions!
 
 
-## [Project storage](model_storage.html)
+## [Project storage](project_storage.html)
 
 ## [Path and environment variables](path_and_environment_variables.html)
 
