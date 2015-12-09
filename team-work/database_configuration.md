@@ -42,11 +42,11 @@ producer accept only one connection string, so the idea is to use an environment
 %CF_Sample_SqlServer% = "<connection string>"
 ```
 
-IMAGE
+![](img/team-work-10.png)
 
 Then set this environment variable as the producer connection string:
 
-IMAGE
+![](img/team-work-11.png)
 
 Note: The environment variable will be expanded in the window but in the part (XML file), the
 environment variable will be written as expected:
