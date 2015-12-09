@@ -9,23 +9,23 @@ Add a console application project into your solution and add a reference to your
 Add a loop to display the list of your products.
 
 ```csharp
-    using System;
-    using OrderProcess.Marketing;
-    
-    namespace OrderProcess.Application
+using System;
+using OrderProcess.Marketing;
+
+namespace OrderProcess.Application
+{
+    class Program
     {
-        class Program
+        static void Main(string[] args)
         {
-            static void Main(string[] args)
+            foreach (Product product in ProductCollection.LoadAll())
             {
-                foreach (Product product in ProductCollection.LoadAll())
-                {
-                    Console.WriteLine(product.Name);
-                }
-                Console.ReadKey();
+                Console.WriteLine(product.Name);
             }
+            Console.ReadKey();
         }
     }
+}
 ```
 
 
