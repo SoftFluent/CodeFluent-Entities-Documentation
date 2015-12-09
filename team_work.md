@@ -12,7 +12,7 @@ Be sure we answer all of these questions!
 
 ## [Path and environment variables](path_and_environment_variables.html)
 
-## [Model your business](model_your_business.html)
+## [Database Producer configuration](model_your_business.html)
 
 ## [Model your business](model_your_business.html)
 
