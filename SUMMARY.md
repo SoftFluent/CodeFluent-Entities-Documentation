@@ -16,7 +16,7 @@
 * Development Guide
 * [Team work](team_work.md)
    * Project storage
-   * [Path and environment variables](path_and_environment_variables.md)
+   * Path and environment variables
    * Database configuration
    * Build configuration
    * Connection String
