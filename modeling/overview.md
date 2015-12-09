@@ -30,7 +30,7 @@ And display the part of your model you need.
 
 ![](img/modeling-12.png)
 
-This is very useful for large business model.
+This is very useful for large business models.
 
 ## The ribbon
 
