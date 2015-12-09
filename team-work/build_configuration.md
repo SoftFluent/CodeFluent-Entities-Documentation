@@ -7,5 +7,7 @@ You can define project properties using the standard Visual Studio project confi
 From this screen, you’ll be able to control Visual Studio project level properties (in the Project tab), as
 well as build properties (in the Build tab):
 
-IMAGE
+![](img/team-work-12.png)
+
+![](img/team-work-13.png)
 
