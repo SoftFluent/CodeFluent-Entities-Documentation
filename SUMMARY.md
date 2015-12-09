@@ -20,7 +20,7 @@
    * [Build configuration](build_configuration.md)
    * [Connection String](connection_string.md)
    * [Source control and generated files](source_control_and_generated_files.md)
-   * TFS Workspaces
+   * [TFS Workspaces](tfs_workspaces.md)
    * Merge conflicts
    * Continuous build
    * Recommended configuration
