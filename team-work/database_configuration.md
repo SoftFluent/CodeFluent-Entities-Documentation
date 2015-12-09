@@ -21,7 +21,7 @@ default persistence server (independently from all CodeFluent Entities models) t
 used server”, the server he’s used to work with most of the time. To set this up, one needs to:
 * Run Visual Studio with administrator privileges,
 * Get in Tools > Options… > CodeFluent Entities,
-* In the advanced tab of the property grid (click the button with the yellow plus sign to access
+* In the advanced tab of the property grid (click the button with the yellow plus sign to access
 it), set the Default Persistence Server property to your server.
 
 ![](img/team-work-09.png)
