@@ -22,7 +22,7 @@ You can create surfaces to render and manage a part of your model.
 
 ![](img/modeling-10.png)
 
-You can include or exlude namespaces, entities, enumerations.
+You can include or exlude namespaces, entities and enumerations.
 
 ![](img/modeling-11.png)
 
