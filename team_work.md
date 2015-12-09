@@ -18,7 +18,7 @@ Be sure we answer all of these questions!
 
 ## [Connection String](connection_string.html)
 
-## [Source control and generated files](model_your_business.html)
+## [Source control and generated files](source_control_and_generated_files.html)
 
 ## [TFS Workspaces](model_your_business.html)
 
