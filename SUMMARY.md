@@ -19,7 +19,7 @@
    * Database configuration
    * Build configuration
    * Connection String
-   * Should I checkin generated files?
+   * Source control and generated files
    * Server workspace & local Workspace
    * Merge conflicts
    * Continuous build
