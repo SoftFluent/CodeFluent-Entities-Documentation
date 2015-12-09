@@ -13,7 +13,7 @@
 * [Legacy](annexe.md)
 * Modeling
 * Code generators
-* Developing
+* Development Guide
 * [Team work](team_work.md)
    * [Model storage](splitting_your_model_into_parts.md)
    * Path and environment variables
