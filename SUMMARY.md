@@ -12,6 +12,7 @@
    * [Extend your Data Access Layer](getting-started/extend_your_data_access_layer.md)
 * Modeling
    * Overview
+   * Import
 * Code generators
 * Development Guide
 * [Team work](team_work.md)
