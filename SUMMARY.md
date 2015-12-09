@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Setup and installation](first_setup.md)
-   * Setup
+   * [Setup](setup.md)
    * Registration
 * [Getting started](getting_started.md)
    * [Model your business](model_your_business.md)
