@@ -13,7 +13,7 @@
 * [Modeling](modeling.md)
    * [Overview](modeling/overview.md)
    * [Import](modeling/import.md)
-   * Tips
+   * [Tips](modeling/tips.md)
 * Code generators
    * Overview
    * Microsoft SQL Server code generator
