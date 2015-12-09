@@ -12,7 +12,7 @@ Be sure we answer all of these questions!
 
 ## [Path and environment variables](path_and_environment_variables.html)
 
-## [Database configuration](model_your_business.html)
+## [Database configuration](database_configuration.html)
 
 ## [Build configuration](model_your_business.html)
 
