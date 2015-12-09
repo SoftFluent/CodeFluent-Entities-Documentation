@@ -55,7 +55,7 @@ Create your application by using the generated data access layer composed of .NE
 **Database sorting**: Sorting is done in the persistence layer to ensure optimal performances.
 
 ```csharp
-    Customer customer = Customer.LoadbyName("Contoso");
-    customer.IsProspect = false;
-    customer.Save();
+Customer customer = Customer.LoadbyName("Contoso");
+customer.IsProspect = false;
+customer.Save();
 ```
