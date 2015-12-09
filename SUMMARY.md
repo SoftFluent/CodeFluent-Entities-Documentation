@@ -22,7 +22,7 @@
    * [Source control and generated files](source_control_and_generated_files.md)
    * [TFS Workspaces](tfs_workspaces.md)
    * [Merge conflicts](merge_conflicts.md)
-   * Continuous build
+   * [Continuous build](continuous_build.md)
    * Recommended configuration
 * [Legacy](annexe.md)
 
