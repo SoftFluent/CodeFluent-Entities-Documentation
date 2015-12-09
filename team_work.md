@@ -12,9 +12,9 @@ Be sure we answer all of these questions!
 
 ## [Path and environment variables](path_and_environment_variables.html)
 
-## [Database Producer configuration](model_your_business.html)
+## [Code generator configuration](model_your_business.html)
 
-## [Configuration Manager](model_your_business.html)
+## [Visual Studio configuration](model_your_business.html)
 
 ## [Connection String](model_your_business.html)
 
