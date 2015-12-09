@@ -16,7 +16,7 @@
 * Developing
 * [Team work](team_work.md)
    * [Model storage](splitting_your_model_into_parts.md)
-   * Absolute path, relative path and environment variables
+   * Path and environment variables
    * Database Producer configuration
    * Configuration Manager
    * Connection String
