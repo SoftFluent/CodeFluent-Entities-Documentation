@@ -1,7 +1,7 @@
 # Modeling
 
 
-## [Model your business](modeling/overview.md)
+## [Overview](modeling/overview.md)
 
 ## [Model your business](modeling/import.md)
 
