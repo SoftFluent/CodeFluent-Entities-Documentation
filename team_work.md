@@ -10,7 +10,7 @@ Be sure we answer all of these questions!
 
 ## [Model storage](model_storage.html)
 
-## [Model storage](path_and_environment_variables.html)
+## [Path and environment variables](path_and_environment_variables.html)
 
 ## [Model your business](model_your_business.html)
 
