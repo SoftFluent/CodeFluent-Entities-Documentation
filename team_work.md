@@ -14,7 +14,7 @@ Be sure we answer all of these questions!
 
 ## [Database configuration](model_your_business.html)
 
-## [Visual Studio configuration](model_your_business.html)
+## [Build configuration](model_your_business.html)
 
 ## [Connection String](model_your_business.html)
 
