@@ -22,6 +22,7 @@
    * Application configuration
    * CRUD operations
    * Sorting
+   * Paging
 * [Team work](team_work.md)
    * [Project storage](team-work/project_storage.md)
    * [Path and environment variables](team-work/path_and_environment_variables.md)
