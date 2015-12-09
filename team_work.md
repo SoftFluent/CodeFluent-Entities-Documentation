@@ -8,7 +8,7 @@ Lots of our customers ask us about how to use CodeFluent Entities in a team envi
 Be sure we answer all of these questions!
 
 
-## [Splitting your model into parts](splitting_your_model_into_parts.html)
+## [Model storage](splitting_your_model_into_parts.html)
 
 ## [Model your business](model_your_business.html)
 
