@@ -13,7 +13,7 @@
 * [Legacy](annexe.md)
 * Modeling
 * Code generators
-* Fundamentals
+* Developing
 * Team work
    * Splitting your model into parts
    * Absolute path, relative path and environment variables
