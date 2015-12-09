@@ -12,4 +12,5 @@
    * [Extend your Data Access Layer](extend_your_data_access_layer.md)
 * [Legacy](annexe.md)
 * Modeling
+* Code generators
 
