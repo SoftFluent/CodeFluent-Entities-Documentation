@@ -17,7 +17,7 @@
    * [Project storage](project_storage.md)
    * [Path and environment variables](path_and_environment_variables.md)
    * [Database configuration](database_configuration.md)
-   * Build configuration
+   * [Build configuration](build_configuration.md)
    * Connection String
    * Source control and generated files
    * TFS Workspaces
