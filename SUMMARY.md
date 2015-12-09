@@ -13,7 +13,6 @@
 * Modeling
 * Code generators
 * Development Guide
-* [Legacy](annexe.md)
 * [Team work](team_work.md)
    * Project storage
    * Path and environment variables
@@ -25,4 +24,5 @@
    * Merge conflicts
    * Continuous build
    * Recommended configuration
+* [Legacy](annexe.md)
 
