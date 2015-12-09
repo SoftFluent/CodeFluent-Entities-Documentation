@@ -12,7 +12,7 @@
    * [Extend your Data Access Layer](getting-started/extend_your_data_access_layer.md)
 * [Modeling](modeling.md)
    * [Overview](modeling/overview.md)
-   * Import
+   * [Import](modeling/import.md)
    * Tips
 * Code generators
    * Overview
