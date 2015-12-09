@@ -56,13 +56,18 @@ The Modeler Pad section allow you to customize you model view.
 
 ## Glossary
 
-| Entity | a business entity like 'Customer', 'Order', 'Cat', 'Dog', ... |
+| **Entity** | a business entity like 'Customer', 'Order', 'Cat', 'Dog', ... |
+| **Lightweight Entity** | an entity representing a light object such as non persistent objects, structures, etc. It can also be mapped to standard .NET types such as the Point structure or views. |
 | -- | -- |
-| 0:2 | 1:2 |
+| -- | -- |
+| -- | -- |
+| -- | -- |
+| -- | -- |
+| -- | -- |
 
 ****: 
 
-**Lightweight Entity**: an entity representing a light object such as non persistent objects, structures, etc. It can also be mapped to standard .NET types such as the Point structure or views.
+: 
 
 **Relation**: describes the type of relation and cardinality between two entities. The relation can be 1:1, 1:M, M:1 or M:M.
 
