@@ -24,6 +24,6 @@ Be sure we answer all of these questions!
 
 ## [Merge conflicts](merge_conflicts.html)
 
-## [Continuous build](model_your_business.html)
+## [Continuous build](continuous_build.html)
 
 ## [Recommended configuration](model_your_business.html)
