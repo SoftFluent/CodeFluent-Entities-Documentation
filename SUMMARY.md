@@ -14,7 +14,7 @@
 * Code generators
 * Development Guide
 * [Team work](team_work.md)
-   * Project storage
+   * [Project storage](project_storage.md)
    * Path and environment variables
    * Database configuration
    * Build configuration
