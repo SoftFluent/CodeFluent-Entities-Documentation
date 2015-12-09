@@ -1,6 +1,8 @@
 # Summary
 
+* [Introduction](README.md)
 * [Setup and installation](first_setup.md)
+   * Setup
 * [Getting started](getting_started.md)
    * [Model your business](model_your_business.md)
    * [Generate your data layers](generate_your_data_layers.md)
