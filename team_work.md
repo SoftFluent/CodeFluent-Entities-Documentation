@@ -26,4 +26,4 @@ Be sure we answer all of these questions!
 
 ## [Continuous build](continuous_build.html)
 
-## [Recommended configuration](model_your_business.html)
+## [Recommended configuration](recommended_configuration.html)
