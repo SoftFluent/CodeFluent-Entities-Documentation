@@ -16,7 +16,7 @@ Be sure we answer all of these questions!
 
 ## [Build configuration](build_configuration.html)
 
-## [Connection String](model_your_business.html)
+## [Connection String](connection_string.html)
 
 ## [Source control and generated files](model_your_business.html)
 
