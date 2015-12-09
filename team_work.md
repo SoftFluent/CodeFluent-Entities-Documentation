@@ -18,12 +18,12 @@ Be sure we answer all of these questions!
 
 ## [Connection String](model_your_business.html)
 
-## [Model your business](model_your_business.html)
+## [Source control and generated files](model_your_business.html)
 
-## [Model your business](model_your_business.html)
+## [TFS Workspaces](model_your_business.html)
 
-## [Model your business](model_your_business.html)
+## [Reduce merge conflicts](model_your_business.html)
 
-## [Model your business](model_your_business.html)
+## [Continuous build](model_your_business.html)
 
-## [Model your business](model_your_business.html)
+## [Recommended configuration](model_your_business.html)
