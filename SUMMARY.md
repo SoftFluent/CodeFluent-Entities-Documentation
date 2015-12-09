@@ -20,7 +20,7 @@
    * Build configuration
    * Connection String
    * Source control and generated files
-   * Server workspace & local Workspace
+   * TFS Workspaces
    * Merge conflicts
    * Continuous build
    * Recommended configuration
