@@ -18,7 +18,7 @@
    * [Project storage](splitting_your_model_into_parts.md)
    * [Path and environment variables](path_and_environment_variables.md)
    * Database configuration
-   * Configuration Manager
+   * Build configuration
    * Connection String
    * Should I checkin generated files?
    * Server workspace & local Workspace
