@@ -15,7 +15,7 @@
 * Code generators
 * Development Guide
 * [Team work](team_work.md)
-   * [Model storage](splitting_your_model_into_parts.md)
+   * [Project storage](splitting_your_model_into_parts.md)
    * [Path and environment variables](path_and_environment_variables.md)
    * Database Producer configuration
    * Configuration Manager
