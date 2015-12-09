@@ -19,7 +19,7 @@
    * [Database configuration](database_configuration.md)
    * [Build configuration](build_configuration.md)
    * [Connection String](connection_string.md)
-   * Source control and generated files
+   * [Source control and generated files](source_control_and_generated_files.md)
    * TFS Workspaces
    * Merge conflicts
    * Continuous build
