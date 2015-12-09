@@ -14,7 +14,7 @@ Be sure we answer all of these questions!
 
 ## [Database Producer configuration](model_your_business.html)
 
-## [Model your business](model_your_business.html)
+## [Configuration Manager](model_your_business.html)
 
 ## [Model your business](model_your_business.html)
 
