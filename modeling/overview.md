@@ -10,8 +10,9 @@ Physically, a CodeFluent Entities project is a package composed of files which a
 
 * **Surface model parts**: one of several XML or CFP files displayed under the **Surfaces** folder. They are canvases on which you will design your application.
 * **Model parts**: one or several XML or CFP files displayed under the **Parts** folder. They are storage units in which concepts drawn on Surfaces are actually stored.
-* **Resource parts**: any other files referenced by the project and which will appear under the **Files** folder.
- As we said, the Surfaces folder is where our business model will be designed.
+* **Resource parts**: any other files referenced by the project and which will appear under the **Files** folder. 
+
+As we said, the Surfaces folder is where our business model will be designed.
 
 ## The surfaces
 
