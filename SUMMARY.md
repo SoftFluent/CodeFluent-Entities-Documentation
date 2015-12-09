@@ -23,6 +23,6 @@
    * [TFS Workspaces](tfs_workspaces.md)
    * [Merge conflicts](merge_conflicts.md)
    * [Continuous build](continuous_build.md)
-   * Recommended configuration
+   * [Recommended configuration](recommended_configuration.md)
 * [Legacy](annexe.md)
 
