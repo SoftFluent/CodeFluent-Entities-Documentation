@@ -73,6 +73,7 @@ LOAD(string token)
 WHERE Description CONTAINS @token
 ```
 
+LoadByDescriptionFeetexting:
 ```sql
 LOAD(string token)
 WHERE Description FREETEXT @token
