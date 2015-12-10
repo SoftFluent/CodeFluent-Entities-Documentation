@@ -55,6 +55,7 @@ WHERE Position > @Position
 
 Available operators are: ```EQUALS``` (```=``` is also supported), ```CONTAINS```, ```FREETEXT``` and ```LIKE``` (```IS LIKE```, ```STARTS WITH```, ```STARTSWITH``` and ```#``` are also supported).
 
+LoadByTitle:
 ```sql
 LOAD(Title)
 WHERE Title = @Title
