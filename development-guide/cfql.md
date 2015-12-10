@@ -67,13 +67,13 @@ LOAD(Title)
 WHERE Title LIKE @Title
 ```
 
-```LoadByDescriptionContaining```:
+```LoadByDescriptionContaining``` :
 ```sql
 LOAD(string token)
 WHERE Description CONTAINS @token
 ```
 
-```LoadByDescriptionFeetexting```:
+```LoadByDescriptionFeetexting``` :
 ```sql
 LOAD(string token)
 WHERE Description FREETEXT @token
