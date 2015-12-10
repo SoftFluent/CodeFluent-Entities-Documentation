@@ -16,7 +16,7 @@
    * [Tips](modeling/tips.md)
 * [Code generators](code_generators.md)
    * [Overview](code-generators/overview.md)
-   * Microsoft SQL Server code generator
+   * [Microsoft SQL Server code generator](code-generators/microsoft_sql_server_code_generator.md)
    * C# Business Object Model generator
 * [Development Guide](development_guide.md)
    * Application configuration
