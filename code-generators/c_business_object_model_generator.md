@@ -21,7 +21,7 @@ Here are the configuration options.
 
 | **Property** | **Description** |
 | -- | -- |
-| Compile With CodeFluent | Define if CodeFLuent must comppile the target assembly |
+| Compile With CodeFluent | Define if CodeFLuent must compile the target assembly |
 | Compile With Visual Studio | Determine if the target assembly will be compiled with Microsoft Visual Studio. |
 | Generate Xml Documentation | Determines if Xml code documentation must be generated. |
 | Output Name | Defines the compiled assembly name or path. |
