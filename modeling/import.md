@@ -17,6 +17,11 @@ The modeler provides a wizard to import your existing database or schema:
 * Microsoft SQL Server CE
 * Entity Framework
 
+### Parsing the input
+
+A set of parameters indicating the engine how and what to import.
+
+
 This wizard can be accessed from several ways depending your usage.
 
 ## Toolbar menu
