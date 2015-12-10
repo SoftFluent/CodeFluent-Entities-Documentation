@@ -28,13 +28,12 @@ Here are the configuration options.
 
 | *Property* | *Description* |
 | -- | -- |
-| Connection String | xxx |
-| Create Database | xxx |
-| Create Diffs | xxx |
-| xxx | xxx |
-| xxx | xxx |
-| xxx | xxx |
-| xxx | xxx |
+| Connection String | Defines the connection string. If nothing is specified, the producer will use the connection string defined at project or store level. |
+| Create Database | Determines if database must be created if is does not exists. |
+| Create Diffs | Determines if diffs scripts must be created. |
+| Drop Unused Columns | Determines if unused columns tables must be dropped. |
+| Save Instances | Determines if instances will be saved. |
+| Update Database | Determines if the CodeFluent Diff Engine will be used. |
 
 ### Script Generation
 
