@@ -35,6 +35,8 @@ LOAD(string token)
 WHERE Description FREETEXT @token
 ```
 
+*Note: Desired column must be have a **Full-Text index** defined to be used with the ```FREETEXT``` and ```CONTAINS``` operators.*
+
 ### Set Operator
 
 Using the ```IN``` operator you can exclude values that aren't included in a list. For instance:
