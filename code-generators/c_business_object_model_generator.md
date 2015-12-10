@@ -25,7 +25,7 @@ Here are the configuration options.
 | Compile With Visual Studio | xxx |
 | Generate Xml Documentation | xxx |
 | Output Name | xxx |
-| xxx | xxx |
+| Target Lanquage | xxx |
 
 
 ### Source production
