@@ -1,7 +1,7 @@
 # Code generators
 
 
-## [Overview](modeling/overview.md)
+## [Overview](code-generators/overview.md)
 
 ## [Microsoft SQL Server code generator](code-generators/microsoft_sql_server_code_generator.md)
 
