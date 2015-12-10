@@ -9,4 +9,4 @@ CFQL ("CodeFluent Query Language") supports operators such as:
 * set operator: in (expression1, expression2, ... , expressionM)
 
 
-### Operators
+### Unary Operators
