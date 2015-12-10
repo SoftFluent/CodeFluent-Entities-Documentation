@@ -59,7 +59,8 @@ A set of parameters indicating the engine how and what to import.
 
 | **Properties** | **Description** |
 |--|--|
-| xxx | xxx |
+| Column Type Mappers | Defines a list of type mappers for columns. If a column name matches one of these mappers, its type will be mapped accordingly. |
+| Type Mappers | Defines a list of common type mappers. If a type name matches one of these mappers, its type will be mapped accordingly. |
 
 ### Generating the model
 
