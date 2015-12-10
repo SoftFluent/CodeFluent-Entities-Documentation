@@ -29,7 +29,21 @@ WHERE NOT (Parent exists)
 
 The most common ones are ```AND``` and ```OR```, which are very straight forward.
 
+```LoadByTitleAndPosition``` :
 
+```sql
+LOAD(Title, Position)
+WHERE Title = @Title AND Position = @Position
+```
+
+```LoadByTitleOrPosition``` :
+
+```sql
+LOAD(Title, Position)
+WHERE Title = @Title OR Position = @Position
+```
+
+*Note: As you can see in the example above, **types of arguments passed to the method don't have to be specified since they correspond to properties declared on the current entity**. Writing CFQL methods this way allows to have a very flexible model since arguments types will automatically be updated if its related property type was changed.*
 
 ## Equality and Inequality Operators
 
