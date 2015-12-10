@@ -11,7 +11,7 @@ CFQL ("CodeFluent Query Language") supports operators such as:
 
 ### Equality and Inequality Operators
 
-
+Equality and inequality operators (=, <>, >=, <=, >, <) allow you to compare values between one another.
 
 ### String Operators
 
