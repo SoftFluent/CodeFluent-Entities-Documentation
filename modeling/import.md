@@ -22,7 +22,7 @@ This action will import a database or model to the current CodeFluent Entities p
 
 ## Drag and drop
 
-By drag and dropping tables from Visual Studio's SQL Server Object Explorer onto a CodeFluent Entities Surface: this will automatically trigger the wizard, configured to select just the tables you dragged and dropped.
+You can drag and drop tables from Visual Studio's SQL Server Object Explorer onto a CodeFluent Entities Surface. This will automatically trigger the wizard, configured to select just the tables you dragged and dropped.
 
 ![](img/import-03.png)
 
