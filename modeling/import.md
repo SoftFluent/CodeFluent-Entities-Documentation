@@ -2,7 +2,6 @@
 
 The importer tool creates an in-memory representation of the source which will then be translated into a CodeFluent Entities model.
 
-
 The creation of this in-memory representation is a two-step process where:
 
 * An importer connects and iterates through database objects to provide a database independent representation of those concepts (Tables, Columns, Keys, etc),
@@ -17,7 +16,8 @@ The modeler provides a wizard to import your existing database or schema:
 * Microsoft SQL Server
 * Microsoft SQL Server CE
 * Entity Framework
-* 
+
+
 This wizard can be accessed from several ways depending your usage.
 
 ## Toolbar menu
