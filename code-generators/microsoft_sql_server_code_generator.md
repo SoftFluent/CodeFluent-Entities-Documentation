@@ -41,7 +41,7 @@ Here are the configuration options.
 | -- | -- |
 | Output Encoding | Defines the character encoding for scripts. If nothing is specified, the producer will use encoding defined at project level. |
 | Produce Schemas | Determines if security schemas will be produced. |
-| Produce View | xxx |
+| Produce View | Determines if persistent view will me produced. |
 | Target Directory | xxx |
 | Target Project | xxx |
 | Target Project Layout | xxx |
