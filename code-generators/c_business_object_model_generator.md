@@ -29,3 +29,6 @@ Here are the configuration options.
 | **Property** | **Description** |
 | -- | -- |
 | xxx | xxx |
+| xxx | xxx |
+| xxx | xxx |
+| xxx | xxx |
