@@ -24,7 +24,7 @@ Furthermore, the Microsoft SQL Server Producer has a **differential engine**, me
 
 Here are the configuration options.
 
-
+![](img/sql-server-01.png)
 
 ### Diff engine
 
