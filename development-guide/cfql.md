@@ -6,7 +6,7 @@ CFQL ("CodeFluent Query Language") supports operators such as:
 * binary operators: and, or, equals, contains, freetext, like, =, <>, >=, <=, >, <
 * set operator: in (expression1, expression2, ... , expressionM)
 
-![](img/cfql-01.png)
+![](img/cfql-02.png)
 
 ## Unary Operator
 
@@ -143,4 +143,4 @@ WHERE Title IN (@values)
 
 There isn't a ```TOP``` operator in CFQL, however top is supported on the **Method** property grid through the **Maximum Count** property.
 
-![](img/cfql-02.png)
+![](img/cfql-01.png)
