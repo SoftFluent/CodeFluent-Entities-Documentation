@@ -24,7 +24,7 @@ Here are the configuration options.
 | Compile With CodeFluent | xxx |
 | Compile With Visual Studio | xxx |
 | Generate Xml Documentation | xxx |
-| Output Name | xxx |
+| Output Name | Defines the compiled assembly name or path |
 | Target Lanquage | Define optiions specific to the chosen CodeDom provider |
 
 
