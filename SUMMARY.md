@@ -22,7 +22,7 @@
    * [Application configuration](development-guide/application_configuration.md)
    * [CRUD operations](development-guide/crud_operations.md)
    * [Sorting](development-guide/sorting.md)
-   * Paging
+   * [Paging](development-guide/paging.md)
    * Custom methods
 * [Team work](team_work.md)
    * [Project storage](team-work/project_storage.md)
