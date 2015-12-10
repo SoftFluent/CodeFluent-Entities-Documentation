@@ -85,6 +85,7 @@ WHERE Description FREETEXT @token
 
 Using the ```IN``` operator you can exclude values that aren't included in a list. For instance:
 
+LoadRootAndTechnical:
 ```sql
 LOAD
 WHERE Title IN ('Root', 'Technical')
