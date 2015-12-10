@@ -4,10 +4,12 @@ The importer tool creates an in-memory representation of the source which will t
 
 The creation of this in-memory representation is a two-step process where:
 
-* An importer connects and iterates through database objects to provide a database independent representation of those concepts (Tables, Columns, Keys, etc.),
-* Those persistence concepts are then translated into a corresponding CodeFluent Entities model (Entities, Properties, Relations, etc.).
+* An importer connects and iterates through database objects to provide a database independent representation of those concepts (Tables, Columns, Keys, etc),
+* Those persistence concepts are then translated into a corresponding CodeFluent Entities model (Entities, Properties, Relations, etc).
  
 Therefore each persistence system requires its own importer to translate its platform dependent concepts into those common concepts. Once this is done, the same import engine is shared by all importers and consequently they share a same set of features which is detailed in this topic. Those configuration parameters can be defined through the Importer Configuration page of the wizard:
+
+![](img/import-04.png)
 
 The modeler provides a wizard to import your existing database or schema:
 
