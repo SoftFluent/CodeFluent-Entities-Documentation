@@ -13,7 +13,7 @@ CFQL ("CodeFluent Query Language") supports operators such as:
 
 ### String Operators
 
-Available operators are: ```EQUALS``` ('=' is also supported), ```CONTAINS```, ```FREETEXT``` and like ('```IS LIKE```', 'starts with', 'startswith' and '#' are also supported).
+Available operators are: ```EQUALS``` ('=' is also supported), ```CONTAINS```, ```FREETEXT``` and like (```IS LIKE```, ```STARTS WITH```, ```STARTSWITH``` and ```#``` are also supported).
 
 ### Set Operator
 
