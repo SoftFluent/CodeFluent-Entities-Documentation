@@ -16,15 +16,23 @@ CFQL ("CodeFluent Query Language") supports operators such as:
 Available operators are: ```EQUALS``` (```=``` is also supported), ```CONTAINS```, ```FREETEXT``` and ```LIKE``` (```IS LIKE```, ```STARTS WITH```, ```STARTSWITH``` and ```#``` are also supported).
 
 ```sql
-
+LOAD(Title)
+WHERE Title = @Title
 ```
 
 ```sql
-
+LOAD(Title)
+WHERE Title LIKE @Title
 ```
 
 ```sql
+LOAD(string token)
+WHERE Description CONTAINS @token
+```
 
+```sql
+LOAD(string token)
+WHERE Description FREETEXT @token
 ```
 
 ### Set Operator
