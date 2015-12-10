@@ -42,8 +42,8 @@ Here are the configuration options.
 | Output Encoding | Defines the character encoding for scripts. If nothing is specified, the producer will use encoding defined at project level. |
 | Produce Schemas | Determines if security schemas will be produced. |
 | Produce View | Determines if persistent view will me produced. |
-| Target Directory | xxx |
-| Target Project | xxx |
+| Target Directory | Defines the directory path where scripts will be generated. |
+| Target Project (read only) | Defines the Visual Studio target project to update when generating files. This is a file path to the project file, such as .csproj, etc. and is determined by the Target Directory property. |
 | Target Project Layout | xxx |
 | Target Version | xxx |
 
