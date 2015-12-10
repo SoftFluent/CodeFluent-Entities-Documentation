@@ -48,7 +48,9 @@ A set of parameters indicating the engine how and what to import.
 |--|--|
 | xxx | xxx |
 
-### Filtering the input
+### Generating the model
+
+A set of parameters to configure what gets generated.
 
 | **Properties** | **Description** |
 |--|--|
