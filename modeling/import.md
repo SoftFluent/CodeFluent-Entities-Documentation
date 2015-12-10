@@ -2,6 +2,7 @@
 
 The importer tool creates an in-memory representation of the source which will then be translated into a CodeFluent Entities model.
 
+
 The creation of this in-memory representation is a two-step process where:
 
 * An importer connects and iterates through database objects to provide a database independent representation of those concepts (Tables, Columns, Keys, etc),
@@ -16,6 +17,28 @@ The modeler provides a wizard to import your existing database or schema:
 * Microsoft SQL Server
 * Microsoft SQL Server CE
 * Entity Framework
+* 
+This wizard can be accessed from several ways depending your usage.
+
+## Toolbar menu
+
+This action will create and configure a brand new solution to import from an existing database or model.
+
+![](img/import-01.png)
+
+## Context menu
+
+This action will import a database or model to the current CodeFluent Entities project.
+
+![](img/import-02.png)
+
+## Drag and drop
+
+You can drag and drop tables from the SQL Server Object Explorer onto a CodeFluent Entities Surface. This will automatically trigger the wizard, configured for the tables you dragged and dropped.
+
+![](img/import-03.png)
+
+## Wizard configuration
 
 ### Parsing the input
 
@@ -93,24 +116,3 @@ A set of parameters to configure what gets generated.
 | Table Formatters | Defines a list of table formatters. If a table name matches one of these formatters, the output entity name will be formatted accordingly. |
 | Column Formatters | Defines a list of column formatters. If a column name matches one of these formatters, the output property name will be formatted accordingly. |
 | Common Formatters | Defines a list of common name formatters. If a name matches one of these formatters, the output will be formatted accordingly. |
-
-This wizard can be accessed from several ways depending your usage.
-
-## Toolbar menu
-
-This action will create and configure a brand new solution to import from an existing database or model.
-
-![](img/import-01.png)
-
-## Context menu
-
-This action will import a database or model to the current CodeFluent Entities project.
-
-![](img/import-02.png)
-
-## Drag and drop
-
-You can drag and drop tables from the SQL Server Object Explorer onto a CodeFluent Entities Surface. This will automatically trigger the wizard, configured for the tables you dragged and dropped.
-
-![](img/import-03.png)
-
