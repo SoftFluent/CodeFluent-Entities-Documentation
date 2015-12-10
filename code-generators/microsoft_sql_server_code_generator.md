@@ -26,7 +26,7 @@ Here are the configuration options.
 
 ### Diff engine
 
-| *Property* | *Description* |
+| **Property** | **Description** |
 | -- | -- |
 | Connection String | Defines the connection string. If nothing is specified, the producer will use the connection string defined at project or store level. |
 | Create Database | Determines if database must be created if is does not exists. |
@@ -37,7 +37,7 @@ Here are the configuration options.
 
 ### Script Generation
 
-| *Property* | *Description* |
+| **Property** | **Description** |
 | -- | -- |
 | Output Encoding | Defines the character encoding for scripts. If nothing is specified, the producer will use encoding defined at project level. |
 | Produce Schemas | Determines if security schemas will be produced. |
@@ -49,6 +49,6 @@ Here are the configuration options.
 
 ### Tools
 
-| *Property* | *Description* |
+| **Property** | **Description** |
 | -- | -- |
 | Management Studio | Launch Microsoft SQL Server Management Studio |
