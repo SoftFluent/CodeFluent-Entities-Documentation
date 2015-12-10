@@ -23,11 +23,11 @@ Here are the configuration options.
 
 | **Property** | **Description** |
 | -- | -- |
-| Compile With CodeFluent | Define if CodeFluent must compile the target assembly |
+| Compile With CodeFluent | Define if CodeFluent must compile the target assembly. |
 | Compile With Visual Studio | Determine if the target assembly will be compiled with Microsoft Visual Studio. |
 | Generate Xml Documentation | Determines if Xml code documentation must be generated. |
 | Output Name | Defines the compiled assembly name or path. |
-| Target Lanquage | Define optiions specific to the chosen CodeDom provider. |
+| Target Lanquage | Define options specific to the chosen CodeDom provider. |
 
 
 ### Source production
