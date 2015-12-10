@@ -41,7 +41,8 @@ WHERE Position >= @Position
 ```
 
 ```sql
-load(Position) where Position > @Position
+LOAD(Position)
+WHERE Position > @Position
 ```
 
 ### String Operators
