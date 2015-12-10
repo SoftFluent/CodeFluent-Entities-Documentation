@@ -39,8 +39,8 @@ Here are the configuration options.
 
 | *Property* | *Description* |
 | -- | -- |
-| Output Encoding | xxx |
-| Produce Schemas | xxx |
+| Output Encoding | Defines the character encoding for scripts. If nothing is specified, the producer will use encoding defined at project level. |
+| Produce Schemas | Determines if security schemas will be produced. |
 | Produce View | xxx |
 | Target Directory | xxx |
 | Target Project | xxx |
