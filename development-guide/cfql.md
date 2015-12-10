@@ -119,7 +119,7 @@ WHERE Description FREETEXT @token
 
 ## Set Operator
 
-Using the ```IN``` operator you can exclude values that aren't included in a list. For instance.
+Using the ```IN``` operator you can exclude values that aren't included in a list.
 
 ```LoadRootAndTechnical``` :
 ```sql
