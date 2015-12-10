@@ -20,7 +20,7 @@ LOAD
 WHERE Position = 0
 ```
 
-LoadNonFirsts::
+LoadNonFirsts:
 ```sql
 LOAD
 WHERE Position <> 0
