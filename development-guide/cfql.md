@@ -11,6 +11,8 @@ CFQL ("CodeFluent Query Language") supports operators such as:
 
 ### Equality and Inequality Operators
 
+
+
 ### String Operators
 
 Available operators are: ```EQUALS``` (```=``` is also supported), ```CONTAINS```, ```FREETEXT``` and ```LIKE``` (```IS LIKE```, ```STARTS WITH```, ```STARTSWITH``` and ```#``` are also supported).
