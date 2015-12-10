@@ -1,6 +1,10 @@
 # Import
 
-The modeler integrated to Visual Studio provides a wizard to import your existing database. This wizard can be accessed from several ways depending your usage.
+The modeler integrated to Visual Studio provides a wizard to import your existing database (Microsoft SQL Server or Microsoft SQL Server CE) or schema (Entity Framework).
+
+The supported technologies
+
+This wizard can be accessed from several ways depending your usage.
 
 ## Toolbar menu
 
@@ -20,8 +24,3 @@ By drag and dropping tables from Visual Studio's SQL Server Object Explorer onto
 
 ![](img/import-03.png)
 
-## Supported technologies
-
-* Sql server CE
-* Sql Server
-* Entity Framework
