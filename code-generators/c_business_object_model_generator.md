@@ -22,7 +22,7 @@ Here are the configuration options.
 | **Property** | **Description** |
 | -- | -- |
 | Compile With CodeFluent | xxx |
-| xxx | xxx |
+| Compile With Visual Studio | xxx |
 | xxx | xxx |
 | xxx | xxx |
 | xxx | xxx |
