@@ -26,7 +26,8 @@ WHERE Title IN ('Root', 'Technical')
 
 The **IN** operator can also be used with dynamic parameters:
 
-load(string value1, string value2) where Title in (@value1, @value2)
+LOAD(string value1, string value2)
+WHERE Title IN (@value1, @value2)
 
 ### Top
 
