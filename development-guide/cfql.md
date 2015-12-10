@@ -10,14 +10,17 @@ CFQL ("CodeFluent Query Language") supports operators such as:
 
 ## Unary Operator
 
-Those operators are useful if you want to load all line where a column is null or non null. For instance, this example loads all menus having a parent menu, ```LoadLeafMenu``` :
+Those operators are useful if you want to load all line where a column is null or non null. For instance, this example loads all menus having a parent menu.
+
+```LoadLeafMenu``` :
 ```sql
 LOAD
 WHERE Parent EXISTS
 ```
 
-The ```NOT``` operator can be used to reverse the following predicate, ```LoadRootMenu```:
+The ```NOT``` operator can be used to reverse the following predicate.
 
+```LoadRootMenu``` :
 ```sql
 LOAD
 WHERE NOT (Parent exists)
@@ -30,14 +33,12 @@ WHERE NOT (Parent exists)
 The most common ones are ```AND``` and ```OR```, which are very straight forward.
 
 ```LoadByTitleAndPosition``` :
-
 ```sql
 LOAD(Title, Position)
 WHERE Title = @Title AND Position = @Position
 ```
 
 ```LoadByTitleOrPosition``` :
-
 ```sql
 LOAD(Title, Position)
 WHERE Title = @Title OR Position = @Position
