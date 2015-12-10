@@ -24,7 +24,7 @@
    * [Sorting](development-guide/sorting.md)
    * [Paging](development-guide/paging.md)
    * [Custom methods](development-guide/custom_methods.md)
-       * CFQL
+       * [CFQL](development-guide/cfql.md)
 * [Team work](team_work.md)
    * [Project storage](team-work/project_storage.md)
    * [Path and environment variables](team-work/path_and_environment_variables.md)
