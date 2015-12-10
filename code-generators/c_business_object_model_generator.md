@@ -25,7 +25,7 @@ Here are the configuration options.
 | Compile With Visual Studio | xxx |
 | Generate Xml Documentation | xxx |
 | Output Name | xxx |
-| Target Lanquage | xxx |
+| Target Lanquage | Define optiions specific to the chosen CodeDom provider |
 
 
 ### Source production
