@@ -8,6 +8,7 @@ This action will create and configure a brand new solution to import from an exi
 
 ![](img/import-01.png)
 
+
 Sql server CE Importer
 
 Sql Server Importer
