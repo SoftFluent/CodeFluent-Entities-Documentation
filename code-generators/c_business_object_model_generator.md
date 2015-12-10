@@ -17,7 +17,14 @@ You can also notice that the two class have the same signature for the Insert, S
 
 Here are the configuration options.
 
-### Diff engine
+### Compilation
+
+| **Property** | **Description** |
+| -- | -- |
+| xxx | xxx |
+
+
+### Source production
 
 | **Property** | **Description** |
 | -- | -- |
