@@ -15,6 +15,18 @@ CFQL ("CodeFluent Query Language") supports operators such as:
 
 Available operators are: ```EQUALS``` (```=``` is also supported), ```CONTAINS```, ```FREETEXT``` and ```LIKE``` (```IS LIKE```, ```STARTS WITH```, ```STARTSWITH``` and ```#``` are also supported).
 
+```sql
+
+```
+
+```sql
+
+```
+
+```sql
+
+```
+
 ### Set Operator
 
 Using the ```IN``` operator you can exclude values that aren't included in a list. For instance:
