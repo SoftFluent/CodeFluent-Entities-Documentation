@@ -17,14 +17,14 @@ CFQL ("CodeFluent Query Language") supports operators such as:
 
 ### Set Operator
 
-Using the **IN** operator you can exclude values that aren't included in a list. For instance:
+Using the ```IN``` operator you can exclude values that aren't included in a list. For instance:
 
 ```sql
 LOAD
 WHERE Title IN ('Root', 'Technical')
 ```
 
-The **IN** operator can also be used with dynamic parameters:
+The ```IN``` operator can also be used with dynamic parameters:
 
 ```sql
 LOAD(string value1, string value2)
