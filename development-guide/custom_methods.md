@@ -42,6 +42,6 @@ WHERE Title IN (@values)
 
 ### Top
 
-There isn't a TOP operator in CFQL, however top is supported on the Method property grid through the maxCount property.
+There isn't a TOP operator in CFQL, however top is supported on the **Method** property grid through the **Maximum Count** property.
 
 ![](img/custom-method-01.png)
