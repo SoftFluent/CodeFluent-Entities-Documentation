@@ -21,6 +21,11 @@ The modeler provides a wizard to import your existing database or schema:
 
 A set of parameters indicating the engine how and what to import.
 
+| **Properties** | **Description** |
+| -- | -- |
+| Import Properties as Messages | Determines if the importer must use extended properties and import them as messages. Default is false. |
+| xxx | xxx |
+
 
 This wizard can be accessed from several ways depending your usage.
 
