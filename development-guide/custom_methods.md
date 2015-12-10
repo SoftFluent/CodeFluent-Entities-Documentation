@@ -17,9 +17,9 @@ CFQL ("CodeFluent Query Language") supports operators such as:
 
 ### Set Operator
 
-Using the **in** operator you can exclude values that aren't included in a list. For instance:
+Using the **IN** operator you can exclude values that aren't included in a list. For instance:
 
-```load where Title in ('Root', 'Technical')```
+```LOAD WHERE Title IN ('Root', 'Technical')```
 
 ### Top
 
