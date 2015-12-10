@@ -14,7 +14,7 @@
    * [Overview](modeling/overview.md)
    * [Import](modeling/import.md)
    * [Tips](modeling/tips.md)
-* Code generators
+* [Code generators](code_generators.md)
    * Overview
    * Microsoft SQL Server code generator
    * C# Business Object Model generator
