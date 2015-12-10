@@ -38,7 +38,7 @@ LOAD(string[] values)
 WHERE Title IN (@values)
 ```
 
-*Note: the previous method uses an out-of-the-box feature of the SQL Server Producer. Therefore, as of today, it's not supported by other persistence producers.*
+*Note: the previous method uses an out-of-the-box feature of the **SQL Server Producer**. Therefore, as of today, it's not supported by other persistence producers.*
 
 ### Top
 
