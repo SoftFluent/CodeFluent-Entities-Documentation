@@ -26,13 +26,17 @@ WHERE Title IN ('Root', 'Technical')
 
 The **IN** operator can also be used with dynamic parameters:
 
+```sql
 LOAD(string value1, string value2)
 WHERE Title IN (@value1, @value2)
+```
 
 Furthermore, if sending a string array as a parameter, the in parameter can be used to filter values by the passed array:
 
+```sql
 LOAD(string[] values)
 WHERE Title IN (@values)
+```
 
 ### Top
 
