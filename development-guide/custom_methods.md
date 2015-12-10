@@ -25,6 +25,8 @@ LOAD WHERE Title IN ('Root', 'Technical')
 
 The **IN** operator can also be used with dynamic parameters:
 
+
+
 ### Top
 
 There isn't a TOP operator in CFQL, however top is supported on the Method property grid through the maxCount property.
