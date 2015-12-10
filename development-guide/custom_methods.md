@@ -17,6 +17,8 @@ CFQL ("CodeFluent Query Language") supports operators such as:
 
 ### Set Operator
 
+
+
 ### Top
 
 There isn't a TOP operator in CFQL, however top is supported on the Method property grid through the maxCount property.
