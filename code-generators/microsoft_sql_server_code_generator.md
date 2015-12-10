@@ -44,7 +44,7 @@ Here are the configuration options.
 | Produce View | Determines if persistent view will me produced. |
 | Target Directory | Defines the directory path where scripts will be generated. |
 | Target Project (read only) | Defines the Visual Studio target project to update when generating files. This is a file path to the project file, such as .csproj, etc. and is determined by the Target Directory property. |
-| Target Project Layout | xxx |
+| Target Project Layout | Defines options when updating the Visual Studio target project. |
 | Target Version | xxx |
 
 ### Tools
