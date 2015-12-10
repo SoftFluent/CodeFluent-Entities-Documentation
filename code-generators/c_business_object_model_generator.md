@@ -23,7 +23,7 @@ Here are the configuration options.
 | -- | -- |
 | Compile With CodeFluent | xxx |
 | Compile With Visual Studio | xxx |
-| xxx | xxx |
+| Generate Xml Documentation | xxx |
 | xxx | xxx |
 | xxx | xxx |
 
