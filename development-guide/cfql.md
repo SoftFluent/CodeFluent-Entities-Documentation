@@ -8,7 +8,7 @@ CFQL ("CodeFluent Query Language") supports operators such as:
 
 ![](img/cfql-01.png)
 
-### Unary Operator
+## Unary Operator
 
 Those operators are useful if you want to load all line where a column is null or non null. For instance, this example loads all menus having a parent menu, ```LoadLeafMenu``` :
 ```sql
@@ -25,9 +25,9 @@ WHERE NOT (Parent exists)
 
 *Note: Parenthesis are optional and where specified for readability.*
 
+## Binary Operators
 
-
-### Equality and Inequality Operators
+## Equality and Inequality Operators
 
 Equality and inequality operators (```=```, ```<>```, ```>=```, ```<=```, ```>```, ```<```) allow you to compare values between one another.
 
@@ -69,7 +69,7 @@ LOAD(Position)
 WHERE Position > @Position
 ```
 
-### String Operators
+## String Operators
 
 Available operators are: ```EQUALS``` (```=``` is also supported), ```CONTAINS```, ```FREETEXT``` and ```LIKE``` (```IS LIKE```, ```STARTS WITH```, ```STARTSWITH``` and ```#``` are also supported).
 
@@ -99,7 +99,7 @@ WHERE Description FREETEXT @token
 
 *Note: Desired column must be have a **Full-Text index** defined to be used with the ```FREETEXT``` and ```CONTAINS``` operators.*
 
-### Set Operator
+## Set Operator
 
 Using the ```IN``` operator you can exclude values that aren't included in a list. For instance, ```LoadRootAndTechnical```:
 ```sql
@@ -121,7 +121,7 @@ WHERE Title IN (@values)
 
 *Note: the previous method uses an out-of-the-box feature of the **SQL Server Producer**. Therefore, as of today, it's not supported by other persistence producers.*
 
-### Top
+## Top
 
 There isn't a ```TOP``` operator in CFQL, however top is supported on the **Method** property grid through the **Maximum Count** property.
 
