@@ -20,12 +20,13 @@ CFQL ("CodeFluent Query Language") supports operators such as:
 Using the **IN** operator you can exclude values that aren't included in a list. For instance:
 
 ```sql
-LOAD WHERE Title IN ('Root', 'Technical')
+LOAD
+WHERE Title IN ('Root', 'Technical')
 ```
 
 The **IN** operator can also be used with dynamic parameters:
 
-
+load(string value1, string value2) where Title in (@value1, @value2)
 
 ### Top
 
