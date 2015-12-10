@@ -20,7 +20,7 @@
    * [C# Business Object Model generator](code-generators/c_business_object_model_generator.md)
 * [Development Guide](development_guide.md)
    * [Application configuration](development-guide/application_configuration.md)
-   * CRUD operations
+   * [CRUD operations](development-guide/crud_operations.md)
    * Sorting
    * Paging
    * Custom methods
