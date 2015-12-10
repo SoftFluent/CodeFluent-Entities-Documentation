@@ -101,6 +101,7 @@ WHERE Title IN (@value1, @value2)
 
 Furthermore, if sending a string array as a parameter, the in parameter can be used to filter values by the passed array:
 
+LoadRootAndTechnical:
 ```sql
 LOAD(string[] values)
 WHERE Title IN (@values)
