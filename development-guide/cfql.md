@@ -15,7 +15,7 @@ Equality and inequality operators (```=```, ```<>```, ```>=```, ```<=```, ```>``
 
 Here's a set of examples:
 
-LoadFirsts:
+```LoadFirsts``` :
 ```sql
 LOAD
 WHERE Position = 0
