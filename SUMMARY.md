@@ -18,7 +18,7 @@
    * Overview
    * Microsoft SQL Server code generator
    * C# Business Object Model generator
-* Development Guide
+* [Development Guide](development_guide.md)
    * Application configuration
    * CRUD operations
    * Sorting
