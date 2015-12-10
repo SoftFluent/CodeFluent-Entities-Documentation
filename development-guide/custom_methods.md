@@ -29,6 +29,11 @@ The **IN** operator can also be used with dynamic parameters:
 LOAD(string value1, string value2)
 WHERE Title IN (@value1, @value2)
 
+Furthermore, if sending a string array as a parameter, the in parameter can be used to filter values by the passed array:
+
+LOAD(string[] values)
+WHERE Title IN (@values)
+
 ### Top
 
 There isn't a TOP operator in CFQL, however top is supported on the Method property grid through the maxCount property.
