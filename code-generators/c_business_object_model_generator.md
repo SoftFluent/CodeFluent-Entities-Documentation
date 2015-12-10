@@ -22,7 +22,7 @@ Here are the configuration options.
 | **Property** | **Description** |
 | -- | -- |
 | Compile With CodeFluent | xxx |
-| Compile With Visual Studio | xxx |
+| Compile With Visual Studio | Determine if the target assembly will be compiled with Microsoft Visual Studio. |
 | Generate Xml Documentation | Determines if Xml code documentation must be generated. |
 | Output Name | Defines the compiled assembly name or path. |
 | Target Lanquage | Define optiions specific to the chosen CodeDom provider. |
