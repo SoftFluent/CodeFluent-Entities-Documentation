@@ -28,18 +28,24 @@ Here are the configuration options.
 
 | *Property* | *Description* |
 | -- | -- |
+| Connection String | xxx |
+| Create Database | xxx |
+| Create Diffs | xxx |
+| xxx | xxx |
+| xxx | xxx |
+| xxx | xxx |
 | xxx | xxx |
 
 ### Script Generation
 
 | *Property* | *Description* |
 | -- | -- |
-| xxx | xxx |
-| xxx | xxx |
-| xxx | xxx |
-| xxx | xxx |
-| xxx | xxx |
-| xxx | xxx |
+| Output Encoding | xxx |
+| Produce Schemas | xxx |
+| Produce View | xxx |
+| Target Directory | xxx |
+| Target Project | xxx |
+| Target Project Layout | xxx |
 | Target Version | xxx |
 
 ### Tools
