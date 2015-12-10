@@ -45,7 +45,7 @@ Here are the configuration options.
 | Target Directory | Defines the directory path where scripts will be generated. |
 | Target Project (read only) | Defines the Visual Studio target project to update when generating files. This is a file path to the project file, such as .csproj, etc. and is determined by the Target Directory property. |
 | Target Project Layout | Defines options when updating the Visual Studio target project. |
-| Target Version | xxx |
+| Target Version | Determines the target SQL Server version. The may affect script creation, and may by necessary to avoid some CodeFluent warnings. |
 
 ### Tools
 
