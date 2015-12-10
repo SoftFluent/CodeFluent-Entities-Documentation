@@ -25,6 +25,7 @@ LOAD
 WHERE Position <> 0
 ```
 
+LoadCurrentAndPrevious:
 ```sql
 LOAD(Position)
 WHERE Position <= @Position
