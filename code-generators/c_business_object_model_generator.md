@@ -11,7 +11,6 @@ You can notice that the producer has generated two class for the Customer entity
 * the Customer class with the properties Id, FirstName, LastName
 * the CustomerCollection class with the properties Count and this[int index].
 
-
 You can also notice that the two class have the same signature for the Insert, Save and Delete method. Fortunately, for the Load method, the signature is different : the Customer class has a Load method to load one entity and the CustomerCollection class has a LoadAll method to load all the entities.
 
 ## Configuration
