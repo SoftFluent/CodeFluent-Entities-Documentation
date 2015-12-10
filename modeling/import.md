@@ -6,6 +6,8 @@ The modeler integrated to Visual Studio provides a wizard to import your existin
 
 This action will create and configure a brand new solution to import from an existing database or model.
 
+![](img/import-01.png)
+
 Sql server CE Importer
 
 Sql Server Importer
