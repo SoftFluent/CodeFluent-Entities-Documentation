@@ -125,7 +125,9 @@ LOAD
 WHERE Title IN ('Root', 'Technical')
 ```
 
-The ```IN``` operator can also be used with dynamic parameters, ```LoadRootAndTechnical```:
+The ```IN``` operator can also be used with dynamic parameters.
+
+```LoadRootAndTechnical``` :
 ```sql
 LOAD(string value1, string value2)
 WHERE Title IN (@value1, @value2)
