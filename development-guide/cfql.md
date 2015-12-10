@@ -23,8 +23,9 @@ LOAD
 WHERE NOT (Parent exists)
 ```
 
-
 *Note: Parenthesis are optional and where specified for readability.*
+
+
 
 ### Equality and Inequality Operators
 
