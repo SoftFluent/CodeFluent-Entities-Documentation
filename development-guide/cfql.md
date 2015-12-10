@@ -40,6 +40,7 @@ LOAD(Position)
 WHERE Position >= @Position
 ```
 
+LoadNext:
 ```sql
 LOAD(Position)
 WHERE Position > @Position
