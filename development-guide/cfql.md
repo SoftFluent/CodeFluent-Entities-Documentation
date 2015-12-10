@@ -11,7 +11,38 @@ CFQL ("CodeFluent Query Language") supports operators such as:
 
 ### Equality and Inequality Operators
 
-Equality and inequality operators (=, <>, >=, <=, >, <) allow you to compare values between one another.
+Equality and inequality operators (```=```, ```<>```, ```>=```, ```<=```, ```>```, ```<```) allow you to compare values between one another.
+
+Here's a set of examples:
+
+```sql
+LOAD
+WHERE Position = 0
+```
+
+```sql
+LOAD
+WHERE Position <> 0
+```
+
+```sql
+LOAD(Position)
+WHERE Position <= @Position
+```
+
+```sql
+LOAD(Position)
+WHERE Position < @Position
+```
+
+```sql
+LOAD(Position)
+WHERE Position >= @Position
+```
+
+```sql
+load(Position) where Position > @Position
+```
 
 ### String Operators
 
