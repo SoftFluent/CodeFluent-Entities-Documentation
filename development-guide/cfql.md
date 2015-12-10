@@ -67,6 +67,7 @@ LOAD(Title)
 WHERE Title LIKE @Title
 ```
 
+LoadByDescriptionContaining:
 ```sql
 LOAD(string token)
 WHERE Description CONTAINS @token
