@@ -29,7 +29,6 @@ Here are the configuration options.
 | Output Name | Defines the compiled assembly name or path. |
 | Target Lanquage | Define options specific to the chosen CodeDom provider. |
 
-
 ### Source production
 
 | **Property** | **Description** |
