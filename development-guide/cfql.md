@@ -27,6 +27,10 @@ WHERE NOT (Parent exists)
 
 ## Binary Operators
 
+The most common ones are ```AND``` and ```OR```, which are very straight forward.
+
+
+
 ## Equality and Inequality Operators
 
 Equality and inequality operators (```=```, ```<>```, ```>=```, ```<=```, ```>```, ```<```) allow you to compare values between one another.
