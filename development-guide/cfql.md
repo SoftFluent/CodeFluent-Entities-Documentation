@@ -27,25 +27,25 @@ LOAD
 WHERE Position <> 0
 ```
 
-LoadCurrentAndPrevious:
+```LoadCurrentAndPrevious```:
 ```sql
 LOAD(Position)
 WHERE Position <= @Position
 ```
 
-LoadPrevious:
+```LoadPrevious```:
 ```sql
 LOAD(Position)
 WHERE Position < @Position
 ```
 
-LoadCurrentAndNext:
+```LoadCurrentAndNext```:
 ```sql
 LOAD(Position)
 WHERE Position >= @Position
 ```
 
-LoadNext:
+```LoadNext```:
 ```sql
 LOAD(Position)
 WHERE Position > @Position
@@ -55,25 +55,25 @@ WHERE Position > @Position
 
 Available operators are: ```EQUALS``` (```=``` is also supported), ```CONTAINS```, ```FREETEXT``` and ```LIKE``` (```IS LIKE```, ```STARTS WITH```, ```STARTSWITH``` and ```#``` are also supported).
 
-LoadByTitle:
+```LoadByTitle```:
 ```sql
 LOAD(Title)
 WHERE Title = @Title
 ```
 
-LoadByTitleStartingWith:
+```LoadByTitleStartingWith```:
 ```sql
 LOAD(Title)
 WHERE Title LIKE @Title
 ```
 
-LoadByDescriptionContaining:
+```LoadByDescriptionContaining```:
 ```sql
 LOAD(string token)
 WHERE Description CONTAINS @token
 ```
 
-LoadByDescriptionFeetexting:
+```LoadByDescriptionFeetexting```:
 ```sql
 LOAD(string token)
 WHERE Description FREETEXT @token
