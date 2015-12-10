@@ -17,7 +17,7 @@ You can also notice that the two class have the same signature for the Insert, S
 
 Here are the configuration options.
 
-![](img/bom-01.png)
+![](img/bom-02.png)
 
 ### Compilation
 
