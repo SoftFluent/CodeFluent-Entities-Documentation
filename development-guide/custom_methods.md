@@ -204,7 +204,9 @@ This ```DeleteByName``` on an **Employee** entity:
 DELETE(string Name)
 WHERE Name STARTSWITH @Name
 ```
+
 Looking at the generated stored procedures for the **Employee** entity, we can notice that there is a new stored procedure **Employee_DeleteByName**:
+
 ```sql
 CREATE PROCEDURE [dbo].[Employee_DeleteByName] (@Name [nvarchar] (256))
 AS
