@@ -65,3 +65,7 @@ SEARCH(*)
 
 The ```**``` wildcard is useful when working on entities deriving from a root entity. Say you have a BaseProduct, which has several derived entity such as Product, OnlineProduct, etc. The '**' wilcard allows you to search on the base entity properties as well as all derived entity properties as well.
 
+```Search``` :
+```sql
+SEARCH(**)
+```
