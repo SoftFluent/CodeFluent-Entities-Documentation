@@ -107,8 +107,10 @@ WHERE Name CONTAINS @Name AND CinemaId CONTAINS @CinemaId
 Which generates:
 
 ```sql
-IF @args IS NOT NULL
-    SELECT @sql = @sql + ' AND [Cinema].[Cinema_Name] IN ((SELECT [Item] FROM [dbo].cf_SplitString(@args, nchar(1))))'
+IF @Name IS NOT NULL
+    SELECT @sql = @sql + ' AND CONTAINS([Cinema].[Cinema_Name],@Name)'
+IF @CinemaId IS NOT NULL
+    SELECT @sql = @sql + ' AND CONTAINS([Cinema].[Cinema_CinemaId],@CinemaId)'
 ```
 
 *Note: using the ```CONTAINS``` function requires Full-Text Search to be enabled on the used columns.*
