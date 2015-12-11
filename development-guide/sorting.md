@@ -41,6 +41,22 @@ RETURN
 GO
 ```
 
+
+You can then use this in you C# code, from the generated BOM, like this:
+
+```csharp
+static void Main(string[] args)
+{
+    OrderByArgumentCollection orderByArguments = new OrderByArgumentCollection();
+    orderByArguments.Add("[Order].[Date]", System.ComponentModel.ListSortDirection.Ascending);
+ 
+    PageOptions pageOptions = new PageOptions();
+    pageOptions.OrderByArguments = orderByArguments;
+ 
+    OrderCollection ordersSortedByDate = OrderCollection.PageLoadAll(int.MinValue, int.MaxValue, pageOptions);
+}
+```
+
 ## Sorted Search
 
 If entity contains sortable properties, those will be taken into account by the search method.
