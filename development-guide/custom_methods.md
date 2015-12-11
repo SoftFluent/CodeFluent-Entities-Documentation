@@ -258,3 +258,10 @@ Two types of snippets are available in CodeFluent:
 
 * **Snippets**: entity level snippets,
 * **SetSnippets**: entity collection (a.k.a. set) level snippets.
+
+Code Snippets are used to inject code chunks in standard generated classes.
+
+Snippets have the following advantages:
+* snippets can be injected in all layers of the application automatically (e.g. business layer, service layer, etc.),
+* since snippets are declared in the model, they survive model generations,
+* snippets are practical because they use the programming languages we know: a snippet is coded in the targeted language directly since it will be copied and pasted as is in the generated code.
