@@ -55,3 +55,7 @@ GO
 ### The Star (*)
 
 The ```*``` wildcard is available in search methods. It indicates the method to search by all persistent properties of the entity.
+
+```sql
+Search
+```
