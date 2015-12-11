@@ -60,3 +60,16 @@ More than making the connection string available to other .NET components, it al
 ## Combining ConnectionString Aliases with Environment Variables
 
 Combined with the support of environment variables, this feature can be used to select a connection string automatically. For instance, **COMPUTERNAME** is an environment variable defined by default on machines. Using this variable as an alias to a connection string, we ensure the appropriate connection string will automatically be used depending on the computer from which the application is ran.
+
+```xml
+<configuration>
+  <configSections>
+    <section name="Sample" type="CodeFluent.Runtime.CodeFluentConfigurationSectionHandler, CodeFluent.Runtime"/>
+  </configSections>
+  <connectionStrings>
+    <add name="DevMachine1" connectionString="Application Name=Sample;server=DevMachine1;database=Sample;Integrated Security=true" />
+    <add name="DevMachine2" connectionString="Application Name=Sample;server=DevMachine2\SQLEXPRESS;database=Sample;Integrated Security=true" />
+  </connectionStrings>
+  <Sample connectionString="{%COMPUTERNAME%}" />
+</configuration>
+```
