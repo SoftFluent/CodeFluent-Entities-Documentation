@@ -57,3 +57,5 @@ As you can see in the example above, several connection strings can be configure
 
 More than making the connection string available to other .NET components, it allows you to keep all your connection strings (development, test, production, etc.) in the configuration file. Consequently, this will ease the configuration of your application on several environments.
 
+## Combining ConnectionString Aliases with Environment Variables
+
