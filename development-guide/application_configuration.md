@@ -10,3 +10,10 @@ The **Business Object Model** (BOM) is the only layer which has a direct access 
   <MyDefaultNamespace connectionString="database=[MyDatabaseName];server=[ServerName];Trusted_Connection=true" />
 </configuration>
 ```
+
+As you can see in the sample above:
+
+1. Declare a new configuration section with a section name matching your default namespace,
+2. Add a section corresponding to the declared name (your default namespace),
+3. Set the connection string which the application will be using at runtime when interacting with the database layer.
+
