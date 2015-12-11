@@ -11,6 +11,7 @@ By default, all dynamic server side sorting is disabled since it's quite infrequ
 * At the property level with the **Sortable** property: setting it to **true** will enable dynamic sorting on the current property.
 
 
+
 ## Sorted Search
 
 If entity contains sortable properties, those will be taken into account by the search method.
