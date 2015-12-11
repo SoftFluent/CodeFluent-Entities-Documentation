@@ -20,6 +20,8 @@ Using this model:
 
 Will generate the following **LoadAll** stored procedure: 
 
+
+
 ## Sorted Search
 
 If entity contains sortable properties, those will be taken into account by the search method.
