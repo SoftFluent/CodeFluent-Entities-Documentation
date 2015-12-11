@@ -192,6 +192,12 @@ public static Employee LoadByName(string name)
 
 ## Search
 
+Search methods are CodeFluent Query Language (**CFQL**) methods which allow you to define platform independent queries to implement searching capabilities in your application. Persistence producers will then translate those platform independent queries into actual SQL queries.
+
+![](img/cfql-03.png)
+
+For instance, searching for cinemas by name and a cinema identifier can be done as so:
+
 ## Delete
 
 ## Count
