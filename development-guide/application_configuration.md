@@ -52,3 +52,8 @@ To avoid such problems, the CodeFluent runtime also supports declaring it in the
   <Sample connectionString="{SqlServer}" />
 </configuration>
 ```
+
+As you can see in the example above, several connection strings can be configured in the standard connectionStrings section, and then using the {ConnectionStringName} format, the runtime will use the one corresponding to the specified name.
+
+More than making the connection string available to other .NET components, it allows you to keep all your connection strings (development, test, production, etc.) in the configuration file. Consequently, this will ease the configuration of your application on several environments.
+
