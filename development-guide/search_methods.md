@@ -96,3 +96,9 @@ IF @CinemaId IS NOT NULL
 
 For Full-Text searches, you can use the CFQL ```CONTAINS``` keyword.
 
+```ContainsSearch``` :
+```sql
+SEARCH(Name, CinemaId)
+WHERE Name CONTAINS @Name AND CinemaId CONTAINS @CinemaId
+```
+
