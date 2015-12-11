@@ -171,3 +171,5 @@ RAW
 ```sql
 -- TODO: implement logic
 ```
+
+![](img/cfql-06.png)
