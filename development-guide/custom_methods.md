@@ -45,7 +45,77 @@ GO
 
 And will generate this C# source code:
 
+```csharp
+[System.ComponentModel.DataObjectMethodAttribute(System.ComponentModel.DataObjectMethodType.Select, true)]
+public static OrderProcess.Marketing.ProductCollection LoadByAvailable(bool availability)
+{
+    OrderProcess.Marketing.ProductCollection ret = OrderProcess.Marketing.ProductCollection.PageLoadByAvailable(int.MinValue, int.MaxValue, null, availability);
+    return ret;
+}
 
+
+[System.ComponentModel.DataObjectMethodAttribute(System.ComponentModel.DataObjectMethodType.Select, true)]
+public static OrderProcess.Marketing.ProductCollection PageLoadByAvailable(int pageIndex, int pageSize, CodeFluent.Runtime.PageOptions pageOptions, bool availability)
+{
+    if ((pageIndex < 0))
+    {
+        pageIndex = 0;
+    }
+    if ((pageSize < 0))
+    {
+        if ((pageOptions != null))
+        {
+            pageSize = pageOptions.DefaultPageSize;
+        }
+        else
+        {
+            pageSize = int.MaxValue;
+        }
+    }
+    OrderProcess.Marketing.ProductCollection ret = new OrderProcess.Marketing.ProductCollection();
+    System.Data.IDataReader reader = null;
+    try
+    {
+        reader = OrderProcess.Marketing.ProductCollection.PageDataLoadByAvailable(pageOptions, availability);
+        if ((reader == null))
+        {
+            return ret;
+        }
+        ret.LoadByAvailable(pageIndex, pageSize, pageOptions, reader, availability);
+    }
+    finally
+    {
+        if ((reader != null))
+        {
+            reader.Dispose();
+        }
+        CodeFluent.Runtime.CodeFluentPersistence.CompleteCommand(OrderProcess.Constants.OrderProcessStoreName);
+    }
+    return ret;
+}
+
+public static System.Data.IDataReader PageDataLoadByAvailable(CodeFluent.Runtime.PageOptions pageOptions, bool availability)
+        {
+            CodeFluent.Runtime.CodeFluentPersistence persistence = CodeFluentContext.Get(OrderProcess.Constants.OrderProcessStoreName).Persistence;
+            persistence.CreateStoredProcedureCommand(null, "Product", "LoadByAvailable");
+            persistence.AddRawParameter("@availability", availability);
+            if ((pageOptions != null))
+            {
+                System.Collections.IEnumerator enumerator = pageOptions.OrderByArguments.GetEnumerator();
+                bool b;
+                int index = 0;
+                for (b = enumerator.MoveNext(); b; b = enumerator.MoveNext())
+                {
+                    CodeFluent.Runtime.OrderByArgument argument = ((CodeFluent.Runtime.OrderByArgument)(enumerator.Current));
+                    persistence.AddParameter(string.Format("@_orderBy{0}", index), argument.Name);
+                    persistence.AddParameter(string.Format("@_orderByDirection{0}", index), ((int)(argument.Direction)));
+                    index = (index + 1);
+                }
+            }
+            System.Data.IDataReader reader = CodeFluentContext.Get(OrderProcess.Constants.OrderProcessStoreName).Persistence.ExecuteReader();
+            return reader;
+        }
+```
 
 ## LoadOne
 
