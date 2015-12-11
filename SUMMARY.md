@@ -25,6 +25,7 @@
    * [Paging](development-guide/paging.md)
    * [Custom methods](development-guide/custom_methods.md)
        * [CFQL Operators](development-guide/cfql-operators.md)
+       * Search methods
 * [Team work](team_work.md)
    * [Project storage](team-work/project_storage.md)
    * [Path and environment variables](team-work/path_and_environment_variables.md)
