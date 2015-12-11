@@ -102,3 +102,11 @@ SEARCH(Name, CinemaId)
 WHERE Name CONTAINS @Name AND CinemaId CONTAINS @CinemaId
 ```
 
+*Note: As you can see, unlike previous methods we specified ourselves the where conditions, since we want to override the default ones.*
+
+Which generates:
+
+```sql
+IF @args IS NOT NULL
+    SELECT @sql = @sql + ' AND [Cinema].[Cinema_Name] IN ((SELECT [Item] FROM [dbo].cf_SplitString(@args, nchar(1))))'
+```
