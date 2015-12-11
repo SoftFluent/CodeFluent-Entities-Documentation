@@ -72,4 +72,4 @@ SEARCH(**)
 
 ###  Text Search (AutoStartsWith and Contains)
 
-Furthermore, since the content you’re searching for might not exactly match the stored content you can induce some flexibility using the **AutoStartsWith** property, such as:
+Furthermore, since the content you’re searching for might not exactly match the stored content you can induce some flexibility using the **Auto Starts With** property, such as:
