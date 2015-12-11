@@ -249,3 +249,5 @@ Looking at the generated code for the **EmployeeCollection** class, we can see t
 ```csharp
 public static int CountByCountry(string countryName);
 ```
+
+## Snippets
