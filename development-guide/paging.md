@@ -26,16 +26,16 @@ You can use those paged methods across all .NET applications and for instance he
 
 ```xml
 <asp:ObjectDataSource runat="server" ID="CustomerDataSource" SelectMethod="PageLoadAll"
-                          TypeName="Sample.CustomerCollection" DataObjectTypeName="Sample.Customer"
-                          EnablePaging="true" StartRowIndexParameterName="pageIndex" MaximumRowsParameterName="pageSize">
-        <SelectParameters>
-                <asp:Parameter Name="pageIndex" Type="Int32" DefaultValue="0" />
-                <asp:Parameter Name="pageSize" Type="Int32" DefaultValue="1000" />
-                <cfw:PageOptionsParameter Name="pageOptions" DefaultPageSize="1000" />
-            </SelectParameters>
-    </asp:ObjectDataSource>
-   
-    <asp:GridView ID="GridView" runat="server" EmptyDataText="No data available"
-        DataSourceID="CustomerDataSource" AutoGenerateColumns="True" AllowPaging="true" PageSize="100"
-        CellPadding="5" CellSpacing="0" />
-        ```
+                  TypeName="Sample.CustomerCollection" DataObjectTypeName="Sample.Customer"
+                  EnablePaging="true" StartRowIndexParameterName="pageIndex" MaximumRowsParameterName="pageSize">
+<SelectParameters>
+        <asp:Parameter Name="pageIndex" Type="Int32" DefaultValue="0" />
+        <asp:Parameter Name="pageSize" Type="Int32" DefaultValue="1000" />
+        <cfw:PageOptionsParameter Name="pageOptions" DefaultPageSize="1000" />
+    </SelectParameters>
+</asp:ObjectDataSource>
+
+<asp:GridView ID="GridView" runat="server" EmptyDataText="No data available"
+    DataSourceID="CustomerDataSource" AutoGenerateColumns="True" AllowPaging="true" PageSize="100"
+    CellPadding="5" CellSpacing="0" />
+```
