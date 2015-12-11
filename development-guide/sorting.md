@@ -41,7 +41,6 @@ RETURN
 GO
 ```
 
-
 You can then use this in you C# code, from the generated BOM, like this:
 
 ```csharp
