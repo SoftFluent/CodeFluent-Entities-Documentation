@@ -198,7 +198,7 @@ Search methods are CodeFluent Query Language (**CFQL**) methods which allow you 
 
 For instance, searching for cinemas by name and a cinema identifier.
 
-```SimpleSearch```
+```SimpleSearch``` :
 
 ```sql
 SEARCH(Name, CinemaId)
