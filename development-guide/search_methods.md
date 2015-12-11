@@ -114,3 +114,5 @@ IF @CinemaId IS NOT NULL
 ```
 
 *Note: using the ```CONTAINS``` function requires Full-Text Search to be enabled on the used columns.*
+
+## String Arrays
