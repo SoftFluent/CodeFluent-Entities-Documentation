@@ -39,3 +39,16 @@ System.Console.WriteLine(persistence.ConnectionString);
 As explained in the previous paragraph, the BOM needs connection string to know where to retrieve its data. If using a connection string other than the default one, it must be configured in its specific configuration section. However, if ever you're using other .NET components that also need the connection string, having it declared in a custom section implies that you will have to duplicate it.
 
 To avoid such problems, the CodeFluent runtime also supports declaring it in the standard **connectionStrings** section and referring to it using the connection string name:
+
+```xml
+<configuration>
+  <configSections>
+    <section name="Sample" type="CodeFluent.Runtime.CodeFluentConfigurationSectionHandler, CodeFluent.Runtime"/>
+  </configSections>
+  <connectionStrings>
+    <add name="SqlServer" connectionString="Application Name=Sample;server=MYSERVER;database=Sample;Integrated Security=true" />
+    <add name="SqlServerExpress" connectionString="Application Name=Sample;server=MYSERVER\SQLEXPRESS;database=Sample;Integrated Security=true" />
+  </connectionStrings>
+  <Sample connectionString="{SqlServer}" />
+</configuration>
+```
