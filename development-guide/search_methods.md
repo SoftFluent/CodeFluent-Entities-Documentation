@@ -146,3 +146,4 @@ WHERE Name in ([SELECT name FROM sys.sql_logins])
 
 And edit the **Check Level** property of the method:
 
+![](img/cfql-05.png)
