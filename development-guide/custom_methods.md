@@ -270,6 +270,9 @@ Add a method on you customer entity and choose snippet **with signature**:
 
 ![](img/cfql-11.png)
 
+![](img/cfql-09.png)
+
+
 
 
 *Note: Another solution to extend the generated code is to use partial classes which is generally a good practice when involved snippets are actually big chunks of code.*
