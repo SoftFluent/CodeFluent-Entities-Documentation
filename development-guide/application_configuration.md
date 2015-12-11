@@ -22,3 +22,5 @@ By default CodeFluent Entities uses this connection string:
 ```Application Name=[DefaultNamespace];server=127.0.0.1;database=[DefaultNamespace];Integrated Security=true```
 
 *Note: Each CodeFluent Entities model contains a **project** element, thus the project element has an attribute named **defaultNamespace** which must be set. By default, this is the value used as an application name and database name in the default connection string.*
+
+*Note: CodeFluent uses the environment variable named CF_DEFAULT_PERSISTENCE_SERVER as the default server. If ever this environment variable isn't set, the default value 127.0.0.1 is used. If ever an explicit connection string is specified, this value isn't used.*
