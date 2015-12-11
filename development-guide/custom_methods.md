@@ -196,6 +196,15 @@ See the [Search methods section](search_methods.md).
 
 ## Delete
 
+Delete methods allow you to define custom query for deleting data.
+
+This ```DeleteByName``` on an **Employee** entity:
+
+```sql
+DELETE(string Name)
+WHERE Name STARTSWITH @Name
+```
+
 ## Count
 
 ## 
