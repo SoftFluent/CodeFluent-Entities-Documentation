@@ -115,6 +115,52 @@ public static System.Data.IDataReader PageDataLoadByAvailable(CodeFluent.Runtime
     System.Data.IDataReader reader = CodeFluentContext.Get(OrderProcess.Constants.OrderProcessStoreName).Persistence.ExecuteReader();
     return reader;
 }
+
+private void LoadByAvailable(int pageIndex, int pageSize, CodeFluent.Runtime.PageOptions pageOptions, System.Data.IDataReader reader, bool availability)
+{
+    if ((reader == null))
+    {
+        throw new System.ArgumentNullException("reader");
+    }
+    if ((pageIndex < 0))
+    {
+        pageIndex = 0;
+    }
+    if ((pageSize < 0))
+    {
+        if ((pageOptions != null))
+        {
+            pageSize = pageOptions.DefaultPageSize;
+        }
+        else
+        {
+            pageSize = int.MaxValue;
+        }
+    }
+    this.BaseList.Clear();
+    this.BaseTable.Clear();
+    int count = 0;
+    int readCount = 0;
+    bool readerRead;
+    for (readerRead = reader.Read(); ((readerRead == true) 
+                && ((count < this.MaxCount) 
+                && (count < pageSize))); readerRead = reader.Read())
+    {
+        readCount = (readCount + 1);
+        if ((CodeFluent.Runtime.CodeFluentPersistence.CanAddEntity(pageIndex, pageSize, pageOptions, readCount) == true))
+        {
+            OrderProcess.Marketing.Product product = new OrderProcess.Marketing.Product();
+            ((CodeFluent.Runtime.ICodeFluentEntity)(product)).ReadRecord(reader);
+            if ((this.BaseContains(product) == false))
+            {
+                this.BaseAdd(product);
+                count = (count + 1);
+            }
+            product.EntityState = CodeFluent.Runtime.CodeFluentEntityState.Unchanged;
+        }
+    }
+}
+
 ```
 
 ## LoadOne
