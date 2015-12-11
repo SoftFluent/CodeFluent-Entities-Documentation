@@ -7,9 +7,9 @@ http://www.softfluent.com/documentation/BOM_SP_DYN_Server.html
 Server side sorting should be preferred in almost all cases to client side sorting, since server side sorting is handled in the data layer making it very performant. Moreover, the fact that all the sorting logic is done in the data layer, all upper layers benefit from it. This way, modifying the sorting logic will automatically update all upper layers.
 
 By default, all dynamic server side sorting is disabled since it's quite infrequent compared to static sorting, it's usually a very specific need in a business application and that it complicates the generated code. Enabling dynamic sorting can be done:
-* At the project level with the **defaultSortable** attribute: setting it to true will enable dynamic sorting for properties of all entities,
-* At the entity level with the **defaultSortable** attribute: setting it to true will enable dynamic sorting for all properties on the current entity,
-* At the property level with the **sortable** attribute: setting it to true will enable dynamic sorting on the current property.
+* At the project level with the **defaultSortable** attribute: setting it to **true** will enable dynamic sorting for properties of all entities,
+* At the entity level with the **defaultSortable** attribute: setting it to **true** will enable dynamic sorting for all properties on the current entity,
+* At the property level with the **sortable** attribute: setting it to **true** will enable dynamic sorting on the current property.
 
 
 ## Sorted Search
