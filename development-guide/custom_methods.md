@@ -173,6 +173,23 @@ LOADONE(string Name)
 WHERE Name=@Name
 ```
 
+Will generate this stored procedure:
+
+
+```sql
+CREATE PROCEDURE [dbo].[Employee_LoadByName]
+(@Name [nvarchar] (256))
+AS
+SELECT DISTINCT [Employee].[Employee_Id], [Employee].[Employee_Name], ... FROM [Employee]
+    WHERE ([Employee].[Employee_Name] = @Name)
+```
+
+And this method on the Employee C# class:
+
+```csharp
+public static Employee LoadByName(string name)
+```
+
 ## Search
 
 ## Delete
