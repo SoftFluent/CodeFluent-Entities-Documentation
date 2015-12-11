@@ -1,5 +1,7 @@
 # Application configuration
 
+## Connection String
+
 The **Business Object Model** (BOM) is the only layer which has a direct access to the data layer; hence you have to configure its connection settings to it. To do so, CodeFluent provides in the **CodeFluent.Runtime.dll** a configuration section handler. Consequently, all you have to do to configure your application's connection settings, is to create a configuration section of the BOM's namespace, and in this section, specify the connection string.
 
 ```xml
@@ -31,3 +33,6 @@ You can retrieve the current connection string at runtime using the following co
 CodeFluent.Runtime.CodeFluentPersistence persistence = CodeFluentContext.Get([DefaultNamespace].Constants.[DefaultNamespace]StoreName).Persistence;
 System.Console.WriteLine(persistence.ConnectionString);
 ```
+
+## Sharing connection strings
+
