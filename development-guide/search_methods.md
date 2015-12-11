@@ -124,3 +124,10 @@ Going a little further, you can also pass string arrays to search methods.
 SEARCH(string[] args)
 WHERE Name IN (@args)
 ```
+
+Which generates:
+
+```sql
+IF @args IS NOT NULL
+    SELECT @sql = @sql + ' AND [Cinema].[Cinema_Name] IN ((SELECT [Item] FROM [dbo].cf_SplitString(@args, nchar(1))))'
+```
