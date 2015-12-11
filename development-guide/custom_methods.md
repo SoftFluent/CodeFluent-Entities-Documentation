@@ -245,3 +245,7 @@ SELECT COUNT(*) FROM [Employee]
 ```
 
 Looking at the generated code for the **EmployeeCollection** class, we can see that there is a new **CountByCountry** method which returns an **integer**.
+
+```csharp
+public static int CountByCountry(string countryName);
+```
