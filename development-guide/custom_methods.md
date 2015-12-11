@@ -272,6 +272,9 @@ Add a method on you customer entity and choose snippet **with signature**:
 
 ![](img/cfql-09.png)
 
+And write your business logic:
+
+![](img/cfql-10.png)
 
 
 
