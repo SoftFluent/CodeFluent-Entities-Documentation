@@ -234,7 +234,7 @@ COUNT(string countryName)
 WHERE Address.Country LIKE @countryName
 ```
 
-If we take a look at the generated stored procedures for the Employee entity, we can notice that there is a new stored procedure Employee_CountByCountry. 
+If we take a look at the generated stored procedures for the **Employee** entity, we can notice that there is a new stored procedure **Employee_CountByCountry**. 
 
 ```sql
 CREATE PROCEDURE [dbo].[Employee_CountByCountry] (@countryName [nvarchar] (256))
