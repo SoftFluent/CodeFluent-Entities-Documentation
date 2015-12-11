@@ -60,3 +60,5 @@ The ```*``` wildcard is available in search methods. It indicates the method to 
 ```sql
 SEARCH(*)
 ```
+
+### The Double Star (**)
