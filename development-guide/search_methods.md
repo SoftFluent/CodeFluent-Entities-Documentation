@@ -14,7 +14,6 @@ For instance, searching for cinemas by name and a cinema identifier.
 SEARCH(Name, CinemaId)
 ```
 
-
 The Microsoft SQL Server code generator will produce the following stored procedure:
 
 ```sql
