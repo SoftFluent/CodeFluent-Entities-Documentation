@@ -116,3 +116,11 @@ IF @CinemaId IS NOT NULL
 *Note: using the ```CONTAINS``` function requires Full-Text Search to be enabled on the used columns.*
 
 ## String Arrays
+
+Going a little further, you can also pass string arrays to search methods.
+
+```SearchStringArray``` :
+```sql
+SEARCH(string[] args)
+WHERE Name IN (@args)
+```
