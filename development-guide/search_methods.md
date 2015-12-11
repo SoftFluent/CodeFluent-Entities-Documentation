@@ -71,3 +71,5 @@ SEARCH(**)
 ```
 
 ###  Text Search (AutoStartsWith and Contains)
+
+Furthermore, since the content you’re searching for might not exactly match the stored content you can induce some flexibility using the **autoStartsWith** property, such as:
