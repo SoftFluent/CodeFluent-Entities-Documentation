@@ -13,6 +13,7 @@ This method ```LoadByAvailable``` on the **Product** entity:
 LOAD(bool availability)
 WHERE IsAvailable=@availability
 ```
+![](img/cfql-02.png)
 
 Will be translated into this T-SQL stored procedure:
 
@@ -41,6 +42,10 @@ WHERE ([Product].[Product_IsAvailable] = @availability)
 RETURN
 GO
 ```
+
+And will generate this C# source code:
+
+
 
 ## LoadOne
 
