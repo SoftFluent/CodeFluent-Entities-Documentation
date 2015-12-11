@@ -1,5 +1,11 @@
 # Sorting
 
+## Server side sorting
+
+http://www.softfluent.com/documentation/BOM_SP_DYN_Server.html
+
+## Sorted Search
+
 If entity contains sortable properties, those will be taken into account by the search method.
 
 For instance the following declaration:
