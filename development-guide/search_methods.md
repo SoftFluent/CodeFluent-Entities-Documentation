@@ -168,3 +168,6 @@ Finally, you can also entirely code your own custom methods using the ```RAW``` 
 SEARCH(Name, CinemaId)
 RAW
 ```
+```sql
+-- TODO: implement logic
+```
