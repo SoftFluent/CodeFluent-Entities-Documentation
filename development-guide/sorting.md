@@ -12,7 +12,7 @@ By default, all dynamic server side sorting is disabled since it's quite infrequ
 
 ![](img/configuration-01.png)
 
-Technically when enabling dynamic sorting, it will change the generated stored procedure so that it uses an @_orderBy variable containing the name of the column to order by, and an @_orderByDirection indicating wether it should be ascending or descending. Then depending on the value stored in the variable, the returned collection will be ordered by a column or another.
+Technically when enabling dynamic sorting, it will change the generated stored procedure so that it uses an **@_orderBy** variable containing the name of the column to order by, and an @_orderByDirection indicating wether it should be ascending or descending. Then depending on the value stored in the variable, the returned collection will be ordered by a column or another.
 
 ## Sorted Search
 
