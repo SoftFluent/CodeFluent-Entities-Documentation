@@ -72,7 +72,7 @@ SEARCH(**)
 
 ###  Text Search (AutoStartsWith and Contains)
 
-Furthermore, since the content you’re searching for might not exactly match the stored content you can induce some flexibility using the **Auto Starts With** property, such as:
+Furthermore, since the content you’re searching for might not exactly match the stored content you can induce some flexibility using the **Is Auto Starts With** property, such as:
 
 ![](img/cfql-04.png)
 
