@@ -10,7 +10,7 @@ By default, all dynamic server side sorting is disabled since it's quite infrequ
 * At the entity level with the **Default Sortable** property: setting it to **true** will enable dynamic sorting for all properties on the current entity,
 * At the property level with the **Sortable** property: setting it to **true** will enable dynamic sorting on the current property.
 
-![](img/configuration-10.png)
+![](img/configuration-01.png)
 
 ## Sorted Search
 
