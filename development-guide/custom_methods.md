@@ -8,7 +8,7 @@ Custom methods are platform independent queries that will be translated:
 
 Load methods allow you to define a method for loading sets of data.
 
-This method ```LoadByAvailable``` on the **Product** entity:
+This ```LoadByAvailable``` method on the **Product** entity:
 ```sql
 LOAD(bool availability)
 WHERE IsAvailable=@availability
