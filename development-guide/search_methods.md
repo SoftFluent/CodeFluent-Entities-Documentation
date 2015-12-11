@@ -58,5 +58,5 @@ The ```*``` wildcard is available in search methods. It indicates the method to 
 
 ```Search``` :
 ```sql
-
+SEARCH(*)
 ```
