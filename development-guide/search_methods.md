@@ -69,3 +69,5 @@ The ```**``` wildcard is useful when working on entities deriving from a root en
 ```sql
 SEARCH(**)
 ```
+
+###  Text Search (AutoStartsWith and Contains)
