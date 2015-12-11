@@ -164,7 +164,7 @@ private void LoadByAvailable(int pageIndex, int pageSize, CodeFluent.Runtime.Pag
 
 ## LoadOne
 
-Loadone methods allow you to define a platform independent query, loading a single line of data.
+LoadOne methods allow you to define a platform independent query, loading a single line of data.
 
 ## Search
 
