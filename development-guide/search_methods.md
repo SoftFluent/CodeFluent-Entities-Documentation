@@ -147,3 +147,16 @@ WHERE Name in ([SELECT name FROM sys.sql_logins])
 And edit the **Check Level** property of the method:
 
 ![](img/cfql-05.png)
+
+Which generates:
+
+```sql
+[...]
+
+SELECT @sql=
+'SELECT DISTINCT [Cinema].[Cinema_Id], [Cinema].[Cinema_Name], [Cinema].[Cinema_CinemaId]
+    FROM [Cinema]
+    WHERE ([Cinema].[Cinema_Name] IN (select name from sys.sql_logins) AND (1 = 1))'
+
+[...]
+```
