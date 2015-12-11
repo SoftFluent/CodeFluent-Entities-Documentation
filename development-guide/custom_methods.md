@@ -160,7 +160,6 @@ private void LoadByAvailable(int pageIndex, int pageSize, CodeFluent.Runtime.Pag
         }
     }
 }
-
 ```
 
 ## LoadOne
