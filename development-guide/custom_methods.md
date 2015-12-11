@@ -268,4 +268,4 @@ Snippets have the following advantages:
 * 
 *Note: Another solution to extend the generated code is to use partial classes which is generally a good practice when involved snippets are actually big chunks of code.*
 
-*In this case, we recommend the following convention: for an entity named **MyEntity** that is generated in the files **MyEntity.cs** and **MyEntityCollection.cs**, place the entity extra-code in the file MyEntity.Partial.cs and the entity collection extra-code in the file MyEntityCollection.Partial.cs.*
+*In this case, we recommend the following convention: for an entity named **MyEntity** that is generated in the files **MyEntity.cs** and **MyEntityCollection.cs**, place the entity extra-code in the file MyEntity.Partial.cs and the entity collection extra-code in the file **MyEntityCollection.Partial.cs**.*
