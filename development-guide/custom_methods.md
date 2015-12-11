@@ -213,6 +213,12 @@ AS
 DELETE FROM [Employee] WHERE ([Employee].[Employee_Name] LIKE (@Name + '%'))
 ```
 
+If we take a look at the generated code for the EmployeeCollection class, we can see that there is a new DeleteByName method.
+
+```csharp
+public static void DeleteByName(string name)
+```
+
 ## Count
 
 ## 
