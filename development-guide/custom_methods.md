@@ -265,7 +265,7 @@ Snippets have the following advantages:
 * snippets can be injected in all layers of the application automatically (e.g. business layer, service layer, etc.),
 * since snippets are declared in the model, they survive model generations,
 * snippets are practical because they use the programming languages we know: a snippet is coded in the targeted language directly since it will be copied and pasted as is in the generated code.
-* 
+
 *Note: Another solution to extend the generated code is to use partial classes which is generally a good practice when involved snippets are actually big chunks of code.*
 
 *In this case, we recommend the following convention: for an entity named **MyEntity** that is generated in the files **MyEntity.cs** and **MyEntityCollection.cs**, place the entity extra-code in the file MyEntity.Partial.cs and the entity collection extra-code in the file **MyEntityCollection.Partial.cs**.*
