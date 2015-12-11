@@ -160,3 +160,11 @@ SELECT @sql=
 
 [...]
 ```
+
+Finally, you can also entirely code your own custom methods:
+
+```PartialRawSearch``` :
+```sql
+SEARCH(Name, CinemaId)
+RAW
+```
