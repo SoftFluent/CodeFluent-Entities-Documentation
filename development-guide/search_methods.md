@@ -143,3 +143,6 @@ You can also embed hand-made SQL code in your CFQL search query.
 SEARCH(Name)
 WHERE Name in ([SELECT name FROM sys.sql_logins])
 ```
+
+And edit the **Check Level** property of the method:
+
