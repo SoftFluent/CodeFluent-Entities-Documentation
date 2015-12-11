@@ -73,3 +73,5 @@ Combined with the support of environment variables, this feature can be used to 
   <Sample connectionString="{%COMPUTERNAME%}" />
 </configuration>
 ```
+
+In the example above, the application can be ran on two computers: DevMachine1 and DevMachine2. Using this technique, without modifying the configuration, the connection string named DevMachine2 will automatically be used when the application is executed on DevMachine2 and vice versa.
