@@ -95,26 +95,26 @@ public static OrderProcess.Marketing.ProductCollection PageLoadByAvailable(int p
 }
 
 public static System.Data.IDataReader PageDataLoadByAvailable(CodeFluent.Runtime.PageOptions pageOptions, bool availability)
+{
+    CodeFluent.Runtime.CodeFluentPersistence persistence = CodeFluentContext.Get(OrderProcess.Constants.OrderProcessStoreName).Persistence;
+    persistence.CreateStoredProcedureCommand(null, "Product", "LoadByAvailable");
+    persistence.AddRawParameter("@availability", availability);
+    if ((pageOptions != null))
+    {
+        System.Collections.IEnumerator enumerator = pageOptions.OrderByArguments.GetEnumerator();
+        bool b;
+        int index = 0;
+        for (b = enumerator.MoveNext(); b; b = enumerator.MoveNext())
         {
-            CodeFluent.Runtime.CodeFluentPersistence persistence = CodeFluentContext.Get(OrderProcess.Constants.OrderProcessStoreName).Persistence;
-            persistence.CreateStoredProcedureCommand(null, "Product", "LoadByAvailable");
-            persistence.AddRawParameter("@availability", availability);
-            if ((pageOptions != null))
-            {
-                System.Collections.IEnumerator enumerator = pageOptions.OrderByArguments.GetEnumerator();
-                bool b;
-                int index = 0;
-                for (b = enumerator.MoveNext(); b; b = enumerator.MoveNext())
-                {
-                    CodeFluent.Runtime.OrderByArgument argument = ((CodeFluent.Runtime.OrderByArgument)(enumerator.Current));
-                    persistence.AddParameter(string.Format("@_orderBy{0}", index), argument.Name);
-                    persistence.AddParameter(string.Format("@_orderByDirection{0}", index), ((int)(argument.Direction)));
-                    index = (index + 1);
-                }
-            }
-            System.Data.IDataReader reader = CodeFluentContext.Get(OrderProcess.Constants.OrderProcessStoreName).Persistence.ExecuteReader();
-            return reader;
+            CodeFluent.Runtime.OrderByArgument argument = ((CodeFluent.Runtime.OrderByArgument)(enumerator.Current));
+            persistence.AddParameter(string.Format("@_orderBy{0}", index), argument.Name);
+            persistence.AddParameter(string.Format("@_orderByDirection{0}", index), ((int)(argument.Direction)));
+            index = (index + 1);
         }
+    }
+    System.Data.IDataReader reader = CodeFluentContext.Get(OrderProcess.Constants.OrderProcessStoreName).Persistence.ExecuteReader();
+    return reader;
+}
 ```
 
 ## LoadOne
