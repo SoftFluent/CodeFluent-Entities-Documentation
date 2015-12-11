@@ -4,6 +4,10 @@
 
 http://www.softfluent.com/documentation/BOM_SP_DYN_Server.html
 
+Server side sorting should be preferred in almost all cases to client side sorting, since server side sorting is handled in the data layer making it very performant. Moreover, the fact that all the sorting logic is done in the data layer, all upper layers benefit from it. This way, modifying the sorting logic will automatically update all upper layers.
+
+
+
 ## Sorted Search
 
 If entity contains sortable properties, those will be taken into account by the search method.
