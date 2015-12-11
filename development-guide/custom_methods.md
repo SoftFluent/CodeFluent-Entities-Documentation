@@ -1,7 +1,7 @@
 # Custom methods
 
-Custom methods are platform independent query that will be translated:
-* by the [Microsoft SQL Server code generator](../code-generators/microsoft_sql_server_code_generator.md) into a T-SQL query,
+Custom methods are platform independent queries that will be translated:
+* by the [Microsoft SQL Server code generator](../code-generators/microsoft_sql_server_code_generator.md) into T-SQL queries,
 * by the [Business Object Model generator](code-generators/c_business_object_model_generator.md) into C# methods
 
 ## Load
