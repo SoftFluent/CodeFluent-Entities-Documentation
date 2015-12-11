@@ -233,3 +233,14 @@ This ```CountByCountry``` on an **Employee** entity:
 COUNT(string countryName)
 WHERE Address.Country LIKE @countryName
 ```
+
+If we take a look at the generated stored procedures for the Employee entity, we can notice that there is a new stored procedure Employee_CountByCountry. 
+
+```sql
+CREATE PROCEDURE [dbo].[Employee_CountByCountry] (@countryName [nvarchar] (256))
+AS
+SELECT COUNT(*) FROM [Employee]
+    LEFT OUTER JOIN [Address] ON ([Employee].[Employee_Address_Id] = [Address].[Address_Id])
+    WHERE ([Address].[Address_Country] LIKE @countryName)
+```
+
