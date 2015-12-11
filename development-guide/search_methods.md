@@ -173,3 +173,31 @@ RAW
 ```
 
 ![](img/cfql-06.png)
+
+Which generate:
+
+```sql
+CREATE PROCEDURE [dbo].[Cinema_PartialRawSearch]
+(
+@Name [nvarchar] (256) = NULL,
+@CinemaId [nvarchar] (256) = NULL,
+@_orderBy0 [nvarchar] (64) = NULL,
+@_orderByDirection0 [bit] = 0
+)
+AS
+SET NOCOUNT ON
+DECLARE @sql nvarchar(max), @paramlist nvarchar(max)
+SELECT @sql=
+'-- TODO: implement logic'
+SELECT @paramlist = '@Name nvarchar (256),
+    @CinemaId nvarchar (256),
+    @_orderBy0 nvarchar (64),
+    @_orderByDirection0 bit'
+EXEC sp_executesql @sql, @paramlist,
+    @Name,
+    @CinemaId,
+    @_orderBy0,
+    @_orderByDirection0
+RETURN
+GO
+```
