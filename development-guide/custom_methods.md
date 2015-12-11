@@ -239,7 +239,7 @@ RETURN
 GO
 ```
 
-*Note: The **(1 = 1)** statement is for development conveniences: it avoids us to create a special case for the first AND condition. Instead for each condition we add a WHERE (1 = 1), so we are sure the generated WHERE clause is present. Moreover, the SQL Server's query optimizer will remove such statements when compiling stored procedures. In the end, those (1 = 1) have no consequences.*
+*Note: The ```(1 = 1)``` statement is for development conveniences: it avoids us to create a special case for the first ```AND``` condition. Instead for each condition we add a ```WHERE (1 = 1)```, so we are sure the generated ```WHERE``` clause is present. Moreover, the SQL Server's query optimizer will remove such statements when compiling stored procedures. In the end, those ```(1 = 1)``` have no consequences.*
 
 ## Wildcards
 
