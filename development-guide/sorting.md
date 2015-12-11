@@ -80,3 +80,7 @@ EXEC sp_executesql @sql, @paramlist,
 RETURN
 GO
 ```
+
+If you need to be able to sort by more than one column at a time, you can control the number of 'order by columns' using the **Persistence Order By Parameters Count** property.
+
+![](img/cfql-08.png)
