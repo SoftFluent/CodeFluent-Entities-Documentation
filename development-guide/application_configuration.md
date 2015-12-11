@@ -17,3 +17,8 @@ As you can see in the sample above:
 2. Add a section corresponding to the declared name (your default namespace),
 3. Set the connection string which the application will be using at runtime when interacting with the database layer.
 
+By default CodeFluent Entities uses this connection string:
+
+```Application Name=[DefaultNamespace];server=127.0.0.1;database=[DefaultNamespace];Integrated Security=true```
+
+*Note: Each CodeFluent Entities model contains a project element, thus the project element has an attribute named defaultNamespace which must be set. By default, this is the value used as an application name and database name in the default connection string.*
