@@ -1,12 +1,12 @@
 # Custom methods
 
+Custom methods are platform independent query that will be translated:
+* by the [Microsoft SQL Server code generator](../code-generators/microsoft_sql_server_code_generator.md) into a T-SQL query,
+* by the [Business Object Model generator](code-generators/c_business_object_model_generator.md) into C# methods
+
 ## Load
 
-Load methods allow you to define a platform independent query, loading sets of data.
-
-This query will be translated by the [Microsoft SQL Server code generator](../code-generators/microsoft_sql_server_code_generator.md) into a T-SQL query.
-
-Since the generated method manipulates sets of entities, in the generated [Business Object Model](code-generators/c_business_object_model_generator.md), the method is generated in the collection class.
+Load methods allow you to define a , loading sets of data.
 
 This method ```LoadByAvailable``` on the **Product** entity:
 ```sql
@@ -43,7 +43,7 @@ RETURN
 GO
 ```
 
-And will generate this C# source code:
+Since the generated method manipulates sets of entities the method is generated in the collection class:
 
 ```csharp
 [System.ComponentModel.DataObjectMethodAttribute(System.ComponentModel.DataObjectMethodType.Select, true)]
@@ -163,6 +163,8 @@ private void LoadByAvailable(int pageIndex, int pageSize, CodeFluent.Runtime.Pag
 ```
 
 ## LoadOne
+
+Loadone methods allow you to define a platform independent query, loading a single line of data.
 
 ## Search
 
