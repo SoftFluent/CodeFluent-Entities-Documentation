@@ -244,3 +244,4 @@ SELECT COUNT(*) FROM [Employee]
     WHERE ([Address].[Address_Country] LIKE @countryName)
 ```
 
+Looking at the generated code for the **EmployeeCollection** class, we can see that there is a new **CountByCountry** method which returns an **integer**.
