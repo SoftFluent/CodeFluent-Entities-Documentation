@@ -251,3 +251,10 @@ public static int CountByCountry(string countryName);
 ```
 
 ## Snippets
+
+Snippets are chunks of code that are declared in a CodeFluent model and injected in generated classes.
+
+Two types of snippets are available in CodeFluent:
+
+* Snippets: entity level snippets,
+* SetSnippets: entity collection (a.k.a. set) level snippets.
