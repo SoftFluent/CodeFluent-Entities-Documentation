@@ -15,3 +15,9 @@ public static Sample.CustomerCollection PageLoadAll(int pageIndex, int pageSize,
 * **pageOptions** is an object principally used for dynamic sorting
 
 The **LoadAll** method actually uses that method with a **pageIndex** at **int.MinValue**, a **pageSize** set at **int.MaxValue**, and **null** as **pageOptions**.
+
+To retrieve the second page of 20 customers, you just need to use this method:
+
+```csharp
+CustomerCollection customers = CustomerCollection.PageLoadAll(2, 20, null);
+```
