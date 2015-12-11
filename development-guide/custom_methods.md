@@ -192,7 +192,7 @@ public static Employee LoadByName(string name)
 
 ## Search
 
-
+See the [Search methods section](search_methods.md).
 
 ## Delete
 
