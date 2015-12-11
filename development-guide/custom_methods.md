@@ -166,6 +166,13 @@ private void LoadByAvailable(int pageIndex, int pageSize, CodeFluent.Runtime.Pag
 
 LoadOne methods allow you to define a platform independent query, loading a single line of data.
 
+This ```LoadByName``` on an **Employee** entity:
+
+```sql
+LOADONE(string Name)
+WHERE Name=@Name
+```
+
 ## Search
 
 ## Delete
