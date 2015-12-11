@@ -221,4 +221,15 @@ public static void DeleteByName(string name)
 
 ## Count
 
-## 
+Count methods allow you to define a platform independent query, counting lines of data.
+
+Since the generated method works on sets of entities, in the generated Business Object Model (BOM), the method is generated in the collection class.
+
+**Count** methods are very similar to **Load** methods except that, instead of returning entities, they return an integer, as the result of the count operation.
+
+This ```CountByCountry``` on an **Employee** entity:
+
+```sql
+COUNT(string countryName)
+WHERE Address.Country LIKE @countryName
+```
