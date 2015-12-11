@@ -43,7 +43,7 @@ RETURN
 GO
 ```
 
-Since the generated method manipulates sets of entities the method is generated in the collection class:
+Since the generated method manipulates sets of entities the method is generated in the **ProductCollection** class:
 
 ```csharp
 [System.ComponentModel.DataObjectMethodAttribute(System.ComponentModel.DataObjectMethodType.Select, true)]
