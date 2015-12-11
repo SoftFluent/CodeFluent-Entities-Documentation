@@ -20,7 +20,26 @@ Using this model:
 
 Will generate the following **LoadAll** stored procedure: 
 
+```sql
+CREATE PROCEDURE [dbo].[Order_LoadAll]
+(
+ @_orderBy0 [nvarchar] (64) = NULL,
+ @_orderByDirection0 [bit] = 0
+)
+AS
+SET NOCOUNT ON
+SELECT [Order].[Order_Reference], [Order].[Order_TotalPrice], [Order].[Order_Status], [Order].[Order_Customer_Id], [Order].[_trackLastWriteTime], [Order].[_trackCreationTime], [Order].[_trackLastWriteUser], [Order].[_trackCreationUser], [Order].[_rowVersion] 
+    FROM [Order]
+    ORDER BY CASE
+        WHEN @_orderBy0 = '[Order].[Status]' AND @_orderByDirection0 = 0 THEN [Order].[Order_Status]
+    END ASC,
+    CASE
+        WHEN @_orderBy0 = '[Order].[Status]' AND @_orderByDirection0 = 1 THEN [Order].[Order_Status]
+    END DESC
 
+RETURN
+GO
+```
 
 ## Sorted Search
 
