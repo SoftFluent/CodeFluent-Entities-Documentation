@@ -84,10 +84,12 @@ SEARCH(Name, CinemaId)
 Which generates:
 
 ```sql
-(...)
+[...]
+
 IF @Name IS NOT NULL
     SELECT @sql = @sql + ' AND [Cinema].[Cinema_Name] LIKE (@Name + ''%'')'
 IF @CinemaId IS NOT NULL
     SELECT @sql = @sql + ' AND [Cinema].[Cinema_CinemaId] LIKE (@CinemaId + ''%'')'
-(...)
+
+[...]
 ```
