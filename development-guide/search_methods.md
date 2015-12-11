@@ -76,7 +76,7 @@ Furthermore, since the content you’re searching for might not exactly match th
 
 ![](img/cfql-04.png)
 
-```LikeSearch```
+```LikeSearch``` :
 ```sql
 SEARCH(Name, CinemaId)
 ```
