@@ -196,6 +196,15 @@ Search methods are CodeFluent Query Language (**CFQL**) methods which allow you 
 
 ![](img/cfql-03.png)
 
+For instance, searching for cinemas by name and a cinema identifier.
+
+```SimpleSearch```
+
+```sql
+SEARCH(Name, CinemaId)
+```
+
+
 The Microsoft SQL Server code generator will produce the following stored procedure:
 
 ```sql
