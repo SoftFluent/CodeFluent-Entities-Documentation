@@ -201,3 +201,23 @@ EXEC sp_executesql @sql, @paramlist,
 RETURN
 GO
 ```
+
+Or ```RawSearch``` :
+```sql
+RAW(Name?, CinemaId?)
+```
+
+Which generate:
+
+```sql
+CREATE PROCEDURE [dbo].[Cinema_RawSearch]
+(
+@Name [nvarchar] (256) = NULL,
+@CinemaId [nvarchar] (256) = NULL
+)
+AS
+SET NOCOUNT ON
+-- TODO: implement logic
+RETURN
+GO
+```
