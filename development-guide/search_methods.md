@@ -110,3 +110,5 @@ Which generates:
 IF @args IS NOT NULL
     SELECT @sql = @sql + ' AND [Cinema].[Cinema_Name] IN ((SELECT [Item] FROM [dbo].cf_SplitString(@args, nchar(1))))'
 ```
+
+*Note: using the CONTAINS function requires Full-Text Search to be enabled on the used columns.*
