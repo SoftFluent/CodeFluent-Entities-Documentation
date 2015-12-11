@@ -161,7 +161,7 @@ SELECT @sql=
 [...]
 ```
 
-Finally, you can also entirely code your own custom methods:
+Finally, you can also entirely code your own custom methods using the ```RAW```  instruction.
 
 ```PartialRawSearch``` :
 ```sql
