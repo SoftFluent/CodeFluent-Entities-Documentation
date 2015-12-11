@@ -276,7 +276,15 @@ And write your business logic:
 
 ![](img/cfql-10.png)
 
+This will add some code directly into the generated **Customer** class:
 
+```csharp
+// Snippet method 'GetName'
+public string GetName()
+{
+    return _firstName + " " + _lastName;
+}
+```
 
 *Note: Another solution to extend the generated code is to use partial classes which is generally a good practice when involved snippets are actually big chunks of code.*
 
