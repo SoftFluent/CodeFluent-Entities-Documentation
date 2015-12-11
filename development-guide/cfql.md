@@ -1,4 +1,4 @@
-# CFQL
+# CFQL Operators
 
 CFQL ("CodeFluent Query Language") supports operators such as:
 
