@@ -1,6 +1,6 @@
 # Summary
 
-1. [Introduction](README.md)
+* [Introduction](README.md)
 * [Setup and installation](setup_and_installation.md)
    * [Setup](setup-and-installation/setup.md)
    * [Registration](setup-and-installation/registration.md)
