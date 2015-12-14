@@ -1,8 +1,8 @@
 # Summary
 
-* [Introduction](README.md)
+1. [Introduction](README.md)
 * [Setup and installation](setup_and_installation.md)
-   * [Setup](setup-and-installation/setup.md)
+   1. [Setup](setup-and-installation/setup.md)
    * [Registration](setup-and-installation/registration.md)
 * [Getting started](getting_started.md)
    * [Model your business](getting-started/model_your_business.md)
