@@ -16,7 +16,7 @@ Technically when enabling dynamic sorting, it will change the generated stored p
 
 Using this model:
 
-![](img/configuration-01.png)
+![](img/sorting-01.png)
 
 Will generate the following **LoadAll** stored procedure: 
 
