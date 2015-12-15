@@ -31,6 +31,8 @@ Customer customer = Customer.Load(42);
 CustomerCollection customers = Customer.LoadAll();
 ```
 
+### Load all customers
+
 ### Save a customer
 
 ```csharp
