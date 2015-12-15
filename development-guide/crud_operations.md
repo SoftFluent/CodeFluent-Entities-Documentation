@@ -48,6 +48,6 @@ Customer customer = Customer.Load(42);
 customer.Delete();
 ```
 
-## Relation
+## Relations
 
 The BOM is a direct implementation of the model, consequently it applies the structural rules defined by the model. From the model we understand that:
