@@ -33,4 +33,14 @@ CustomerCollection customers = Customer.LoadAll();
 
 ### Save a customer
 
+```csharp
+Customer customer = new Customer();
+customer.Name = "John Smith";
+customer.Address = "744, Washington Street";
+customer.Save();
+```
+
 ### Delete a customer
+
+```csharp
+```
