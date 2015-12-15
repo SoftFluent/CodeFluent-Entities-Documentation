@@ -7,3 +7,5 @@ By default, two classes are generated per entity: the first class corresponds to
 For instance, given the following model:
 
 ![](img/crud-01.png)
+
+The **Customer** class will contain four properties: Id of type guid, Name of type string, Address of type string, Orders of type OrderCollection.
