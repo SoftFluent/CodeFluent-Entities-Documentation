@@ -61,6 +61,9 @@ Customer customer = Customer.Load(42);
 customer.Delete();
 ```
 
+Which will call this stored procedure:
+
+
 ## Relations
 
 The BOM is a direct implementation of the model, consequently it applies the structural rules defined by the model. From the model we understand that:
