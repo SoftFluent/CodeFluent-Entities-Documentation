@@ -38,6 +38,9 @@ Which will call this stored procedure:
 CustomerCollection customers = Customer.LoadAll();
 ```
 
+Which will call this stored procedure:
+
+
 ### Save a customer
 
 ```csharp
