@@ -52,6 +52,7 @@ customer.Delete();
 
 The BOM is a direct implementation of the model, consequently it applies the structural rules defined by the model. From the model we understand that:
 
-a customer can have several orders,
-an order can have only one customer,
-an order can contain several products.
+* a customer can have several orders,
+* an order can have only one customer,
+* an order can contain several products.
+
