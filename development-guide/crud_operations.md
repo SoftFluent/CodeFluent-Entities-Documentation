@@ -31,3 +31,4 @@ Customer customer = Customer.Load(42);
 CustomerCollection customers = Customer.LoadAll();
 ```
 
+### Save a customer
