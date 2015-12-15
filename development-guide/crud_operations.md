@@ -71,3 +71,17 @@ foreach (Order order in customer.Orders)
 ```
 
 As you can see relation properties are ```lazy loaded``` meaning that when getting the ```customer.Orders``` properties, if it's null, it's value will automatically be loaded from the database. Next times, as the property is non null, no extra round trip to the database will be done.
+
+Creating relations is handled automatically:
+
+```csharp
+Customer customer = Customer.Load(42);
+Product product = product.Load(1);
+ 
+Order order = new Order();
+order.Code = "ORD1";
+order.Date = DateTime.Now;
+order.Customer = customer;
+order.Products.Add(product);
+order.Save();
+```
