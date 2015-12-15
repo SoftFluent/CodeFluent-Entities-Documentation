@@ -8,4 +8,4 @@ For instance, given the following model:
 
 ![](img/crud-01.png)
 
-The **Customer** class will contain four properties: **Id** of type guid, **Email** of type string,  **FirstName** of type string, **LastName** of type string, Orders of type **OrderCollection**.
+The **Customer** class will contain four properties: **Id** of type **guid**, **Email** of type **string**,  **FirstName** of type **string**, **LastName** of type **string**, **Orders** of type **OrderCollection**.
