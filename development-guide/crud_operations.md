@@ -35,7 +35,8 @@ CustomerCollection customers = Customer.LoadAll();
 
 ```csharp
 Customer customer = new Customer();
-customer.Name = "John Smith";
+customer.FirstName = "John";
+customer.LastName = "Smith";
 customer.Address = "744, Washington Street";
 customer.Save();
 ```
