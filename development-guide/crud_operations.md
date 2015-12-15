@@ -37,7 +37,7 @@ CustomerCollection customers = Customer.LoadAll();
 Customer customer = new Customer();
 customer.FirstName = "John";
 customer.LastName = "Smith";
-customer.Email = "744, Washington Street";
+customer.Email = "john.smith@gmail.com";
 customer.Save();
 ```
 
