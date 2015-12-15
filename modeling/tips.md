@@ -1,6 +1,6 @@
 # Tips
 
-##Member Format Expressions
+## Member Format Expressions
 
 Using CodeFluent Entities, you can use “Member Format Expressions” to customize the way names of entities and properties are formatted.
 
