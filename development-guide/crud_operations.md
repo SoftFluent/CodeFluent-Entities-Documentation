@@ -85,3 +85,5 @@ order.Customer = customer;
 order.Products.Add(product);
 order.Save();
 ```
+
+The here-above code snippet creates an order the customer of id 42, which contains the product of id 1. Later in the code, if ever we iterate through the customer 42's orders, will see that it will contain the created order.
