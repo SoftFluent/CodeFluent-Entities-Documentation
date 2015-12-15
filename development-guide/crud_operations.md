@@ -41,6 +41,22 @@ CustomerCollection customers = Customer.LoadAll();
 Which will call this stored procedure:
 
 
+```sql
+CREATE PROCEDURE [dbo].[Customer_LoadAll]
+(
+ @_orderBy0 [nvarchar] (64) = NULL,
+ @_orderByDirection0 [bit] = 0
+)
+AS
+SET NOCOUNT ON
+SELECT DISTINCT [Customer].[Customer_Id], [Customer].[Customer_FirstName], [Customer].[Customer_Email], [Customer].[Customer_LastName], [Customer].[_trackLastWriteTime], [Customer].[_trackCreationTime], [Customer].[_trackLastWriteUser], [Customer].[_trackCreationUser], [Customer].[_rowVersion] 
+    FROM [Customer]
+
+RETURN
+GO
+```
+
+
 ### Save a customer
 
 ```csharp
