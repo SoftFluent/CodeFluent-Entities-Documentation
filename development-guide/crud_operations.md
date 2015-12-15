@@ -56,3 +56,16 @@ The BOM is a direct implementation of the model, consequently it applies the str
 * an order can have only one customer,
 * an order can contain several products.
 
+The generated BOM conforms to those structural rules, see how to navigate in the BOM:
+
+```csharp
+Customer customer = customer.Load(42);
+foreach (Order order in customer.Orders)
+{
+        Console.WriteLine("Order #" + order.Id + " contains:");
+        foreach (Product product in order.Products)
+        {
+            Console.WriteLine(" + Product #" + product.Id + ": " + product.Label);
+        }
+}
+```
