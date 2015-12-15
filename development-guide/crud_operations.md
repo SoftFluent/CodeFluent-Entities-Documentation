@@ -28,6 +28,10 @@ Without any custom code, you then can:
 Customer customer = Customer.Load(42);
 ```
 
+Which will call this stored procedure:
+
+
+
 ### Load all customers
 
 ```csharp
