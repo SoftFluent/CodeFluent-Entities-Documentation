@@ -79,7 +79,7 @@ Customer customer = Customer.Load(42);
 Product product = product.Load(1);
  
 Order order = new Order();
-order.Code = Guid.NewGuid().ToString();
+order.Reference = Guid.NewGuid().ToString();
 order.Date = DateTime.Now;
 order.Customer = customer;
 order.Products.Add(product);
