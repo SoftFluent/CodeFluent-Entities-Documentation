@@ -26,12 +26,13 @@ Without any custom code, you then can:
 ```csharp
 // Loads the customer with the id 42
 Customer customer = Customer.Load(42);
- 
-// Loads all customers from database
-CustomerCollection customers = Customer.LoadAll();
 ```
 
 ### Load all customers
+
+```csharp
+CustomerCollection customers = Customer.LoadAll();
+```
 
 ### Save a customer
 
