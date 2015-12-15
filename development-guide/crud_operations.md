@@ -46,7 +46,6 @@ RETURN
 GO
 ```
 
-
 ### Load all customers
 
 ```csharp
