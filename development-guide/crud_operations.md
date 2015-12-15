@@ -32,3 +32,5 @@ CustomerCollection customers = Customer.LoadAll();
 ```
 
 ### Save a customer
+
+### Delete a customer
