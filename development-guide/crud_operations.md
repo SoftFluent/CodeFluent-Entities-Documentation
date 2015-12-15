@@ -80,7 +80,7 @@ Product product = product.Load(1);
  
 Order order = new Order();
 order.Reference = Guid.NewGuid().ToString();
-order.Status = DateTime.Now;
+order.Status = OrderStatus.InProgress;
 order.Customer = customer;
 order.Products.Add(product);
 order.Save();
