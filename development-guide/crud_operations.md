@@ -44,4 +44,6 @@ customer.Save();
 ### Delete a customer
 
 ```csharp
+Customer customer = Customer.Load(42);
+customer.Delete();
 ```
