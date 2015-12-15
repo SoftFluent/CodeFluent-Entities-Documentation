@@ -51,6 +51,9 @@ customer.Email = "john.smith@gmail.com";
 customer.Save();
 ```
 
+Which will call this stored procedure:
+
+
 ### Delete a customer
 
 ```csharp
