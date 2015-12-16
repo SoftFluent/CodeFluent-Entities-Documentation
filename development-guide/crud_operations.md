@@ -18,7 +18,7 @@ The **Customer** class will contain four properties:
 * **LastName** of type **string**
 * **Orders** of type **OrderCollection**
 
-Without any custom code, you then can:
+Without any custom code, you then can use basic CRUD operations.
 
 
 ### Load a customer
