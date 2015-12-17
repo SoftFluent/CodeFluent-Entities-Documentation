@@ -61,7 +61,7 @@ CodeFluent Entities generate **for every Load methods**:
 * A paginated one (example: **PageLoadAll**)
 * An optimized one, returning a **IDataReader** instead of objects (example: **DataLoadAll**)
 * An optimized and paginated one (example: **PageDataLoadAll**)
-* 
+
 See below the **LoadAll** method for the Product entity collection class:
 
 ```csharp
