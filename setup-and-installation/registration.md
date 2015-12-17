@@ -44,3 +44,10 @@ As well as the following indicators:
 * Web Session
 * Remote Session
 * Virtual Machine
+
+Since the goal of the activation process is to counter piracy, too many activations of the same user key for a too wide range of changes of these parameters may cause a deadlock. For obvious security reasons of our activation process, the rules we apply are not intended to be public (as opposed to collected information that are mentioned above).
+
+Pursuant to the License Agreement, licenses are assigned to physically appointed users, which a standard license use will not result in blocking. If an abnormal blocking should happen, we'll obviously unlock your license.
+
+It is important to note that this process also protects your liability in case of license key theft or illegal use.
+If a key is over-used since hacked, we can disable it and assign a new one.
