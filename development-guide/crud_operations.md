@@ -10,4 +10,6 @@ This section contains information on how to perform CRUD operation using the Cod
 
 ## [Delete](development-guide/basis.md)
 
+## [Relations](development-guide/basis.md)
+
 Information on how to your application to use the Data Access Layer.
