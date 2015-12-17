@@ -12,11 +12,11 @@ Information on how to perform CRUD operations.
 
 ## [Sorting](development-guide/sorting.md)
 
-Information on how to perform sorting operations from the business model configuration to the Data Access Layer implementation.
+Information on how to perform sort operations from the business model configuration to the Data Access Layer implementation.
 
 ## [Paging](development-guide/paging.md)
 
-Information on how to paging using the Data Access Layer implementation.
+Information on how to perform pagination using the Data Access Layer implementation.
 
 ## [Custom methods](development-guide/custom_methods.md)
 
