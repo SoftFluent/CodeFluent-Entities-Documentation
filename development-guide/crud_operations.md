@@ -8,7 +8,7 @@ This section contains information on how to perform CRUD operation using the Cod
 
 ## [Save](development-guide/basis.md)
 
-## [Delete](development-guide/basis.md)
+## [Delete](development-guide/delete.md)
 
 ## [Relations](development-guide/relations.md)
 
