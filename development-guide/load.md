@@ -1,6 +1,8 @@
 # Load
 
-### Load a customer
+## Load
+
+Use this instruction to load a customer by its id:
 
 ```csharp
 // Loads the customer with the id 42
@@ -25,7 +27,7 @@ RETURN
 GO
 ```
 
-### Load all customers
+### Load all
 
 ```csharp
 CustomerCollection customers = Customer.LoadAll();
