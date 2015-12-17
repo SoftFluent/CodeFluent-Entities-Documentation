@@ -1,6 +1,6 @@
 # Delete
 
-### Delete a customer
+Use these instructions to delete a customer:
 
 ```csharp
 Customer customer = Customer.Load(42);
