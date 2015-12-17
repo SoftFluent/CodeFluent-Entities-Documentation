@@ -2,7 +2,7 @@
 
 ## The modeler
 
-The modeler is a design tool integrated to Visual Studio that allow you to modelize your business.
+The modeler is a design tool integrated to Visual Studio that allow you to model your business.
 
 ![](img/modeling-02.png)
 
