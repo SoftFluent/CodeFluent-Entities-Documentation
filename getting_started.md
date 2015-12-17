@@ -20,4 +20,4 @@ Information on how to update your business model.
 
 ## [Extend your Data Access Layer](getting-started/extend_your_data_access_layer.md)
 
-Information on how to install CodeFluent Entities.
+Information on how to install extend the CodeFluent Entities generated Data Access Layer.
