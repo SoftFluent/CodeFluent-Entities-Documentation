@@ -53,7 +53,7 @@ RETURN
 GO
 ```
 
-## Performances 
+## Performances
 
 CodeFluent Entities generate **for every Load methods**:
 
