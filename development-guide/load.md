@@ -141,3 +141,8 @@ public static System.Data.IDataReader PageDataLoadAll(CodeFluent.Runtime.PageOpt
     return reader;
 }
 ```
+
+All these methods use the same **Product_LoadAll** stored procedure:
+```sql
+
+```
