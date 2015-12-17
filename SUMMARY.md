@@ -21,7 +21,7 @@
 * [Development Guide](development_guide.md)
    * [Application configuration](development-guide/application_configuration.md)
    * [CRUD operations](development-guide/crud_operations.md)
-       * Basis
+       * [Basis](development-guide/basis.md)
        * Load
        * Save
        * Delete
