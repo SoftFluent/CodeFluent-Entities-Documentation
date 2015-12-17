@@ -30,6 +30,7 @@ GO
 ### Load all
 
 Use this instruction to load all customers:
+
 ```csharp
 CustomerCollection customers = Customer.LoadAll();
 ```
