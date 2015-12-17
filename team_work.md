@@ -18,13 +18,15 @@ Information on how to use environment variables in paths.
 
 ## [Database configuration](team-work/database_configuration.md)
 
-Information on how to configure connection strings for team work.
+Information on how to configure database access into a team development environment.
 
 ## [Build configuration](team-work/build_configuration.md)
 
 Information on how to configure Build Manager into Visual Studio.
 
 ## [Connection String](team-work/connection_string.md)
+
+Information on how to connection strings for team work.
 
 ## [Source control and generated files](team-work/source_control_and_generated_files.md)
 
