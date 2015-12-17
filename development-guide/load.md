@@ -24,7 +24,7 @@ SELECT DISTINCT [Customer].[Customer_Id], [Customer].[Customer_FirstName], [Cust
     WHERE ([Customer].[Customer_Id] = @Id)
 
 RETURN
-GO 
+GO
 ```
 
 ### Load all
