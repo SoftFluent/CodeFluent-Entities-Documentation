@@ -22,7 +22,7 @@
    * [Application configuration](development-guide/application_configuration.md)
    * [CRUD operations](development-guide/crud_operations.md)
        * [Basis](development-guide/basis.md)
-       * Load
+       * [Load](development-guide/load.md)
        * Save
        * Delete
        * Relations
