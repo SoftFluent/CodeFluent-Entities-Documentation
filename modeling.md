@@ -12,3 +12,4 @@ Information on how to import your existing business model into CodeFluent Entiti
 
 ## [Tips](modeling/tips.md)
 
+Information on how to customize your model rendering.
