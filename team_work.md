@@ -22,6 +22,8 @@ Information on how to configure connection strings for team work.
 
 ## [Build configuration](team-work/build_configuration.md)
 
+Information on how to configure Build Manager into Visual Studio.
+
 ## [Connection String](team-work/connection_string.md)
 
 ## [Source control and generated files](team-work/source_control_and_generated_files.md)
