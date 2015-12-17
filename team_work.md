@@ -38,6 +38,8 @@ Information on how to configure your TFS Workspaces.
 
 ## [Merge conflicts](team-work/merge_conflicts.md)
 
+Information on how to reduce merge conflicts about generated files.
+
 ## [Continuous build](team-work/continuous_build.md)
 
 ## [Recommended configuration](team-work/recommended_configuration.md)
