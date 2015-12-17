@@ -45,3 +45,5 @@ Information on how to reduce merge conflicts about generated files.
 Information on how to implement continues build with a CodeFluent Entities model.
 
 ## [Recommended configuration](team-work/recommended_configuration.md)
+
+Information on how to use the recommended configuration.
