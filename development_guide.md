@@ -19,3 +19,5 @@ Information on how to perform sorting operations from the business model configu
 Information on how to paging using the Data Access Layer implementation.
 
 ## [Custom methods](development-guide/custom_methods.md)
+
+Information on how to implement custom methods from the business model configuration to the Data Access Layer implementation.
