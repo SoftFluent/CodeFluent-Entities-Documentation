@@ -25,7 +25,7 @@
        * [Load](development-guide/load.md)
        * [Save](development-guide/save.md)
        * [Delete](development-guide/delete.md)
-       * Relations
+       * [Relations](development-guide/relations.md)
    * [Sorting](development-guide/sorting.md)
    * [Paging](development-guide/paging.md)
    * [Custom methods](development-guide/custom_methods.md)
