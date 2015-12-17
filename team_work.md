@@ -30,6 +30,8 @@ Information on how to connection strings for team work.
 
 ## [Source control and generated files](team-work/source_control_and_generated_files.md)
 
+Information on how and why decide to store generated files into your source control.
+
 ## [TFS Workspaces](team-work/tfs_workspaces.md)
 
 ## [Merge conflicts](team-work/merge_conflicts.md)
