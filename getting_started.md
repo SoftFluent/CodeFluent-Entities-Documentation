@@ -1,5 +1,6 @@
 # Getting started
 
+This section contains information on how to start using CodeFluent Entities.
 
 ## [Model your business](getting-started/model_your_business.md)
 
