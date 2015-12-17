@@ -57,7 +57,7 @@ GO
 
 CodeFluent Entities generate **for every Load methods**:
 
-* An  object oriented load (example: **LoadAll**),
+* An object oriented load (example: **LoadAll**),
 * A paginated one (example: **PageLoadAll**)
 * An optimized one returning a **IDataReader** instead of objects (example: **DataLoadAll**)
 * An optimized and paginated one (example: **PageDataLoadAll**)
