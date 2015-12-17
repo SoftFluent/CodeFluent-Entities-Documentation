@@ -12,7 +12,7 @@ Information on how to configure CodeFLuent Entities to generate your plumbing.
 
 ## [Use your Data Access Layer](getting-started/use_your_data_access_layer.md)
 
-Information on how to install CodeFluent Entities.
+Information on how to use the CodeFluent Entities generated Data Access Layer.
 
 ## [Update your model](getting-started/update_your_model.md)
 
