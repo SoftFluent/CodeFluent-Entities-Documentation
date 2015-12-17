@@ -8,7 +8,7 @@ Information on how to model your business needs with the CodeFluent Entities mod
 
 ## [Generate your data layers](getting-started/generate_your_data_layers.md)
 
-Information on how to configure CodeFLuent Entities to generate your data layers.
+Information on how to configure CodeFLuent Entities to generate your plumbing.
 
 ## [Use your Data Access Layer](getting-started/use_your_data_access_layer.md)
 
