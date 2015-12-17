@@ -3,11 +3,16 @@
 This section contains information on how to start using CodeFluent Entities.
 
 ## [Model your business](getting-started/model_your_business.md)
+Information on how to model your business needs.
 
 ## [Generate your data layers](getting-started/generate_your_data_layers.md)
+Information on how to install CodeFluent Entities.
 
 ## [Use your Data Access Layer](getting-started/use_your_data_access_layer.md)
+Information on how to install CodeFluent Entities.
 
 ## [Update your model](getting-started/update_your_model.md)
+Information on how to install CodeFluent Entities.
 
 ## [Extend your Data Access Layer](getting-started/extend_your_data_access_layer.md)
+Information on how to install CodeFluent Entities.
