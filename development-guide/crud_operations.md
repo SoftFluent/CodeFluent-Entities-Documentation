@@ -2,7 +2,7 @@
 
 This section contains information on how to perform CRUD operation using the CodeFluent Entities generated BOM.
 
-## [basis](development-guide/basis.md)
+## [Basis](development-guide/basis.md)
 
 ## [Load](development-guide/basis.md)
 
