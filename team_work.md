@@ -34,6 +34,8 @@ Information on how and why decide to store generated files into your source cont
 
 ## [TFS Workspaces](team-work/tfs_workspaces.md)
 
+Information on how to configure your TFS Workspaces.
+
 ## [Merge conflicts](team-work/merge_conflicts.md)
 
 ## [Continuous build](team-work/continuous_build.md)
