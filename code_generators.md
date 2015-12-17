@@ -10,6 +10,6 @@ Information on how are implemented Producers.
 
 Information on how to use the persistence layer code generator.
 
-## [C# Business Object Model generator](code-generators/c_business_object_model_generator.md)
+## [C# Business Object Model Producer](code-generators/c_business_object_model_generator.md)
 
 Information on how to use the C# data access layer code generator.
