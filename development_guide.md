@@ -4,6 +4,8 @@ This section contains information on how to configure the CodeFluent Entities mo
 
 ## [Application configuration](development-guide/application_configuration.md)
 
+Information on how to your application to use the Data Access Layer.
+
 ## [CRUD operations](development-guide/crud_operations.md)
 
 ## [Sorting](development-guide/sorting.md)
