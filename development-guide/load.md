@@ -53,7 +53,7 @@ RETURN
 GO
 ```
 
-## Pagination
+## Performance
 
 CodeFluent Entities generate **for every Load methods**:
 
