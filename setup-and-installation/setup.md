@@ -26,6 +26,6 @@ Run the installer and follow the steps.
 
 ## Uninstall
 
-To uninstall CodeFluent Entities, just use the Program and Features control panel option.
+Uninstalling the CodeFluent Entities Modeler can be done in the **Control Panel** from the **Add or Remove Programs on XP** or the **Programs and Features panel** on Vista and 7.
 
 ![](img/uninstall-01.jpg)
