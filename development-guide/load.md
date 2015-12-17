@@ -144,5 +144,16 @@ public static System.Data.IDataReader PageDataLoadAll(CodeFluent.Runtime.PageOpt
 
 All these methods use the same **Product_LoadAll** stored procedure:
 ```sql
+CREATE PROCEDURE [dbo].[Product_LoadAll]
+(
+ @_orderBy0 [nvarchar] (64) = NULL,
+ @_orderByDirection0 [bit] = 0
+)
+AS
+SET NOCOUNT ON
+SELECT DISTINCT [Product].[Product_Id], [Product].[Product_Price], [Product].[Product_Name], [Product].[Product_IsAvailable], [Product].[_trackLastWriteTime], [Product].[_trackCreationTime], [Product].[_trackLastWriteUser], [Product].[_trackCreationUser], [Product].[_rowVersion] 
+    FROM [Product]
 
+RETURN
+GO
 ```
