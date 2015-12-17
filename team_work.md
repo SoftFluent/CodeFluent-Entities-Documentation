@@ -42,4 +42,6 @@ Information on how to reduce merge conflicts about generated files.
 
 ## [Continuous build](team-work/continuous_build.md)
 
+Information on how to implement continues build with a CodeFluent Entities model.
+
 ## [Recommended configuration](team-work/recommended_configuration.md)
