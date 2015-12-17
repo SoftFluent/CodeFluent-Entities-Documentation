@@ -11,3 +11,4 @@ Information on how to model your business.
 Information on how to import your existing business model into CodeFluent Entities.
 
 ## [Tips](modeling/tips.md)
+
