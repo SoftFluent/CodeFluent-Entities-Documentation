@@ -1,5 +1,6 @@
 # Code generators
 
+This section contains information on how to configure code generators and what they produce.
 
 ## [Overview](code-generators/overview.md)
 
