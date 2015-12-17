@@ -16,7 +16,7 @@ Information on how to
 
 ## [Delete](development-guide/delete.md)
 
-Information on how to
+Information on how to perform delete operations.
 
 ## [Relations](development-guide/relations.md)
 
