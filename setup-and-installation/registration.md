@@ -38,3 +38,9 @@ The following information is collected by the activation process:
 * User Name
 * OS Version
 * CLR Version
+
+As well as the following indicators:
+* Interactive Session
+* Web Session
+* Remote Session
+* Virtual Machine
