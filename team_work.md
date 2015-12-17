@@ -10,6 +10,8 @@ Be sure we answer all of these questions!
 
 ## [Project storage](team-work/project_storage.md)
 
+Information on how to configure a team optimized storage for the CodeFluent Entities model.
+
 ## [Path and environment variables](team-work/path_and_environment_variables.md)
 
 ## [Database configuration](team-work/database_configuration.md)
