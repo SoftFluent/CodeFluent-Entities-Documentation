@@ -16,7 +16,7 @@ Information on how to use the CodeFluent Entities generated Data Access Layer.
 
 ## [Update your model](getting-started/update_your_model.md)
 
-Information on how to install CodeFluent Entities.
+Information on how to update your business model.
 
 ## [Extend your Data Access Layer](getting-started/extend_your_data_access_layer.md)
 
