@@ -52,3 +52,5 @@ SELECT DISTINCT [Customer].[Customer_Id], [Customer].[Customer_FirstName], [Cust
 RETURN
 GO
 ```
+
+### Load one
