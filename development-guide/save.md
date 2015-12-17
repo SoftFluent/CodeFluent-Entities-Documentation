@@ -1,8 +1,6 @@
 # Save
 
-
-
-### Save a customer
+Use these instructions to save a customer:
 
 ```csharp
 Customer customer = new Customer();
