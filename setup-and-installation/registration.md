@@ -14,3 +14,27 @@ In case you have any trouble, you can also get your key from your [store account
 
 
 ## Troubleshooting Connection Problems
+
+If for some reason activation does not work as planned, you can use the **SoftFluent.Licensing.Client.exe** program (available in the installation directory) which provides extra-capabilities.
+
+### Check Connectivity
+
+Using the Using the SoftFluent.Licensing.Client.exe you can ensure CodeFluent Entities can contact our activation servers. Select Help > Check Connectivity to launch a test. you can ensure CodeFluent Entities can contact our activation servers. Select **Help > Check Connectivity** to launch a test.
+
+If this test fails it's probably due to proxy settings or a lack of internet connection.
+
+### Supporting Proxies
+
+By default, the licensing client is configured based on your **Windows Internet Options** (available in the **Control Panel**). Therefore, it should support standard internet options **including proxies**.
+
+However, if ever this does not work automatically, in the **File > Options...** dialog, you can set-up a specific proxy configuration.
+
+
+## Information collected by the activation process
+
+The following information is collected by the activation process:
+* Hardware Id
+* Machine Name
+* User Name
+* OS Version
+* CLR Version
