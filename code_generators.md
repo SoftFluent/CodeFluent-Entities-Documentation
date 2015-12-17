@@ -8,4 +8,6 @@ Information on how are implemented Producers.
 
 ## [Microsoft SQL Server code generator](code-generators/microsoft_sql_server_code_generator.md)
 
+Information on how to model your business.
+
 ## [C# Business Object Model generator](code-generators/c_business_object_model_generator.md)
