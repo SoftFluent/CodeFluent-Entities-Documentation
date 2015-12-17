@@ -11,3 +11,5 @@ Then you just need to register with your SoftFluent.com account.
 ![](img/first-setup-09.png)
 
 In case you have any trouble, you can also get your key from your [store account](http://www.softfluent.com/store/products).
+
+## Troubleshooting Connection Problems
