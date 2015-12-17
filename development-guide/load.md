@@ -53,3 +53,10 @@ RETURN
 GO
 ```
 
+## Pagination
+
+CodeFluent Entities generate for every **Load** methods:
+
+* An  object oriented load (example: **LoadAll**),
+* A paginated one (example: **PageLoadAll**)"*PageLoadXXX"
+* A method that return a **IDataReader** instead of objects "DataLoadXXX" / "PageDataLoadXXX")
