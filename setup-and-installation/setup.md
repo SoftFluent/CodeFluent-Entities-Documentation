@@ -28,3 +28,4 @@ Run the installer and follow the steps.
 
 To uninstall CodeFluent Entities, just use the Program and Features control panel option.
 
+![](img/uninstall-01.jpg)
