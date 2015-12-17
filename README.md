@@ -5,6 +5,8 @@ Create high-quality software always aligned with your business
 ----------------------------------
 CodeFluent Entities is a product integrated into Visual Studio that allows you to create your application foundations. Minimize heavy plumbing work and internal framework development by generating your data access layers. Keep your business sync with your software implementations and focus on what makes the difference.
 
+Visit the CodeFluent Entities [website](http://www.softfluent.com/product/codefluent-entities/).
+
 ----------
 
 
