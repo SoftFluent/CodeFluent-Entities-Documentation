@@ -18,6 +18,8 @@ Information on how to use environment variables in paths.
 
 ## [Database configuration](team-work/database_configuration.md)
 
+Information on how to configure connection strings for team work.
+
 ## [Build configuration](team-work/build_configuration.md)
 
 ## [Connection String](team-work/connection_string.md)
