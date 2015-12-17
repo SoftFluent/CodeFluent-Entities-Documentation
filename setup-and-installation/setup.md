@@ -23,3 +23,6 @@ Run the installer and follow the steps.
 ![](img/first-setup-06.png)
 
 ![](img/first-setup-07.png)
+
+## Uninstall
+
