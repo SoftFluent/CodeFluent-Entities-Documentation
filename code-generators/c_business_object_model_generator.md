@@ -1,4 +1,4 @@
-# C# Business Object Model generator
+# C# Business Object Model Producer
 
 ## Overview 
 
