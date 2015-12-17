@@ -12,7 +12,7 @@ Information on how to
 
 ## [Save](development-guide/save.md)
 
-Information on how to
+Information on how to save your entities.
 
 ## [Delete](development-guide/delete.md)
 
