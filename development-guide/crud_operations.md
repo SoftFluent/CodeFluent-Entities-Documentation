@@ -8,6 +8,6 @@ This section contains information on how to perform CRUD operation using the Cod
 
 ## [Save](development-guide/basis.md)
 
-## [basis](development-guide/basis.md)
+## [Delete](development-guide/basis.md)
 
 Information on how to your application to use the Data Access Layer.
