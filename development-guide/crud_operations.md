@@ -4,7 +4,7 @@ This section contains information on how to perform CRUD operation using the Cod
 
 ## [Basis](development-guide/basis.md)
 
-Information on how to
+Information on how the generated Data Access Layer is organized.
 
 ## [Load](development-guide/load.md)
 
