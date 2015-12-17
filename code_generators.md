@@ -6,8 +6,8 @@ This section contains information on how to configure code generators and what t
 
 Information on how are implemented Producers.
 
-## [Microsoft SQL Server code generator](code-generators/microsoft_sql_server_code_generator.md)
+## [Microsoft SQL Server Producer](code-generators/microsoft_sql_server_code_generator.md)
 
-Information on how to model your business.
+Information on how to use the .
 
 ## [C# Business Object Model generator](code-generators/c_business_object_model_generator.md)
