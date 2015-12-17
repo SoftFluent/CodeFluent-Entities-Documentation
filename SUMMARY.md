@@ -24,6 +24,7 @@
        * Basis
        * Load
        * Save
+       * Delete
    * [Sorting](development-guide/sorting.md)
    * [Paging](development-guide/paging.md)
    * [Custom methods](development-guide/custom_methods.md)
