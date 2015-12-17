@@ -8,7 +8,7 @@ Information on how to
 
 ## [Load](development-guide/load.md)
 
-Information on how to
+Information on how to load entities.
 
 ## [Save](development-guide/save.md)
 
