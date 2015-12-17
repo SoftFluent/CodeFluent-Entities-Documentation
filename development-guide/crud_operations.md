@@ -4,7 +4,7 @@ This section contains information on how to perform CRUD operation using the Cod
 
 ## [Basis](development-guide/basis.md)
 
-## [Load](development-guide/basis.md)
+## [Load](development-guide/load.md)
 
 ## [Save](development-guide/save.md)
 
