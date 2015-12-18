@@ -27,7 +27,7 @@ RETURN
 GO
 ```
 
-### LoadAll
+## LoadAll
 
 Use this instruction to load all customers:
 
