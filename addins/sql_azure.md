@@ -99,4 +99,6 @@ Examples:
 
 In this example, blobs are stored with the default configuration for all entities, but in Windows Azure Blob Storage for the MyEntity and MyOtherEntity entities. As an example, each entity defines a different set of credentials.
 
+**Windows Azure** is a completely different platform than **SQL Azure**. If you want to minimize the cost of blob storage and data access transactions, it is probably better to store large files and blobs in the Blob Storage environment available with Windows Azure.
+
 For a more thorough discussion on this subject, we suggest you to check out this MSDN article: [SQL Azure and Windows Azure Table Storage](https://msdn.microsoft.com/en-gb/magazine/gg309178.aspx)
