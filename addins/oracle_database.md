@@ -3,7 +3,13 @@
 ## Prerequisites
 
 ### System
+
+Windows XP SP2 or more, .NET Framework 2.0
+
 ### Oracle Server
+
+The supported server versions are **Oracle Database 10 **and upper.
+
 ### Oracle Client
 
 **Oracle Instant Client (OCI)** must be installed on client machines.
