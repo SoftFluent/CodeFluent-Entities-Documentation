@@ -42,11 +42,11 @@
    * [Merge conflicts](team-work/merge_conflicts.md)
    * [Continuous build](team-work/continuous_build.md)
    * [Recommended configuration](team-work/recommended_configuration.md)
-* [Legacy](legacy.md)
 * [Addins](addins.md)
    * [Database](addins/database.md)
        * [Oracle Database](addins/oracle_database.md)
        * [SQL Azure](addins/sql_azure.md)
        * [PostgreSQL](addins/postgresql.md)
        * [MySQL](addins/mysql.md)
+* [Legacy](legacy.md)
 
