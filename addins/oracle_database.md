@@ -188,6 +188,14 @@ CREATE OR REPLACE PACKAGE BODY "SYS"."CF_Customer" AS
 END "CF_Customer";
 ```
 
+### Default Schema
+
+By default, the value of the **defautSchema** attribute is the user name that is specified in the connection string (**Test** in the sample above). Hence, to successfully generate here-above's Oracle database, the **Test** user must have sufficient rights to create tables, views, stored procedures, packages, etc.
+
+However, if you'd like to use a privileged user account to connect to the database, but generate using a specific schema, you can do this by specifying the **defaultSchema** attribute. This can be done as so:
+
+
+
 ## BOM configuration
 
 ## Supported Features
