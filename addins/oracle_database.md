@@ -12,7 +12,7 @@ Add the corresponding code generator:
 
 ![](img/oracle-02.png) 
 
-Which will generate PL/SQL script like this:
+Which will generate PL/SQL scripts like these:
 
 ```
 CREATE OR REPLACE PACKAGE "SYS"."CF_Customer" AS
