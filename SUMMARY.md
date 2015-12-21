@@ -46,4 +46,8 @@
 * [Addins](addins.md)
    * [Database](addins/database.md)
        * Oracle Database
+       * SQL Azure
+       * PostgreSQL
+       * MySQL
+       * Oracle Database
 
