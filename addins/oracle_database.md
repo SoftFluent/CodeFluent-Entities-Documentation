@@ -18,7 +18,7 @@ At runtime, **Oracle's .NET provider (ODP.NET)** is required.
 
 Moreover, **System.Data.OracleClient** is also supported by provided utilities (e.g. CodeFluent Meta Model Explorer, Database Explorer, Oracle Importer) or for generation purposes.
 
-To use ODP.NET at generation, CodeFluent Entities needs to be able to access the Oracle.DataAccess.dll assembly.
+*Note: To use ODP.NET at generation, CodeFluent Entities needs to be able to access the Oracle.DataAccess.dll assembly.*
 
 To do so, two ways are possible:
 
