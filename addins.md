@@ -1,6 +1,6 @@
 # Addins
 
-This section contains information on how to configure and use the CodeFluent Entities addins.
+This section contains information on how to configure and use the CodeFluent Entities Addins.
 
 ## [Database](addins/database.md)
 
