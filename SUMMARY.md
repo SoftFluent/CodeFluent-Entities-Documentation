@@ -42,6 +42,7 @@
    * [Merge conflicts](team-work/merge_conflicts.md)
    * [Continuous build](team-work/continuous_build.md)
    * [Recommended configuration](team-work/recommended_configuration.md)
+* Addins
 * [Legacy](legacy.md)
    * Addins
 
