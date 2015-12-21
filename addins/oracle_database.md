@@ -196,6 +196,7 @@ However, if you'd like to use a privileged user account to connect to the databa
 
 ![](img/oracle-03.png) 
 
+*Note: If ever you errors regarding distributed/automated transactions, OraMTS, or the "CF1082: Automatic transaction enlistment has failed" error; set Enlist=false in the connection string to disable transaction enlistment.*
 
 ## BOM configuration
 
