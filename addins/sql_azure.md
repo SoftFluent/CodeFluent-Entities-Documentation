@@ -44,4 +44,20 @@ The developer needs to copy two assemblies in the .NET bin execution path (or si
 
 **Windows Azure** is a completely different platform than **SQL Azure**. If you want to minimize the cost of blob storage and data access transactions, it is probably better to store large files and blobs in the Blob Storage environment available with Windows Azure.
 
+### Runtime Configuration
+
+All you have to do to switch to the Windows Azure Blob Storage, is to modify the configuration section of the BOM's namespace as described here:
+
+```xml
+<configuration>
+ <configSections>
+   <section name="MyDefaultNamespace" type="CodeFluent.Runtime.CodeFluentConfigurationSectionHandler, CodeFluent.Runtime" />
+ </configSections>
+ <MyDefaultNamespace ... other attributes ...
+  binaryServicesTypeName="azure"
+  cloudStorageAccountConnectionString="DefaultEndpointsProtocol=http;AccountName=myAccount01;AccountKey=DGP2vZXD95DGHcCZRAfzfbkKCV0943EvBIRCv7HEGiQ=="
+  />
+</configuration>
+```
+
 For a more thorough discussion on this subject, we suggest you to check out this MSDN article: [SQL Azure and Windows Azure Table Storage](https://msdn.microsoft.com/en-gb/magazine/gg309178.aspx)
