@@ -48,5 +48,5 @@
        * [Oracle Database](addins/oracle_database.md)
        * [SQL Azure](addins/sql_azure.md)
        * [PostgreSQL](addins/postgresql.md)
-       * MySQL
+       * [MySQL](addins/mysql.md)
 
