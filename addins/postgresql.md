@@ -25,3 +25,5 @@ You need to install the postgresql-contrib package.
 The PostgreSQL Producer is implemented by the **CodeFluent.Producers.PostgreSQLProducer** class, contained in the **CodeFluent.Producers.PostgreSQL** assembly.
 
 ### Generating
+
+The PostgreSQL Producer is available in the **Persistence Layer Producers** section of the **Add New Producer** window.
