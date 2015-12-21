@@ -49,5 +49,4 @@
        * SQL Azure
        * PostgreSQL
        * MySQL
-       * Oracle Database
 
