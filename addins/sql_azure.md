@@ -60,4 +60,34 @@ All you have to do to switch to the Windows Azure Blob Storage, is to modify the
 </configuration>
 ```
 
+The **binaryServicesTypeName** 'azure' value is in fact a shortcut to **CodeFluent.Runtime.Azure.AzureBinaryServicesEntityConfiguration, CodeFluent.Runtime.Azure**. It instructs the CodeFluent Entities runtime to use the **AzureBinaryLargeObject** provided type to manage CodeFluent Entities blobs low level operations.
+
+The **cloudStorageAccountConnectionString** attribute must contain your Windows Azure Cloud Storage connection string. If this attribute is unspecified or left empty, **which is the recommended setting in the development and testing phase**, the system will use the **UseDevelopmentStorage=true** value, which means blobs will be stored in your local Windows Azure Development Storage.
+
+###Per-Entity Runtime Configuration
+
+By default, all blobs for all entities in the project will be stored the same way. However, it is possible to define a different blob storage mode for each entity in the project. Note all blobs properties in a given entity will be stored the same way.
+
+All you have to do is to modify the configuration section like this:
+
+```xml
+<configuration>
+ <configSections>
+   <section name="MyDefaultNamespace" type="CodeFluent.Runtime.CodeFluentConfigurationSectionHandler, CodeFluent.Runtime" />
+ </configSections>
+ <MyDefaultNamespace ... other attributes ... >
+   <binaryServices entityFullTypeName="MyDefaultNamespace.MyNamespace.MyEntity"
+     binaryServicesTypeName="azure"
+     cloudStorageAccountConnectionString="DefaultEndpointsProtocol=http;AccountName=myAccount01;AccountKey=vZXD95DGHcCZR=="
+    />
+   <binaryServices entityFullTypeName="MyDefaultNamespace.MyNamespace.MyOtherEntity"
+     binaryServicesTypeName="azure"
+     cloudStorageAccountConnectionString="DefaultEndpointsProtocol=https;AccountName=myAccount02;AccountKey=vZXD95Dzc5GHcCZR=="
+    />
+ </MyDefaultNamespace>
+</configuration>
+```
+
+In this example, blobs are stored with the default configuration for all entities, but in Windows Azure Blob Storage for the MyEntity and MyOtherEntity entities. As an example, each entity defines a different set of credentials.
+
 For a more thorough discussion on this subject, we suggest you to check out this MSDN article: [SQL Azure and Windows Azure Table Storage](https://msdn.microsoft.com/en-gb/magazine/gg309178.aspx)
