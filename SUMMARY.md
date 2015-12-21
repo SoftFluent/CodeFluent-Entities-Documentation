@@ -43,4 +43,5 @@
    * [Continuous build](team-work/continuous_build.md)
    * [Recommended configuration](team-work/recommended_configuration.md)
 * [Legacy](legacy.md)
+   * Addins
 
