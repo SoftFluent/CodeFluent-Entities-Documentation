@@ -21,4 +21,6 @@ As you can see the producer configuration is composed of two sections:
 * local settings,
 * online settings
 
-The Produce Scripts property of the two sections (true by default for local and false by default for online) control which of the settings are used.
+The **Produce Scripts** property of the two sections (true for **local** and false for **online** by default) control which of the settings are used.
+
+If **Produce Scripts** is true for the **local** section, the producer generates the scripts in the directory pointed by the **Target Directory** path of the **local** section, and runs them on the database pointed by the **Connection String** of the **local** section, if the **Run Scripts** (true by default) is set to true in the **local** section.
