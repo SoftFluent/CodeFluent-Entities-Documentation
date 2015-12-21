@@ -12,14 +12,16 @@ The PostgreSQL Producer relies on the [Npgsql2](http://npgsql.projects.postgresq
 
 The producer also requires the [libossp-uuid](http://www.ossp.org/pkg/lib/uuid/) package to be installed on the server.
 
-## Windows
+### Windows
 
 Please note that libossp-uuid is shipped with the Windows PostgreSQL 8.4+ standard installation package.
 
-##Linux
+### Linux
 
 You need to install the postgresql-contrib package.
 
-### Using the PostgreSQL Producer
+## Using the PostgreSQL Producer
 
 The PostgreSQL Producer is implemented by the **CodeFluent.Producers.PostgreSQLProducer** class, contained in the **CodeFluent.Producers.PostgreSQL** assembly.
+
+### Generating
