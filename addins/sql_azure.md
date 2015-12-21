@@ -32,3 +32,7 @@ SQL Azure being a cloud version of SQL Server, you'll find that except this dual
 ## Windows Azure Blob Storage
 
 Starting with the build 579, the CodeFluent Entities runtime supports the Windows Azure Blob Storage to store CodeFluent Entities binary large objects. See the Windows Azure Blob Storage section for more information on this subject.
+
+**Windows Azure** is a completely different platform than **SQL Azure**. If you want to minimize the cost of blob storage and data access transactions, it is probably better to store large files and blobs in the Blob Storage environment available with Windows Azure.
+
+For a more thorough discussion on this subject, we suggest you to check out this MSDN article: [SQL Azure and Windows Azure Table Storage](https://msdn.microsoft.com/en-gb/magazine/gg309178.aspx)
