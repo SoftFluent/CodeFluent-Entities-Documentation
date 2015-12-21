@@ -194,6 +194,7 @@ By default, the value of the **defautSchema** attribute is the user name that is
 
 However, if you'd like to use a privileged user account to connect to the database, but generate using a specific schema, you can do this by specifying the **defaultSchema** attribute. This can be done as so:
 
+![](img/oracle-03.png) 
 
 
 ## BOM configuration
