@@ -24,3 +24,7 @@ As you can see the producer configuration is composed of two sections:
 The **Produce Scripts** property of the two sections (true for **local** and false for **online** by default) control which of the settings are used.
 
 If **Produce Scripts** is true for the **local** section, the producer generates the scripts in the directory pointed by the **Target Directory** path of the **local** section, and runs them on the database pointed by the **Connection String** of the **local** section, if the **Run Scripts** (true by default) is set to true in the **local** section.
+
+By clicking on the Advanced button (the one with the yellow 'plus' sign at the top of the property grid), you'll access extra options, common to both settings (online and local) allowing you to control the script generation. Among available options are wether to produce views, schemas, the file encoding, etc.
+
+SQL Azure being a cloud version of SQL Server, you'll find that except this dual setting to support local and online scenarios, features (namespace, entities, relations, views, methods, etc.), most options (Produce Views, Produce Schemas, etc.) and behaviors (script generation and execution), are the same between both producers.
