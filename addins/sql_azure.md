@@ -92,7 +92,7 @@ All you have to do is to modify the configuration section like this:
 
 By default, blobs for a given CodeFluent Entities model are created in an Azure blob container named 'cf-<default namespace>' (with respect for strict containers naming convention). This container will be created automatically.
 
-In the container, a blob name has the following format, using the ```\``` character will allows easy navigation when using Azure Browsing tools (such as **Cloudberry Explorer for Azure Blob Storage**): **<Entity Full Type Name>\<EntityName>_<Property Name>\<Concatenated list of ids>**.
+In the container, a blob name has the following format, using the ```\``` character will allows easy navigation when using Azure Browsing tools (such as **Cloudberry Explorer for Azure Blob Storage**): ```<Entity Full Type Name>\<EntityName>_<Property Name>\<Concatenated list of ids>```.
 
 Examples:
 
