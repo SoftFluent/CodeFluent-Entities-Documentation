@@ -88,6 +88,17 @@ All you have to do is to modify the configuration section like this:
 </configuration>
 ```
 
+### Blob Storage Layout
+
+By default, blobs for a given CodeFluent Entities model are created in an Azure blob container named 'cf-<default namespace>' (with respect for strict containers naming convention). This container will be created automatically.
+
+In the container, a blob name has the following format, using the '\' character will allows easy navigation when using Azure Browsing tools (such as Cloudberry Explorer for Azure Blob Storage): **<Entity Full Type Name>\<EntityName>_<Property Name>\<Concatenated list of ids>**.
+
+Examples:
+
+* MyDefaultNamespace.MyNamespace.MyEntity\MyEntity_Photo\53
+* MyDefaultNamespace.MyNamespace.MyOtherEntity\MyOtherEntity_BlobProp\28|52
+
 In this example, blobs are stored with the default configuration for all entities, but in Windows Azure Blob Storage for the MyEntity and MyOtherEntity entities. As an example, each entity defines a different set of credentials.
 
 For a more thorough discussion on this subject, we suggest you to check out this MSDN article: [SQL Azure and Windows Azure Table Storage](https://msdn.microsoft.com/en-gb/magazine/gg309178.aspx)
