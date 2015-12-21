@@ -22,3 +22,4 @@ You need to install the postgresql-contrib package.
 
 ### Using the PostgreSQL Producer
 
+The PostgreSQL Producer is implemented by the **CodeFluent.Producers.PostgreSQLProducer** class, contained in the **CodeFluent.Producers.PostgreSQL** assembly.
