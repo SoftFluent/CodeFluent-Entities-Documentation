@@ -28,3 +28,7 @@ If **Produce Scripts** is true for the **local** section, the producer generates
 By clicking on the Advanced button (the one with the yellow 'plus' sign at the top of the property grid), you'll access extra options, common to both settings (online and local) allowing you to control the script generation. Among available options are wether to produce views, schemas, the file encoding, etc.
 
 SQL Azure being a cloud version of SQL Server, you'll find that except this dual setting to support local and online scenarios, features (namespace, entities, relations, views, methods, etc.), most options (Produce Views, Produce Schemas, etc.) and behaviors (script generation and execution), are the same between both producers.
+
+## Windows Azure Blob Storage
+
+Starting with the build 579, the CodeFluent Entities runtime supports the Windows Azure Blob Storage to store CodeFluent Entities binary large objects. See the Windows Azure Blob Storage section for more information on this subject.
