@@ -13,3 +13,12 @@ This diff engine is in fact a key feature since it allows developers to generate
 *You can download them here (only the “Microsoft SQL Server 2005 Backward Compatibility Components” is needed): http://www.microsoft.com/downloads/en/details.aspx?FamilyId=C6C3E9EF-BA29-4A43-8D69-A2BED18FE73C&displaylang=en.*
 
 ## Using the producer
+
+![](img/sql-azure-01.png)
+
+As you can see the producer configuration is composed of two sections:
+
+* local settings,
+* online settings
+
+The Produce Scripts property of the two sections (true by default for local and false by default for online) control which of the settings are used.
