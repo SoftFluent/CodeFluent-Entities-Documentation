@@ -45,5 +45,5 @@
 * [Legacy](legacy.md)
 * [Addins](addins.md)
    * [Database](addins/database.md)
-       * Oracle Daa
+       * Oracle Database
 
