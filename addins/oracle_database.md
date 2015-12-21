@@ -16,3 +16,5 @@ The following features are supported:
 * Generating instances,
 * Saving instances,
 * Saving Binary Large Objects (BLOB) instances.
+
+*Note: Some of these features require **DBA** privileges.*
