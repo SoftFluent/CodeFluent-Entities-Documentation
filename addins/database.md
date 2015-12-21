@@ -1,6 +1,6 @@
 # Database
 
-This section contains information on how to configure and use the CodeFluent Entities Database addins.
+This section contains information on how to configure and use the CodeFluent Entities Database Addins.
 
 ## [Oracle Database](oracle_database.md)
 
