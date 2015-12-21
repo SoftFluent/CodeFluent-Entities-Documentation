@@ -2,6 +2,25 @@
 
 ## Prerequisites
 
+### System
+### Oracle Server
+### Oracle Client
+
+**Oracle Instant Client (OCI)** must be installed on client machines.
+
+At runtime, **Oracle's .NET provider (ODP.NET)** is required.
+
+Moreover, **System.Data.OracleClient** is also supported by provided utilities (e.g. CodeFluent Meta Model Explorer, Database Explorer, Oracle Importer) or for generation purposes.
+
+Note: To use ODP.NET at generation, CodeFluent Entities needs to be able to access the Oracle.DataAccess.dll assembly.
+
+To do so, two ways are possible:
+
+* either copy/paste the Oracle.DataAccess.dll in the same directory as CodeFluent Entities' assemblies,
+* or add this assembly to the GAC.
+
+Prefer using the first method as it's less restrictive and easily supports side-by-side scenarios where several applications can use different ODP.NET versions.
+
 ## Generate Oracle Database persistence layer
 
 The Oracle Server Producer is implemented by the **CodeFluent.Producers.Database.Oracle.OracleProducer** class, contained in the **CodeFluent.Producers.Database** assembly which is shipped by default with CodeFluent.
