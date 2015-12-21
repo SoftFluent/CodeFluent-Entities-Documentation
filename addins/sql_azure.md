@@ -42,8 +42,6 @@ The developer needs to copy two assemblies in the .NET bin execution path (or si
 * **CodeFluent.Runtime.Azure.dll**: this assembly is shipped with CodeFluent Entities.
 * **Microsoft.WindowsAzure.StorageClient.dll**: this assembly is provided with the Windows Azure SDK. It is generally found in the Program Files\Windows Azure SDK\vX.X\bin directory.
 
-**Windows Azure** is a completely different platform than **SQL Azure**. If you want to minimize the cost of blob storage and data access transactions, it is probably better to store large files and blobs in the Blob Storage environment available with Windows Azure.
-
 ### Runtime Configuration
 
 All you have to do to switch to the Windows Azure Blob Storage, is to modify the configuration section of the BOM's namespace as described here:
