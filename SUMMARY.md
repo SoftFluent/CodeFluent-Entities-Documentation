@@ -44,5 +44,5 @@
    * [Recommended configuration](team-work/recommended_configuration.md)
 * [Legacy](legacy.md)
 * [Addins](addins.md)
-   * Database
+   * [Database](addins/database.md)
 
