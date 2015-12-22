@@ -9,7 +9,9 @@ Since it uses the template engine, the following basic rules are observed:
 * Files or folders decorated by the **[Skip]** prefix will be skipped,
 * All files contained in a template directory are copied in the output directory unless they're explicitly marked to be skipped.
 
-This topic describes how to configure this producer to generate custom text files based on the design model and on template files.  
+This topic describes how to configure this producer to generate custom text files based on the design model and on template files. 
+
+![](img/template-01.png)
 
 The Template producer is one of the template producers shipped out-of-the-box with CodeFluent Entities, you can configure this producer to generate any text base files such as:
 * custom documentation files
