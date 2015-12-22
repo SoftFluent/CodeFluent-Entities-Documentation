@@ -144,7 +144,7 @@ If a table is defined in the databse but not in the model, it is **not dropped b
 
 ### Type casts
 
-When modifying the type of a property, the differential engine will automatically cast the existing column to the new type. If the **Explicit Casts** setting is set to **True** (which is the default value), the differential will use the SQL instruction ```CAST(sourcetype AS targetype)```. If you are intending to change a column's type to an incomptible type, you can create a specific cast procedure using the ```CREATE CAST``` instruction.
+When modifying the type of a property, the differential engine will automatically cast the existing column to the new type. If the **Explicit Casts** setting is set to **True** (which is the default value), the differential will use the SQL instruction ```CAST(sourcetype AS targetype)```. If you are intending to change a column's type to an incomptible type, you can create a specific cast procedure using the [CREATE CAST](http://www.postgresql.org/docs/8.4/static/sql-createcast.html) instruction.
 
 ### Sequences
 
