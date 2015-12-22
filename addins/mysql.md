@@ -61,4 +61,20 @@ The following features are supported:
 ## Unsupported features
 
 * Differential engine
-* CFQL Search methods
+* CFQL [Search](../development-guide/search_methods.md) methods
+
+## Special cases
+
+### Binary Large Objects (BLOB) management
+
+Any binary large object defined in the model is stored in MySQL in fields of type [BLOB](http://dev.mysql.com/doc/refman/5.0/en/blob.html).
+
+### Differential engine
+
+The producer does not provide a differential engine as the [Microsoft SQL Server Producer](../code-generators/microsoft_sql_server_code_generator.md) does for instance. Therefore, the database is completely rebuilt at each generation.
+
+## Target versions
+
+Starting from MySQL 5.1, all upper versions are supported. Please note **MySQL 5.5 **is the default target version.
+
+Notes: MySQL 5.1 cannot raise custom exceptions. As a consequence, if the **Target Version** property equals **MySQL51**, the generated script will not raise exceptions (such as concurrency exceptions for instance).
