@@ -12,7 +12,7 @@ The MySQL Producer is implemented by the **CodeFluent.Producers.MySQLProduce**r 
 
 The MySQL Producer is available in the **Persistence Layer Producers** section of the **Add New Producer** window.
 
-IMAGE
+![](img/mysql-01.png)
 
 * **Target Directory**: specifies where to generate the scripts,
 connectionString: defines the connection string to use to connect to the database and run the scripts ("{0}" is an alias to the default namespace),
