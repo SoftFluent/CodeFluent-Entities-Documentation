@@ -53,7 +53,7 @@
        * [MySQL](mysql_importer.md)
        * [PostgreSQL](postgresql_importer.md)
        * SQLite
-       * Enterprise Architect
+       * [Enterprise Architect](enterprise_architect_importer.md)
        * XMI
 * [Legacy](legacy.md)
 
