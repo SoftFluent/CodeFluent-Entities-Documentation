@@ -21,3 +21,7 @@ Since decorating all members of all your generated classes all the time can be q
 ![](img/auto-documentation-02.png)
 
 *Note: The **Generate Xml Documentation** property is on the BOM Producer as it's the BOM Producer which generates the actual XML comments. The documentation sub-producer focuses on creating all the corresponding Messages in the **_doc** class, which are then translated by the BOM Producer into XML remarks.*
+
+Build over your project and you’ll see that all your members have XML remarks on them!
+
+Moreover, in the Sandcastle Target Directory you specified, you’ll see a set of files allowing you to generate a .CHM file documenting the generated objet model.
