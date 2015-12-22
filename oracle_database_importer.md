@@ -1,5 +1,7 @@
 # Oracle Database
 
+This topic details how to import an existing Oracle Database to a CodeFluent Entities model.
+
 ## Requirements
 
 * Oracle Database 10g or upper,
