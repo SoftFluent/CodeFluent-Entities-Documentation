@@ -126,6 +126,6 @@ OPEN cf_refcursor FOR SELECT * FROM "public"."Employee";
 
 In this case, since the return type is not customized, there is no need to return manually ```cf_refcursor``` at the end of the procedure. The ```RETURN``` statement will be added automatically by the producer.
 
-## Differential engine (experimental)
+### Differential engine (experimental)
 
 The differential engine of the PostgreSQL Producer always **reconstructs** all the constraints, sequences, views and functions of the database. The differential logic is only executed on **schemas**, **tables** and **instances** that are either created or modified in the model. Instances are restored to the model value, had they been modified.
