@@ -27,3 +27,30 @@ The PostgreSQL Producer is implemented by the **CodeFluent.Producers.PostgreSQLP
 ### Generating
 
 The PostgreSQL Producer is available in the **Persistence Layer Producers** section of the **Add New Producer** window.
+
+See the generated script:
+
+```
+CREATE OR REPLACE FUNCTION "public"."Customer_Delete"
+(
+    "#Customer_Id" uuid,
+    "#_rowVersion" bytea
+)
+RETURNS void
+VOLATILE
+CALLED ON NULL INPUT
+AS $$
+DECLARE
+    "cf_refcursor" refcursor;
+    
+BEGIN
+    DELETE FROM "public"."Customer"
+        WHERE (("Customer"."Customer_Id" = "#Customer_Id") AND ("Customer"."_rowVersion" = "#_rowVersion"));
+    IF NOT FOUND THEN
+        RAISE EXCEPTION 'CodeFluent Runtime: Concurrency error';
+    END IF;
+
+END;
+$$ LANGUAGE plpgsql;
+//
+```
