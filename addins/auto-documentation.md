@@ -29,3 +29,5 @@ Moreover, in the Sandcastle Target Directory you specified, you’ll see a set o
 ## Customizing XML Comments
 
 By default, the producer tries to be clever generates a sentence from the member name. For instance, a property named **EntityDisplayName** with just a getter will be decorated with a remark such as: ```Gets the display name of the entity.```. However a property named **Id** with both a getter and setter would have: ```Gets or sets the id.```. Finally, a method named **LoadAll** would have: ```Loads all.```.
+
+If you want to change those automatically generated comment, you can specify overwrite them by defining your own. This can be done by specifying a message on the target concept (entity, property, method, parameter, etc.) and marking this message to be used in the **_doc** class.
