@@ -51,7 +51,7 @@
    * [Importers](importers.md)
        * [Oracle Database](oracle_database_importer.md)
        * [MySQL](mysql_importer.md)
-       * PostgreSQL
+       * [PostgreSQL](postgresql_importer.md)
        * SQLite
        * Enterprise Architect
        * XMI
