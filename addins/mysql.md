@@ -77,4 +77,4 @@ The producer does not provide a differential engine as the [Microsoft SQL Server
 
 Starting from MySQL 5.1, all upper versions are supported. Please note **MySQL 5.5 **is the default target version.
 
-Notes: MySQL 5.1 cannot raise custom exceptions. As a consequence, if the **Target Version** property equals **MySQL51**, the generated script will not raise exceptions (such as concurrency exceptions for instance).
+*Notes: MySQL 5.1 cannot raise custom exceptions. As a consequence, if the **Target Version** property equals **MySQL51**, the generated script will not raise exceptions (such as concurrency exceptions for instance).*
