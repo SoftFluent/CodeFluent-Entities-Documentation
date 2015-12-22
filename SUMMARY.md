@@ -58,5 +58,6 @@
    * [Utilities](addins/utilities.md)
        * [Template](addins/template.md)
        * [Auto-Trace](addins/auto-trace.md)
+       * Auto-Documentation
 * [Legacy](legacy.md)
 
