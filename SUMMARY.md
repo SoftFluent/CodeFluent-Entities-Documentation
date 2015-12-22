@@ -57,6 +57,6 @@
        * [XMI](addins/xmi_importer.md)
    * [Utilities](addins/utilities.md)
        * [Template](addins/template.md)
-       * Auto-Trace
+       * [Auto-Trace](addins/auto-trace.md)
 * [Legacy](legacy.md)
 
