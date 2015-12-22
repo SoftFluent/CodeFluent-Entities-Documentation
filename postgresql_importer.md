@@ -1,5 +1,7 @@
 # PostgreSQL
 
+This topic details how to import an existing PostgreSQL database to a CodeFluent Entities model.
+
 ## Requirements
 
 * PostgreSQL Server 8.4 or upper,
