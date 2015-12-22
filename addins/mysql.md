@@ -19,11 +19,6 @@ connectionString: defines the connection string to use to connect to the databas
 * **Produce Schemas**: indicates whether tables should be generated in schemas defined in the model using the "Schema Name" property, or ignoring them (all tables are generated in the default schema).
 * **Target Version**: the version targeted by the producer. 
 
-Which will generate scripts like this:
-
-```sql
-
-```
 
 ## Application configuration
 
