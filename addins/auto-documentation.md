@@ -12,6 +12,6 @@ Then in the “Add New SubProducer” dialog, select “Documentation” in the 
 
 ![](img/auto-documentation-02.png)
 
-Note: the only required property is the “Sandcastle Target Directory“ which needs to be specified so the producer knows where to generate its output files.
+*Note: the only required property is the “Sandcastle Target Directory“ which needs to be specified so the producer knows where to generate its output files.*
 
-If producing Sandcastle files, you need to have Sandcastle installed before generating and ensure the Sandcastle path is correct so you’ll be able to use the generated files right away.
+*If producing Sandcastle files, you need to have Sandcastle installed before generating and ensure the Sandcastle path is correct so you’ll be able to use the generated files right away.*
