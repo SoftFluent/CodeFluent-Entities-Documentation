@@ -49,5 +49,6 @@
        * [PostgreSQL](addins/postgresql.md)
        * [MySQL](addins/mysql.md)
    * Importers
+       * Oracle Database
 * [Legacy](legacy.md)
 
