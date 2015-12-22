@@ -14,3 +14,5 @@ This topic describes how to configure this producer to generate custom text file
 The Template producer is one of the template producers shipped out-of-the-box with CodeFluent Entities, you can configure this producer to generate any text base files such as:
 * custom documentation files
 * custom configuration files. 
+
+See [this blog post](http://blog.codefluententities.com/2013/03/20/generate-asp-net-web-api-controllers-using-template/) for a concrete example.
