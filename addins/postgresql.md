@@ -141,3 +141,7 @@ By default a column which exists in a table in the database but does not exist i
 If a table is defined in the databse but not in the model, it is **not dropped by default**. This means that relations tables belonging to deleted Many-To-Many relations will be kept although the matching relation has been deleted from the model. If you wish the differential engine to clean-up after you, set its **Drop unknown tables** property to **True**.
 
 *Note: Unknown tables are not deleted by default as you might be working in a schema that already contains tables unrelated to your model. In such case activating this feature would cause all unknown tables to be deleted.*
+
+### Type casts
+
+When modifying the type of a property, the differential engine will automatically cast the existing column to the new type. If the **Explicit Casts** setting is set to **True** (which is the default value), the differential will use the SQL instruction ```CAST(sourcetype AS targetype)```. If you are intending to change a column's type to an incomptible type, you can create a specific cast procedure using the ```CREATE CAST``` instruction.
