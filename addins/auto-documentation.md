@@ -9,3 +9,9 @@ To benefit from it, you first need to add an instance of the sub-producer. To do
 ![](img/auto-trace-01.png)
 
 Then in the “Add New SubProducer” dialog, select “Documentation” in the tree view and configure it:
+
+![](img/auto-documentation-02.png)
+
+Note: the only required property is the “Sandcastle Target Directory“ which needs to be specified so the producer knows where to generate its output files.
+
+If producing Sandcastle files, you need to have Sandcastle installed before generating and ensure the Sandcastle path is correct so you’ll be able to use the generated files right away.
