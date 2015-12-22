@@ -20,15 +20,14 @@ Please note that libossp-uuid is shipped with the Windows PostgreSQL 8.4+ standa
 
 You need to install the postgresql-contrib package.
 
-## Using the PostgreSQL Producer
+## Generate PostgreSQL persistence layer
 
 The PostgreSQL Producer is implemented by the **CodeFluent.Producers.PostgreSQLProducer** class, contained in the **CodeFluent.Producers.PostgreSQL** assembly.
 
-### Generating
 
 The PostgreSQL Producer is available in the **Persistence Layer Producers** section of the **Add New Producer** window.
 
-
+![](img/postgresql-01.png)
 
 Which will generate scripts like this:
 
@@ -56,4 +55,18 @@ END;
 $$ LANGUAGE plpgsql;
 //
 //
+```
+
+## Application configuration
+
+You need to configure the generated classes to use PostgreSQL as persistence layer (**persistenceTypeName**) and set a connection string indicating them where to connect to (**connectionString**). Here's a sample configuration for a sample application named **Northwind**:
+
+```xml
+<configSections>
+  <section name="Northwind" type="CodeFluent.Runtime.CodeFluentConfigurationSectionHandler, CodeFluent.Runtime" />
+</configSections>
+<Northwind persistenceTypeName="PostgreSQL"
+           connectionString="Server=localhost;Database=PostgreSQL_Test;User Id=postgres;Password=yourpassword;"
+           postgresql-defaultSchema="public"
+           postgresql-useParameterCache="true" />
 ```
