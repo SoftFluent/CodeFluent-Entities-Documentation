@@ -48,5 +48,6 @@
        * [SQL Azure](addins/sql_azure.md)
        * [PostgreSQL](addins/postgresql.md)
        * [MySQL](addins/mysql.md)
+   * Importers
 * [Legacy](legacy.md)
 
