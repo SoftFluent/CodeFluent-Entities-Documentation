@@ -53,5 +53,6 @@
        * MySQL
        * PostgreSQL
        * SQLite
+       * Enterprise Architect
 * [Legacy](legacy.md)
 
