@@ -12,3 +12,9 @@ The MySQL Producer is implemented by the **CodeFluent.Producers.MySQLProduce**r 
 
 The MySQL Producer is available in the **Persistence Layer Producers** section of the **Add New Producer** window.
 
+IMAGE
+
+* **Target Directory**: specifies where to generate the scripts,
+connectionString: defines the connection string to use to connect to the database and run the scripts ("{0}" is an alias to the default namespace),
+* **Produce Schemas**: indicates whether tables should be generated in schemas defined in the model using the "Schema Name" property, or ignoring them (all tables are generated in the default schema).
+* **Target Version**: the version targeted by the producer.
