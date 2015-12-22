@@ -56,5 +56,6 @@
        * [Enterprise Architect](addins/enterprise_architect_importer.md)
        * [XMI](addins/xmi_importer.md)
    * Utilities
+       * Template
 * [Legacy](legacy.md)
 
