@@ -111,3 +111,15 @@ You can only write your raw methods in PL/pgSQL. Other languages are not support
 By default, if your method is returning something, the generated stored procedure skeleton will return a ```refcursor```. The return type can be changed through the **customReturnType** attribute on the method. By default a ```refcursor``` named ```cf_refcursor``` is declared before opening the ```BEGIN...END;``` block of the procedure, and returned before the end of this block. It is up to you to return another ```refcursor``` in your raw code.
 
 If you need to declare more variables in the ```DECLARE...BEGIN``` block, you can do it through the **customVariables** attribute.
+
+### Example of a load() raw function
+
+This method loads all the instances of the Employee entity. It has no other interest than to demonstrate how to create a simple raw function:
+
+```sql
+load() raw
+```
+
+```
+OPEN cf_refcursor FOR SELECT * FROM "public"."Employee";
+```
