@@ -1,5 +1,7 @@
 # Enterprise Architect
 
+This topic details how to import an existing Sparx Systems Enterprise Architect model to a CodeFluent Entities model.
+
 ## Requirements
 
 * Sparx Systems Enterprise Architect,
