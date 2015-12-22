@@ -28,7 +28,7 @@ The PostgreSQL Producer is implemented by the **CodeFluent.Producers.PostgreSQLP
 
 The PostgreSQL Producer is available in the **Persistence Layer Producers** section of the **Add New Producer** window.
 
-See the generated script:
+Which will generate scripts like this:
 
 ```
 CREATE OR REPLACE FUNCTION "public"."Customer_Delete"
@@ -52,5 +52,6 @@ BEGIN
 
 END;
 $$ LANGUAGE plpgsql;
+//
 //
 ```
