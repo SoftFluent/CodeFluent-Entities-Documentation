@@ -10,6 +10,6 @@ This topic details how to import an existing MySQL database to a CodeFluent Enti
 
 ## Configuration
 
-![](addins/img/mysql-importer-01.png)
+![](img/mysql-importer-01.png)
 
 See the [Modeling - Import](../modeling/import.md) section for more information.

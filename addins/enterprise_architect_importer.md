@@ -9,6 +9,6 @@ This topic details how to import an existing Sparx Systems Enterprise Architect 
 
 ## Configuration
 
-![](addins/img/enterprise-architect-importer-01.png)
+![](img/enterprise-architect-importer-01.png)
 
 See the [Modeling - Import](../modeling/import.md) section for more information.

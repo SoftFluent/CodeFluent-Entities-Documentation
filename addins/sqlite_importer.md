@@ -11,6 +11,6 @@ This topic details how to import an existing SQLite database to a CodeFluent Ent
 
 ## Configuration
 
-![](addins/img/sqlite-importer-01.png)
+![](img/sqlite-importer-01.png)
 
 See the [Modeling - Import](../modeling/import.md) section for more information.

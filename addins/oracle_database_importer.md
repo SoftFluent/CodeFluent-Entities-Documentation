@@ -10,6 +10,6 @@ This topic details how to import an existing Oracle Database to a CodeFluent Ent
 
 ## Configuration
 
-![](addins/img/oracle-database-importer-01.png)
+![](img/oracle-database-importer-01.png)
 
 See the [Modeling - Import](../modeling/import.md) section for more information.

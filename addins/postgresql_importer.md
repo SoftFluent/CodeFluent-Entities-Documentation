@@ -11,6 +11,6 @@ This topic details how to import an existing PostgreSQL database to a CodeFluent
 
 ## Configuration
 
-![](addins/img/postgresql-importer-01.png)
+![](img/postgresql-importer-01.png)
 
 See the [Modeling - Import](../modeling/import.md) section for more information.
