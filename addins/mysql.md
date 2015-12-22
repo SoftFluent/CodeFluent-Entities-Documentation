@@ -9,3 +9,6 @@ The MySQL Producer relies on the [MySQL Connector for .NET](http://www.mysql.com
 ## Generate the MySQL persistence layer
 
 The MySQL Producer is implemented by the **CodeFluent.Producers.MySQLProduce**r class, contained in the **CodeFluent.Producers.MySQL** assembly.
+
+The MySQL Producer is available in the **Persistence Layer Producers** section of the **Add New Producer** window.
+
