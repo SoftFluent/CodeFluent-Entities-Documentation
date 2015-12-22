@@ -70,3 +70,27 @@ You need to configure the generated classes to use PostgreSQL as persistence lay
            postgresql-defaultSchema="public"
            postgresql-useParameterCache="true" />
 ```
+
+*Notes: **postrgresql-defaultSchema** and **postgresql-useParameterCache** are optional and their respective default values are "public" and "true".*
+
+The **default schema** defines the schema to be used when an entity doesn't have a schema. By default, the "public" schema is used.
+
+The **postgresql-useParameterCache** attribute allows you to disable the use of the parameter cache system which stores lists of parameters for each stored procedure that is used.
+
+## Supported features
+
+The following features are supported:
+
+* Generating schemas and cross-schemas relations
+* Generating tables
+* Generating constraints (primary keys and foreign keys)
+* Generating sequences for auto-incremented columns
+* Generating views
+* Generating stored procedures (using SQL or PL/pgSQL)
+* Generating instances
+* Saving instances
+* Saving Binary Large Objects (BLOB) instances in bytea columns
+
+## Unsupported features
+
+CFQL [Search](../development-guide/search_methods.md) methods
