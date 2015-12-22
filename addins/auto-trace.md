@@ -56,7 +56,7 @@ public string Email
 
 ## Producer Properties
 
-| Properties | Description |
+| **Properties** | **Description** |
 | -- | -- |
 | Global Options | Indicates the subproducer when to trace (properties, constructors, methods, etc.). |
 | Parameter Format | Defines how each method parameter will be traced. {0} represents the argument name. {1} represents the argument value. The last characters after the last } define the arguments separator. |
