@@ -48,7 +48,7 @@
        * [SQL Azure](addins/sql_azure.md)
        * [PostgreSQL](addins/postgresql.md)
        * [MySQL](addins/mysql.md)
-   * Importers
+   * [Importers](importers.md)
        * Oracle Database
        * MySQL
        * PostgreSQL
