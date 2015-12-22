@@ -117,9 +117,11 @@ If you need to declare more variables in the ```DECLARE...BEGIN``` block, you ca
 This method loads all the instances of the Employee entity. It has no other interest than to demonstrate how to create a simple raw function:
 
 ```sql
-load() raw
+LOAD() RAW
 ```
 
 ```
 OPEN cf_refcursor FOR SELECT * FROM "public"."Employee";
 ```
+
+In this case, since the return type is not customized, there is no need to return manually ```cf_refcursor``` at the end of the procedure. The ```RETURN``` statement will be added automatically by the producer.
