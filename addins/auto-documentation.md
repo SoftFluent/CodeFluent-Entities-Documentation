@@ -28,4 +28,4 @@ Moreover, in the Sandcastle Target Directory you specified, you’ll see a set o
 
 ## Customizing XML Comments
 
-By default, the producer tries to be clever generates a sentence from the member name. For instance, a property named **EntityDisplayName** with just a getter will be decorated with a remark such as: ```Gets the display name of the entity.```. However a property named **Id** with both a getter and setter would have: ```Gets or sets the id.```. Finally, a method named LoadAll would have: "Loads all.".
+By default, the producer tries to be clever generates a sentence from the member name. For instance, a property named **EntityDisplayName** with just a getter will be decorated with a remark such as: ```Gets the display name of the entity.```. However a property named **Id** with both a getter and setter would have: ```Gets or sets the id.```. Finally, a method named **LoadAll** would have: ```Loads all.```.
