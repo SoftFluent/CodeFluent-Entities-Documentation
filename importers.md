@@ -22,3 +22,7 @@ Information specific to importing SQLite databases.
 ## [Enterprise Architect](enterprise_architect_importer.md)
 
 Information specific to importing Sparx Systems Enterprise Architect models.
+
+## [XMI](xmi_importer.md)
+
+Information specific to importing UML models using the XMI format.
