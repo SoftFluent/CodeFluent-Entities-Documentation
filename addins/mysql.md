@@ -56,4 +56,9 @@ The following features are supported:
 * Views,
 * Stored procedures,
 * Generating and saving instances,
-* Saving Binary Large Objects (BLOB) instances in BLOB columns
+* Saving Binary Large Objects (BLOB) instances in [BLOB](http://dev.mysql.com/doc/refman/5.0/en/blob.html) columns
+
+## Unsupported features
+
+* Differential engine
+* CFQL Search methods
