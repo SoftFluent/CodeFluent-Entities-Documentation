@@ -51,5 +51,6 @@
    * Importers
        * Oracle Database
        * MySQL
+       * PostgreSQL
 * [Legacy](legacy.md)
 
