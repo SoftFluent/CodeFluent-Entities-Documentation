@@ -28,6 +28,8 @@ The PostgreSQL Producer is implemented by the **CodeFluent.Producers.PostgreSQLP
 
 The PostgreSQL Producer is available in the **Persistence Layer Producers** section of the **Add New Producer** window.
 
+
+
 Which will generate scripts like this:
 
 ```
