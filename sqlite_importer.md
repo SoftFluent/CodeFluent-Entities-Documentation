@@ -1,5 +1,7 @@
 # SQLite
 
+This topic details how to import an existing SQLite database to a CodeFluent Entities model.
+
 ## Requirements
 
 * SQLite,
