@@ -153,3 +153,13 @@ Sequences of identity columns are automatically dropped and rebuilt by the diffe
 ## Target versions
 
 Starting from **PostgreSQL 8.4**, all upper versions are supported. Default target version is **PostgreSQL 8.4**.
+
+### Notes about PostgreSQL 8.4
+
+PostgreSQL 8.4 does not support anonymous blocks (see the [DO](http://www.postgresql.org/docs/9.0/static/sql-do.html) instruction). All the PL/pgSQL scripts are imbricated in a function that is sequentially created, executed, and then dropped.
+
+PostgreSQL 8.4 does not support [collation](http://www.postgresql.org/docs/9.1/static/collation.html).
+
+### Notes about PostgreSQL 9.0
+
+PostgreSQL 9.0 does not support [collation](http://www.postgresql.org/docs/9.1/static/collation.html).
