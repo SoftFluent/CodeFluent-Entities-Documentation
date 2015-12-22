@@ -49,7 +49,7 @@
        * [PostgreSQL](addins/postgresql.md)
        * [MySQL](addins/mysql.md)
    * [Importers](importers.md)
-       * Oracle Database
+       * [Oracle Database](oracle_database_importer.md)
        * MySQL
        * PostgreSQL
        * SQLite
