@@ -55,7 +55,7 @@
        * [SQLite](addins/sqlite_importer.md)
        * [Enterprise Architect](addins/enterprise_architect_importer.md)
        * [XMI](addins/xmi_importer.md)
-   * [Utilities](utilities.md)
+   * [Utilities](addins/utilities.md)
        * [Template](addins/template.md)
 * [Legacy](legacy.md)
 
