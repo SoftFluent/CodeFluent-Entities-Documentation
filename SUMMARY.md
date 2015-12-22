@@ -50,5 +50,6 @@
        * [MySQL](addins/mysql.md)
    * Importers
        * Oracle Database
+       * MySQL
 * [Legacy](legacy.md)
 
