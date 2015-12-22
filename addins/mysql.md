@@ -44,3 +44,16 @@ You need to configure the generated classes to use MySQL as persistence layer (*
 ```
 
 *Note: **mysql-useSchemas** is optional and its default value is **true**. Its value at runtime must match the **Produce Schemas** property value which was used to generate the database.*
+
+## Supported features
+
+The following features are supported:
+
+* Schemas (i.e. MySQL databases) and cross-schemas relations,
+* Tables,
+* Constraints (primary keys and foreign keys),
+* Sequences for auto-incremented columns
+* Views,
+* Stored procedures,
+* Generating and saving instances,
+* Saving Binary Large Objects (BLOB) instances in BLOB columns
