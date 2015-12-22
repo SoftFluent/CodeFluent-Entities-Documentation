@@ -17,4 +17,30 @@ The MySQL Producer is available in the **Persistence Layer Producers** section o
 * **Target Directory**: specifies where to generate the scripts,
 connectionString: defines the connection string to use to connect to the database and run the scripts ("{0}" is an alias to the default namespace),
 * **Produce Schemas**: indicates whether tables should be generated in schemas defined in the model using the "Schema Name" property, or ignoring them (all tables are generated in the default schema).
-* **Target Version**: the version targeted by the producer.
+* **Target Version**: the version targeted by the producer. 
+
+Which will generate scripts like this:
+
+```sql
+
+```
+
+## Application configuration
+
+You need to configure the generated classes to use MySQL as persistence layer (**persistenceTypeName**) and set a connection string indicating them where to connect to (**connectionString**). Here's a sample configuration for a sample **Northwind** application:
+
+```xml
+<configSections>
+  <section name="Northwind" type="CodeFluent.Runtime.CodeFluentConfigurationSectionHandler, CodeFluent.Runtime" />
+</configSections>
+<Northwind persistenceTypeName="MySQL"
+           connectionString="Server=localhost;Database=Northwind;User Id=root;Password=yourpassword;"
+           mysql-useSchemas="true" /><configSections>
+  <section name="Northwind" type="CodeFluent.Runtime.CodeFluentConfigurationSectionHandler, CodeFluent.Runtime" />
+</configSections>
+<Northwind persistenceTypeName="MySQL"
+           connectionString="Server=localhost;Database=Northwind;User Id=root;Password=yourpassword;"
+           mysql-useSchemas="true" />
+```
+
+*Note: **mysql-useSchemas** is optional and its default value is **true**. Its value at runtime must match the **Produce Schemas** property value which was used to generate the database.*
