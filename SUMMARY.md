@@ -54,6 +54,6 @@
        * [PostgreSQL](postgresql_importer.md)
        * [SQLite](sqlite_importer.md)
        * [Enterprise Architect](enterprise_architect_importer.md)
-       * XMI
+       * [XMI](xmi_importer.md)
 * [Legacy](legacy.md)
 
