@@ -9,6 +9,6 @@ This topic details how to import an existing UML model to a CodeFluent Entities 
 
 ## Configuration
 
-![](addins/img/enterprise-architect-importer-01.png)
+![](addins/img/xmi-importer-01.png)
 
 See the [Modeling - Import](../modeling/import.md) section for more information.
