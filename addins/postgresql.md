@@ -94,3 +94,20 @@ The following features are supported:
 ## Unsupported features
 
 CFQL [Search](../development-guide/search_methods.md) methods
+
+
+## Special cases
+
+### Binary Large Objects (BLOB) management
+
+Any binary large object defined in the model is stored in PostgreSQL in fields of type [bytea](http://www.postgresql.org/docs/8.4/static/datatype-binary.html), which implies **a max size of 1GB** per object.
+
+### Creating raw methods
+
+You can only write your raw methods in PL/pgSQL. Other languages are not supported.
+
+### PL/pgSQL Functions
+
+By default, if your method is returning something, the generated stored procedure skeleton will return a ```refcursor```. The return type can be changed through the **customReturnType** attribute on the method. By default a ```refcursor``` named ```cf_refcursor``` is declared before opening the ```BEGIN...END;``` block of the procedure, and returned before the end of this block. It is up to you to return another ```refcursor``` in your raw code.
+
+If you need to declare more variables in the ```DECLARE...BEGIN``` block, you can do it through the **customVariables** attribute.
