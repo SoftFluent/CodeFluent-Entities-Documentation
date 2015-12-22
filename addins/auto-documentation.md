@@ -19,3 +19,5 @@ Then in the “Add New SubProducer” dialog, select “Documentation” in the 
 Since decorating all members of all your generated classes all the time can be quite an overkill during developments, **it is disabled by default** in the [Business Object Model Producer](../code-generators/c_business_object_model_generator.md), so you need to enable it as well. Double-click on your Business Object Model producer instance to open its configuration and set “Generate Xml Documentation” to “True”:
 
 ![](img/auto-documentation-02.png)
+
+Note: The **Generate Xml Documentation** property is on the BOM Producer as it's the BOM Producer which generates the actual XML comments. The documentation sub-producer focuses on creating all the corresponding Messages in the **_doc** class, which are then translated by the BOM Producer into XML remarks.
