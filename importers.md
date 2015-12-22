@@ -5,20 +5,20 @@ CodeFluent Entities allows developers to create a CodeFluent Entities model from
 
 ## [Oracle Database](oracle_database_importer.md)
 
-Information on how to your application to use the Oracle Database code generator.
+Information specific to importing Oracle databases.
 
-## [MySQL](oracle_database.md)
+## [MySQL](mysql_importer.md)
 
-Information on how to your application to use the Oracle Database code generator.
+Information specific to importing MySQL databases.
 
-## [PostgreSQL](oracle_database.md)
+## [PostgreSQL](postgresql_importer.md)
 
-Information on how to your application to use the Oracle Database code generator.
+Information specific to importing PostgreSQL databases.
 
-## [SQLite](oracle_database.md)
+## [SQLite](sqlite_importer.md)
 
-Information on how to your application to use the Oracle Database code generator.
+Information specific to importing SQLite databases.
 
-## [Oracle Database](oracle_database.md)
+## [Enterprise Architect](enterprise_architect_importer.md)
 
-Information on how to your application to use the Oracle Database code generator.
+Information specific to importing Sparx Systems Enterprise Architect models.
