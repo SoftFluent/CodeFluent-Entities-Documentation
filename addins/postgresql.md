@@ -125,3 +125,7 @@ OPEN cf_refcursor FOR SELECT * FROM "public"."Employee";
 ```
 
 In this case, since the return type is not customized, there is no need to return manually ```cf_refcursor``` at the end of the procedure. The ```RETURN``` statement will be added automatically by the producer.
+
+### Custom Return Type
+
+In case you want to specify yourself the **PostgreSQL return type** of the stored procedure,you can do that by using the **customReturnType** attribute on the method element. Then you have to write yourself the ```RETURN``` statement.
