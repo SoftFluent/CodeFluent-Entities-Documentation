@@ -136,3 +136,8 @@ By default a column which exists in a table in the database but does not exist i
 
 ![](img/postgresql-02.png)
 
+### Deleted tables
+
+If a table is defined in the databse but not in the model, it is **not dropped by default**. This means that relations tables belonging to deleted Many-To-Many relations will be kept although the matching relation has been deleted from the model. If you wish the differential engine to clean-up after you, set its **Drop unknown tables** property to **True**.
+
+*Note: Unknown tables are not deleted by default as you might be working in a schema that already contains tables unrelated to your model. In such case activating this feature would cause all unknown tables to be deleted.*
