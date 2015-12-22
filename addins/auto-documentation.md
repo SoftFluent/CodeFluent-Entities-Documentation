@@ -16,3 +16,4 @@ Then in the “Add New SubProducer” dialog, select “Documentation” in the 
 
 *If producing Sandcastle files, you need to have Sandcastle installed before generating and ensure the Sandcastle path is correct so you’ll be able to use the generated files right away.*
 
+Since decorating all members of all your generated classes all the time can be quite an overkill during developments, **it is disabled by default** in the [Business Object Model Producer](../code-generators/c_business_object_model_generator.md), so you need to enable it as well. Double-click on your Business Object Model producer instance to open its configuration and set “Generate Xml Documentation” to “True”:
