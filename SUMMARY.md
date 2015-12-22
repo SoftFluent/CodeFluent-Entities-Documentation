@@ -52,5 +52,6 @@
        * Oracle Database
        * MySQL
        * PostgreSQL
+       * SQLite
 * [Legacy](legacy.md)
 
