@@ -50,7 +50,7 @@
        * [MySQL](addins/mysql.md)
    * [Importers](importers.md)
        * [Oracle Database](oracle_database_importer.md)
-       * MySQL
+       * [MySQL](mysql_importer.md)
        * PostgreSQL
        * SQLite
        * Enterprise Architect
