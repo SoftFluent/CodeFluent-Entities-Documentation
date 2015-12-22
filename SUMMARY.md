@@ -52,7 +52,7 @@
        * [Oracle Database](oracle_database_importer.md)
        * [MySQL](mysql_importer.md)
        * [PostgreSQL](postgresql_importer.md)
-       * SQLite
+       * [SQLite](sqlite_importer.md)
        * [Enterprise Architect](enterprise_architect_importer.md)
        * XMI
 * [Legacy](legacy.md)
