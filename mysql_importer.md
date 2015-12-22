@@ -1,5 +1,7 @@
 # MySQL
 
+This topic details how to import an existing MySQL database to a CodeFluent Entities model.
+
 ## Requirements
 
 * MySQL 5.1 or upper,
