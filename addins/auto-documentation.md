@@ -25,3 +25,7 @@ Since decorating all members of all your generated classes all the time can be q
 Build over your project and you’ll see that all your members have XML remarks on them!
 
 Moreover, in the Sandcastle Target Directory you specified, you’ll see a set of files allowing you to generate a .CHM file documenting the generated objet model.
+
+## Customizing XML Comments
+
+By default, the producer tries to be clever generates a sentence from the member name. For instance, a property named **EntityDisplayName** with just a getter will be decorated with a remark such as: ```Gets the display name of the entity.```. However a property named **Id** with both a getter and setter would have: ```Gets or sets the id.```. Finally, a method named LoadAll would have: "Loads all.".
