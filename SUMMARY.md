@@ -54,5 +54,6 @@
        * PostgreSQL
        * SQLite
        * Enterprise Architect
+       * XMI
 * [Legacy](legacy.md)
 
