@@ -20,7 +20,14 @@ Pick the **SoftFluent.Localization.xml** file into the CodeFluent Entities insta
 
 ![](img/official-aspects-02.png)
 
+And specify some property as localizable:
 
+![](img/official-aspects-03.png)
+
+Now you can edit your instances with a new tab called **Localized Values**:
+
+![](img/official-aspects-04.png)
+![](img/official-aspects-05.png)
 
 ## TextSearch Aspect
 ## HierarchyDeepLoad Aspect
