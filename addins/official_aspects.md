@@ -155,4 +155,10 @@ public static bool ProductsManage(System.ComponentModel.CollectionChangeAction a
 
 ## AutoFormattable Aspect
 
+The AutoFormattable aspect adds enhanced formatting capabilities to entities.
+
+At production time, the AutoFormattable aspect iterates on entities with the autoFormattable attribute set to true, and adds an IFormattable implementation to the generated entity classes.
+
+To apply the AutoFormattable pattern at entity level
+
 ## HierarchyDeepLoad Aspect
