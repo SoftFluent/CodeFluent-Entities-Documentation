@@ -67,6 +67,7 @@ If the Service Object Model Producer is configured the following contracts and c
 * **Services\ITextSearch[KeyType]Service.cs**
 * **Services\TextSearch[KeyType]Service.cs**
 
+In our example, the **Contact** entity is text searchable, ergo its resulting **ContactCollection** class will have two new methods:
 
 * **TextSearchTokens(bool oneOrMore, string[] tokens)**
 * **PageTextSearchTokens(int pageIndex, int pageSize, CodeFluent.Runtime.PageOptions pageOptions, bool oneOrMore, string[] tokens)**
