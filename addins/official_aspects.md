@@ -196,3 +196,15 @@ private void OnGetSalesmanName()
 ## HierarchyDeepLoad Aspect
 
 This aspect adds a **DeepLoadAll** method on a given set of entities. The **DeepLoadAll** method loads a complete inheritance hierarchy using a single server call.
+
+This example demonstrates how to use the **HierarchyDeepLoad** aspect to add a **DeepLoadAll** method to the **UserCollection** class, this **DeepLoadAll** method will load all **User** and all **Contractor** instances from the persistence layer.
+
+```csharp
+
+```
+
+The Microsoft SQL Server producer generates a **Customer_DeepLoadAllProc** stored procedure:
+
+```sql
+
+```
