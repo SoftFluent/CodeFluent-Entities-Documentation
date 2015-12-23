@@ -201,7 +201,7 @@ This aspect adds a **DeepLoadAll** method on a given set of entities. The **Deep
 
 This example demonstrates how to use the **HierarchyDeepLoad** aspect to add a **DeepLoadAll** method to the **UserCollection** class, this **DeepLoadAll** method will load all **User** and all **Contractor** instances from the persistence layer.
 
-IMAGE
+![](img/official-aspects-12.png)
 
 The Microsoft SQL Server producer generates a **Customer_DeepLoadAllProc** stored procedure that loads all records from **User** and **Contractor** tables:
 
