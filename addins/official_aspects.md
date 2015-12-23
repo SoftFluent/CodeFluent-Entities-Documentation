@@ -44,6 +44,7 @@ The **Text Search Aspect** adds methods to search an entity using tokenization t
 
 Pick the **SoftFluent.TextSearch.xml** file into the CodeFluent Entities installation directory.
 
+![](img/official-aspects-06.png)
 
 
 ## HierarchyDeepLoad Aspect
