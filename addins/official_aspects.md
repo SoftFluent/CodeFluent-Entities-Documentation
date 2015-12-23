@@ -165,6 +165,8 @@ To apply the AutoFormattable pattern at entity level, configure the entity as **
 
 ![](img/official-aspects-10.png)
 
+It also is possible to enable the pattern at the project level.
 
+![](img/official-aspects-10.png)
 
 ## HierarchyDeepLoad Aspect
