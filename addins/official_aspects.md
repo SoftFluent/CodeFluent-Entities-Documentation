@@ -92,6 +92,10 @@ class Program
 
 The **UpdateAll** method will create tokens for all existing lines.
 
-## HierarchyDeepLoad Aspect
 ## AssociationManage Aspect
+
+This aspect adds method(s) to all entities having at least one many to many relation.
+
 ## AutoFormattable Aspect
+
+## HierarchyDeepLoad Aspect
