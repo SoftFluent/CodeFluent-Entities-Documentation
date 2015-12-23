@@ -61,5 +61,6 @@
        * [Auto-Documentation](addins/auto-documentation.md)
        * Aspect-Oriented Modeling
        * Official Aspects
+       * Application Cache
 * [Legacy](legacy.md)
 
