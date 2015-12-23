@@ -32,6 +32,8 @@ And configure desired cultures:
 
 ![](img/official-aspects-05.png)
 
+See [this blog post](http://blog.codefluententities.com/2014/09/15/localize-dynamic-resources-using-aspect/) to see how to use the BOM to save localized data.
+
 ## TextSearch Aspect
 ## HierarchyDeepLoad Aspect
 ## AssociationManage Aspect
