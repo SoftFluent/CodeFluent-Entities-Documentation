@@ -203,7 +203,7 @@ This example demonstrates how to use the **HierarchyDeepLoad** aspect to add a *
 
 IMAGE
 
-The Microsoft SQL Server producer generates a **Customer_DeepLoadAllProc** stored procedure:
+The Microsoft SQL Server producer generates a **Customer_DeepLoadAllProc** stored procedure that loads all records from **User** and **Contractor** tables:
 
 ```sql
 CREATE PROCEDURE [dbo].[Customer_DeepLoadAllProc]
@@ -216,7 +216,7 @@ AS
        WHERE [User].[_typeName] = 'CodeFluent.Contractor' AND [User].[User_Id] = [Contractor].[User_Id]
 ```
 
-The Business Object Model producer adds a DeepLoadAll method to the UserCollection class, this method calls the Customer_DeepLoadAllProc stored procedure to load all User and Contractor instances.
+The Business Object Model producer adds a **DeepLoadAll** method to the **UserCollection** class, this method calls the **Customer_DeepLoadAllProc** stored procedure to load all **User** and **Contractor** instances.
 
 ```csharp
 public static UserCollection DeepLoadAll()
