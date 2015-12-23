@@ -38,6 +38,8 @@ See [this blog post](http://blog.codefluententities.com/2014/09/15/localize-dyna
 
 The **Text Search Aspect** adds methods to search an entity using tokenization techniques (also known as Middle-Of-Word text search technique). The search is case insensitive and accent insensitive. Say you want to create a screen in you application where users can search their contacts: the Text Search Aspect provides a way to implement it.
 
+*Note: For now, the aspect is only supported using Microsoft SQL Server databases.*
+
 ## HierarchyDeepLoad Aspect
 ## AssociationManage Aspect
 ## AutoFormattable Aspect
