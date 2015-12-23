@@ -50,6 +50,48 @@ And specify some property to extract:
 
 ![](img/official-aspects-07.png)
 
+Generating your application you'll notice that in the persistence layer:
+
+* a new table named TextSearch[KeyType] was created,
+* a new stored procedure named [EntityName]_TextSearchTokens was created.
+
+Likewise, in the Business Object Model (BOM) the following classes were created:
+
+* **Utilities\TextSearchEntityType.cs**
+* **Utilities\TextSearchUtilities.cs**
+* **Utilities\TextSearch[KeyType].cs** (one per key type used),
+* **Utilities\TextSearch[KeyType]Collection.cs** (one per key type used).
+
+If the Service Object Model Producer is configured the following contracts and classes will be added:
+
+* **Services\ITextSearch[KeyType]Service.cs**
+* **Services\TextSearch[KeyType]Service.cs**
+
+In our example, the Contact entity is text searchable, ergo its resulting ContactCollection class will have two new methods:
+
+* **TextSearchTokens(bool oneOrMore, string[] tokens)**
+* **PageTextSearchTokens(int pageIndex, int pageSize, CodeFluent.Runtime.PageOptions pageOptions, bool oneOrMore, string[] tokens)**
+
+The first one allows you to retrieve all results of the search, when the second one is a paged and sortable version of the first method.
+
+### Upgrading Non-Searchable Data
+
+If you set-up the **Text Search Aspect** from the very beginning of your application's life, tokens will be created and deleted along their represented instance. However, if you add the **Text Search Aspect** on a database already containing data, you'll have to build all tokens for instances that where created prior to the addition of the aspect. In that matter, the **TextSearchUtilities** class provides a method named **UpdateAll**.
+
+Create yourself a console application in which the **UpdateAll** method is called once per searchable class. For instance:
+
+```csharp
+class Program
+{
+        static void Main(string[] args)
+        {
+             TextSearchUtilities.UpdateAll(typeof(ContactCollection));
+        }
+}
+```
+
+The **UpdateAll** method will create tokens for all existing lines.
+
 ## HierarchyDeepLoad Aspect
 ## AssociationManage Aspect
 ## AutoFormattable Aspect
