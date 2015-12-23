@@ -205,6 +205,8 @@ This example demonstrates how to use the **HierarchyDeepLoad** aspect to add a *
 
 ![](img/official-aspects-12.png)
 
+![](img/official-aspects-14.png)
+
 The Microsoft SQL Server producer generates a **Customer_DeepLoadAllProc** stored procedure that loads all records from **User** and **Contractor** tables:
 
 ```sql
