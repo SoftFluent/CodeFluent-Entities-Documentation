@@ -146,6 +146,13 @@ public static bool ProductsManage(System.ComponentModel.CollectionChangeAction a
 }
 ```
 
+*Known issue (Oracle only): This aspect adds a [EntityName]Manage stored procedure which calls two other delete and save stored procedure. Therefore, those stored procedures need to exist prior to the generation of the Manage procedure. As a consequence it is recommended to generate your model at least once before adding the aspect to avoid having an error such as:*
+
+* *CodeFluent.Producers.Database.CodeFluentDatabaseProducerException: CF4703: Generated Oracle packages have errors: Error in 'Sample.CF_Order' line 125, position 26: 'PLS-00201: identifier 'CF_Product.SAVEORDERPRODUCTS' must be declared'.*
+* *Error in 'Sample.CF_Order' line 125, position 26: 'PL/SQL: Statement ignored'.*
+* *Error in 'Sample.CF_Order' line 126, position 26: 'PLS-00201: identifier 'CF_Product.DELETEORDERPRODUCTS' must be declared'.*
+* *Error in 'Sample.CF_Order' line 126, position 26: 'PL/SQL: Statement ignored'.*
+
 ## AutoFormattable Aspect
 
 ## HierarchyDeepLoad Aspect
