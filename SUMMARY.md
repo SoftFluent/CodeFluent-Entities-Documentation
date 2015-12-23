@@ -60,7 +60,7 @@
        * [Auto-Trace](addins/auto-trace.md)
        * [Auto-Documentation](addins/auto-documentation.md)
        * [Aspect-Oriented Modeling](addins/aspect-oriented_modeling.md)
-       * Official Aspects
+       * [Official Aspects](addins/official_aspects.md)
        * Application Cache
 * [Legacy](legacy.md)
 
