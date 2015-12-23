@@ -60,5 +60,6 @@
        * [Auto-Trace](addins/auto-trace.md)
        * [Auto-Documentation](addins/auto-documentation.md)
        * Aspect-Oriented Modeling
+       * Official Aspects
 * [Legacy](legacy.md)
 
