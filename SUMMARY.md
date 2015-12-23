@@ -59,7 +59,7 @@
        * [Template](addins/template.md)
        * [Auto-Trace](addins/auto-trace.md)
        * [Auto-Documentation](addins/auto-documentation.md)
-       * Aspect-Oriented Modeling
+       * [Aspect-Oriented Modeling](addins/aspect-oriented_modeling.md)
        * Official Aspects
        * Application Cache
 * [Legacy](legacy.md)
