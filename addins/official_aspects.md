@@ -104,6 +104,48 @@ Using this aspect is very straightforward: import the part in your project, spec
 
 In the end, a method will be added to each entity holding a **many to many** relation to another entity. This method will be named **[RelationPropertyName]Manage**.
 
+```csharp
+public static bool ProductsManage(System.ComponentModel.CollectionChangeAction action, System.Guid orderReference, int productId)
+{
+    if ((action == default(System.ComponentModel.CollectionChangeAction)))
+    {
+        throw new System.ArgumentNullException("action");
+    }
+    if ((orderReference.Equals(CodeFluentPersistence.DefaultGuidValue) == true))
+    {
+        throw new System.ArgumentNullException("orderReference");
+    }
+    if ((productId == CodeFluentPersistence.DefaultInt32Value))
+    {
+        throw new System.ArgumentNullException("productId");
+    }
+    bool ret = CodeFluentPersistence.DefaultBooleanValue;
+    CodeFluent.Runtime.CodeFluentPersistence persistence = CodeFluentContext.Get(OrderProcess.Constants.OrderProcessStoreName).Persistence;
+    persistence.CreateStoredProcedureCommand(null, "Order", "ProductsManage");
+    persistence.AddParameterEnumInt32("@action", action, new System.ComponentModel.CollectionChangeAction());
+    persistence.AddParameter("@orderReference", orderReference);
+    persistence.AddParameter("@productId", productId);
+    System.Data.IDataReader reader = null;
+    try
+    {
+        reader = persistence.ExecuteReader();
+        if ((reader.Read() == true))
+        {
+            ret = ((bool)(ConvertUtilities.ChangeType(reader.GetValue(0), typeof(bool), null)));
+        }
+    }
+    finally
+    {
+        if ((reader != null))
+        {
+            reader.Dispose();
+        }
+        persistence.CompleteCommand();
+    }
+    return ret;
+}
+```
+
 ## AutoFormattable Aspect
 
 ## HierarchyDeepLoad Aspect
