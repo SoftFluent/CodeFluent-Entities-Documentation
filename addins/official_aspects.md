@@ -52,8 +52,8 @@ And specify some property to extract:
 
 Generating your application you'll notice that in the persistence layer:
 
-* a new table named TextSearch[KeyType] was created,
-* a new stored procedure named [EntityName]_TextSearchTokens was created.
+* a new table named **TextSearch[KeyType]** was created,
+* a new stored procedure named **[EntityName]_TextSearchTokens** was created.
 
 Likewise, in the Business Object Model (BOM) the following classes were created:
 
