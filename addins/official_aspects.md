@@ -27,6 +27,9 @@ And specify some property as localizable:
 Now you can edit your instances with a new tab called **Localized Values**:
 
 ![](img/official-aspects-04.png)
+
+And configure desired cultures:
+
 ![](img/official-aspects-05.png)
 
 ## TextSearch Aspect
