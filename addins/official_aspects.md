@@ -197,14 +197,57 @@ private void OnGetSalesmanName()
 
 This aspect adds a **DeepLoadAll** method on a given set of entities. The **DeepLoadAll** method loads a complete inheritance hierarchy using a single server call.
 
+*Note: This aspect only supports C# and SQL Server targets.*
+
 This example demonstrates how to use the **HierarchyDeepLoad** aspect to add a **DeepLoadAll** method to the **UserCollection** class, this **DeepLoadAll** method will load all **User** and all **Contractor** instances from the persistence layer.
 
-```csharp
-
-```
+IMAGE
 
 The Microsoft SQL Server producer generates a **Customer_DeepLoadAllProc** stored procedure:
 
 ```sql
+CREATE PROCEDURE [dbo].[Customer_DeepLoadAllProc]
+AS  
 
+   SELECT [User].[User_Id], [User].[User_Name], [User].[_typeName] FROM [User]
+       WHERE [User].[_typeName]='CodeFluent.User'
+
+   SELECT [User].[User_Id], [User].[User_Name], [User].[_typeName], [Contractor].[Contractor_Level] FROM [User], [Contractor]
+       WHERE [User].[_typeName] = 'CodeFluent.Contractor' AND [User].[User_Id] = [Contractor].[User_Id]
+```
+
+The Business Object Model producer adds a DeepLoadAll method to the UserCollection class, this method calls the Customer_DeepLoadAllProc stored procedure to load all User and Contractor instances.
+
+```csharp
+public static UserCollection DeepLoadAll()
+{
+    UserCollection items = new UserCollection();
+    CodeFluentPersistence persistence = CodeFluentContext.Get("CodeFluent").Persistence;
+    persistence.CreateStoredProcedureCommand("User_DeepLoadAllProc");
+    using (IDataReader reader = persistence.ExecuteReader())
+    {
+        do
+        {
+            while (reader.Read())
+            {
+                string typeName = CodeFluentPersistence.GetReaderValue(reader, "_typeName", (string) null);
+                User item = null;
+                if (typeof(Contractor).FullName == typeName)
+                {
+                    item = new Contractor();
+                }
+                if (item == null)
+                {
+                    item = new User();
+                }
+                ((ICodeFluentEntity) item).ReadRecord(reader);
+                items.BaseAdd(item);
+                item.EntityState = CodeFluentEntityState.Unchanged;
+            }
+        }
+        while (reader.NextResult());
+        CodeFluentPersistence.CompleteCommand("CodeFluent");
+    }
+    return items;
+}
 ```
