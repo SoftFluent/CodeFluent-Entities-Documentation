@@ -94,7 +94,15 @@ The **UpdateAll** method will create tokens for all existing lines.
 
 ## AssociationManage Aspect
 
-This aspect adds method(s) to all entities having at least one many to many relation.
+This aspect adds method(s) to all entities having at least one **many to many** relation.
+
+Added methods enable association management without loading the corresponding collections. Such methods can be very useful when creating your user interface.
+
+Using this aspect is very straightforward: import the part in your project, specify it's run step, and it'll automatically on **many to many** entities.
+
+![](img/official-aspects-08.png)
+
+In the end, a method will be added to each entity holding a many to many relation to another entity. This method will be named [RelationPropertyName]Manage.
 
 ## AutoFormattable Aspect
 
