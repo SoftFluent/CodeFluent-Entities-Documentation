@@ -102,7 +102,7 @@ Using this aspect is very straightforward: import the part in your project, spec
 
 ![](img/official-aspects-08.png)
 
-In the end, a method will be added to each entity holding a many to many relation to another entity. This method will be named [RelationPropertyName]Manage.
+In the end, a method will be added to each entity holding a **many to many** relation to another entity. This method will be named **[RelationPropertyName]Manage**.
 
 ## AutoFormattable Aspect
 
