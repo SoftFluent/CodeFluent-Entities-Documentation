@@ -199,6 +199,8 @@ This aspect adds a **DeepLoadAll** method on a given set of entities. The **Deep
 
 *Note: This aspect only supports C# and SQL Server targets.*
 
+![](img/official-aspects-13.png)
+
 This example demonstrates how to use the **HierarchyDeepLoad** aspect to add a **DeepLoadAll** method to the **UserCollection** class, this **DeepLoadAll** method will load all **User** and all **Contractor** instances from the persistence layer.
 
 ![](img/official-aspects-12.png)
