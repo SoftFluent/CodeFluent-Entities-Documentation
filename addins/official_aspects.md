@@ -46,6 +46,9 @@ Pick the **SoftFluent.TextSearch.xml** file into the CodeFluent Entities install
 
 ![](img/official-aspects-06.png)
 
+And specify some property to extract:
+
+![](img/official-aspects-07.png)
 
 ## HierarchyDeepLoad Aspect
 ## AssociationManage Aspect
