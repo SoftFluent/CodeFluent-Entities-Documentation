@@ -228,34 +228,34 @@ GO
 The Business Object Model producer adds a **DeepLoadAll** method to the **UserCollection** class, this method calls the **Customer_DeepLoadAllProc** stored procedure to load all **User** and **Contractor** instances.
 
 ```csharp
-public static UserCollection DeepLoadAll()
+public static OrderProcess.Marketing.UserCollection DeepLoadAll()
 {
-    UserCollection items = new UserCollection();
-    CodeFluentPersistence persistence = CodeFluentContext.Get("CodeFluent").Persistence;
+    OrderProcess.Marketing.UserCollection items = new OrderProcess.Marketing.UserCollection();
+    CodeFluent.Runtime.CodeFluentPersistence persistence = CodeFluentContext.Get(OrderProcess.Constants.OrderProcessStoreName).Persistence;
     persistence.CreateStoredProcedureCommand("User_DeepLoadAllProc");
-    using (IDataReader reader = persistence.ExecuteReader())
+    using (System.Data.IDataReader reader = persistence.ExecuteReader())
     {
         do
         {
             while (reader.Read())
             {
-                string typeName = CodeFluentPersistence.GetReaderValue(reader, "_typeName", (string) null);
-                User item = null;
-                if (typeof(Contractor).FullName == typeName)
+                string typeName = CodeFluentPersistence.GetReaderValue(reader, "_typeName", (string)null);
+                OrderProcess.Marketing.User item = null;
+                if (typeof(OrderProcess.Marketing.Contractor).FullName == typeName)
                 {
-                    item = new Contractor();
+                    item = new OrderProcess.Marketing.Contractor();
                 }
                 if (item == null)
                 {
-                    item = new User();
+                    item = new OrderProcess.Marketing.User();
                 }
-                ((ICodeFluentEntity) item).ReadRecord(reader);
+                ((CodeFluent.Runtime.ICodeFluentEntity)item).ReadRecord(reader);
                 items.BaseAdd(item);
-                item.EntityState = CodeFluentEntityState.Unchanged;
+                item.EntityState = CodeFluent.Runtime.CodeFluentEntityState.Unchanged;
             }
         }
         while (reader.NextResult());
-        CodeFluentPersistence.CompleteCommand("CodeFluent");
+        CodeFluent.Runtime.CodeFluentPersistence.CompleteCommand(OrderProcess.Constants.OrderProcessStoreName);
     }
     return items;
 }
