@@ -210,14 +210,19 @@ This example demonstrates how to use the **HierarchyDeepLoad** aspect to add a *
 The Microsoft SQL Server producer generates a **Customer_DeepLoadAllProc** stored procedure that loads all records from **User** and **Contractor** tables:
 
 ```sql
-CREATE PROCEDURE [dbo].[Customer_DeepLoadAllProc]
-AS  
+CREATE PROCEDURE [dbo].[User_DeepLoadAllProc]
 
-   SELECT [User].[User_Id], [User].[User_Name], [User].[_typeName] FROM [User]
-       WHERE [User].[_typeName]='CodeFluent.User'
+AS
+SET NOCOUNT ON
+SELECT [User].[User_Id],[User].[User_Name],[User].[_typeName],[User].[_trackLastWriteTime],[User].[_trackCreationTime],[User].[_trackLastWriteUser],[User].[_trackCreationUser],[User].[_rowVersion]
+FROM [User]
+WHERE [User].[_typeName]='OrderProcess.Marketing.User'
+SELECT [User].[User_Id],[User].[User_Name],[User].[_typeName],[User].[_trackLastWriteTime],[User].[_trackCreationTime],[User].[_trackLastWriteUser],[User].[_trackCreationUser],[User].[_rowVersion],[Contractor].[Contractor_Level]
+FROM [User],[Contractor]
+WHERE [User].[_typeName]='OrderProcess.Marketing.Contractor' AND [User].[User_Id]=[Contractor].[User_Id]
 
-   SELECT [User].[User_Id], [User].[User_Name], [User].[_typeName], [Contractor].[Contractor_Level] FROM [User], [Contractor]
-       WHERE [User].[_typeName] = 'CodeFluent.Contractor' AND [User].[User_Id] = [Contractor].[User_Id]
+RETURN
+GO
 ```
 
 The Business Object Model producer adds a **DeepLoadAll** method to the **UserCollection** class, this method calls the **Customer_DeepLoadAllProc** stored procedure to load all **User** and **Contractor** instances.
