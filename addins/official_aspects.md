@@ -40,6 +40,8 @@ The **Text Search Aspect** adds methods to search an entity using tokenization t
 
 *Note: For now, the aspect is only supported using Microsoft SQL Server databases.*
 
+*Note: This aspect does not support entities with composite or object keys.*
+
 ## HierarchyDeepLoad Aspect
 ## AssociationManage Aspect
 ## AutoFormattable Aspect
