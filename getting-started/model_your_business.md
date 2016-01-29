@@ -31,7 +31,7 @@ When you add a property to an entity, you also need to specify its data type.
 
 ## Create an enumeration
 
-You may also need an enumeration to constraint possible values of a property, for example a status.
+You may also need an enumeration to define a list of possible values of a property, for example a status.
 
 ![](img/model-your-business-05.png)
 
@@ -56,7 +56,7 @@ You can also add property with an entity data type.
 
 ![](img/model-your-business-11.png)
 
-This will ask you to define the relationship you are going to create. Here we need to create a Customer property on the Order entity and assume that one Customer can have many Orders.
+The modeler will ask you to define the characteristics of the relationship you're going to create. Here we need to create a Customer property on the Order entity and assume that one Customer can have many Orders. Note you should always choose the phrase that obviously matches the names of the properties.
 
 ![](img/model-your-business-12.png)
 
