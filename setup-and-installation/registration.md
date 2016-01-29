@@ -2,26 +2,26 @@
 
 ## Register
 
-On your first use of CodeFluent Entities you will need to register your license. Firstly, accept the End User License Agreement.
+On your first use of CodeFluent Entities you will need to register your license. First, accept the End User License Agreement.
 
 ![](img/first-setup-08.png)
 
-Then you just need to register with your SoftFluent.com account.
+Then activate the licence using with your SoftFluent.com account.
 
 ![](img/first-setup-09.png)
 
-In case you have any trouble, you can also get your key from your [store account](http://www.softfluent.com/store/products).
+In case of any trouble, you can also get your key from your [store account](http://www.softfluent.com/store/products).
 
 
 ## Troubleshooting Connection Problems
 
-If for some reason activation does not work as planned, you can use the **SoftFluent.Licensing.Client.exe** program (available in the installation directory) which provides extra-capabilities.
+If, for some reason, activation does not work, you can use the **SoftFluent.Licensing.Client.exe** program (available in the installation directory) which provides extra-capabilities.
 
 ### Check Connectivity
 
-Using the Using the SoftFluent.Licensing.Client.exe you can ensure CodeFluent Entities can contact our activation servers. Select Help > Check Connectivity to launch a test. you can ensure CodeFluent Entities can contact our activation servers. Select **Help > Check Connectivity** to launch a test.
+Using the SoftFluent.Licensing.Client.exe, you can ensure CodeFluent Entities can contact our activation servers. Select Help > Check Connectivity to launch a test. Select **Help > Check Connectivity** to launch a test.
 
-If this test fails it's probably due to proxy settings or a lack of internet connection.
+If this test fails, it's probably due to proxy settings or a lack of internet connection.
 
 ### Supporting Proxies
 
