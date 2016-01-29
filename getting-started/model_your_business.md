@@ -22,7 +22,7 @@ When you create an entity, you also need to choose a namespace (which will ultim
 
 ![](img/model-your-business-02.png)
 
-When you add a property to an entity, you also need to specify its data type.
+When you add a property to an entity, you also need to specify its type, which can be simple (integer, string, currency, date, time, etc.), advanced (images, files, etc.) or of a type defined in the model (entity, entity collection, enumeration).
 
 ![](img/model-your-business-03.png)
 
@@ -31,7 +31,7 @@ When you add a property to an entity, you also need to specify its data type.
 
 ## Create an enumeration
 
-You may also need an enumeration to define a list of possible values of a property, for example a status.
+You may also need an enumeration to define a list of possible values of a property, for example the status of an order.
 
 ![](img/model-your-business-05.png)
 
@@ -52,19 +52,19 @@ Then edit the data type of the "Status" property from the "Type Name" property g
 
 ## Add relationships
 
-You can also add property with an entity data type.
+You can also add properties with entity or entity collection type. This will create a relation (as in "relational database") or relationship between the two entities (the one that defines the property and the one that defines the property type).
 
 ![](img/model-your-business-11.png)
 
-The modeler will ask you to define the characteristics of the relationship you're going to create. Here we need to create a Customer property on the Order entity and assume that one Customer can have many Orders. Note you should always choose the phrase that obviously matches the names of the properties.
+The modeler will ask you to define the characteristics of the relationship you're going to create. Here we need to create a Customer property on the Order entity and assume that one Customer can have many Orders. Note you should always choose the phrase that obviously matches the names of the properties. If the phrase doesn't correspond to what you want to model, then the names of the properties may be wrong with regard to it.
 
 ![](img/model-your-business-12.png)
 
-You can also use a Entity Collection data type.
+You can also use a Entity Collection type.
 
 ![](img/model-your-business-13.png)
 
-You can also define a relation between two entities by holding SHIFT+click:
+Note you can also define a relation between two entities by holding SHIFT+click from property to property or entity to property:
 
 ![](img/model-your-business-15.png)
 
