@@ -2,7 +2,7 @@
 
 ## Producer
 
-CodeFluent Entities is a model driven software factory which is based on a producer logic, will generate (or 'produce') platform optimized code. The **Producers** are code generators.
+CodeFluent Entities is a model driven software factory which is based on a pluggable code generator logic. It will generate platform optimized code.
 
 ![](img/overview.png)
 
