@@ -1,9 +1,9 @@
 Introduction
 ===================
  
-Create high-quality software always aligned with your business
+Create high-quality software always aligned with your business needs
 ----------------------------------
-CodeFluent Entities is a product integrated into Visual Studio that allows you to create your application foundations. Minimize heavy plumbing work and internal framework development by generating your data access layers. Keep your business sync with your software implementations and focus on what makes the difference.
+CodeFluent Entities is a product integrated into Visual Studio that allows you to create your application foundations. Minimize heavy plumbing work and internal framework development by generating your data access layers. Keep your business in sync with your software implementations and focus on what makes the difference.
 
 Visit the CodeFluent Entities [website](http://www.softfluent.com/product/codefluent-entities/).
 
@@ -12,7 +12,7 @@ Visit the CodeFluent Entities [website](http://www.softfluent.com/product/codefl
 
 Model your business
 -------------
-Leverage the centralized platform-independent model describing your business application thanks to the Visual Studio integrated Modeler.
+Leverage the centralized platform-independent model describing your business application using the Visual Studio integrated Modeler.
 
 ![Model your business](img/model-your-business.png)
 
@@ -20,7 +20,7 @@ Leverage the centralized platform-independent model describing your business app
 
 **Visual Studio Integration**: The graphical modeler is fully integrated in Microsoft Visual Studio (from 2008 to 2015).
 
-**Application-wide**: Apply application-wide changes in a few clicks such as cache and naming conventions.
+**Application-wide**: Apply application-wide changes, such as cache and naming conventions, in a few clicks.
 
 **Absorb functional changes**: Improve your agility by accepting model changes at any time.
 
@@ -28,7 +28,7 @@ Leverage the centralized platform-independent model describing your business app
 
 Define your foundations
 -------------
-From your business model, CodeFluent Entities generates Transact-SQL scripts and C# code. Focus on what makes the difference.
+From your business model, CodeFluent Entities generates Transact-SQL scripts and C# code, amongst other artifacts. Focus on what makes the difference.
 
 ![Define your foundations](img/define-your-foundations.png)
 
@@ -42,7 +42,7 @@ From your business model, CodeFluent Entities generates Transact-SQL scripts and
 
 **Extensibility**: Generated code is composed of partial classes. Extending it is nothing more than standard .NET development.
 
-**Incremental updates**: The Microsoft SQL Server differential engine enables hassle-free schema updates without losing any data.
+**Incremental updates**: The Microsoft SQL Server diff engine enables hassle-free schema updates without losing any existing data.
 
 Develop your application
 -------------
