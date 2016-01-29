@@ -18,11 +18,11 @@ From this meta-model, the Microsoft SQL Server Producer generates a set of **T-S
 
 All those data objects are created by the generated scripts. By default, those generated scripts are ran automatically when building your model.
 
-Furthermore, the Microsoft SQL Server Producer has a **differential engine**, meaning that between generations the database isn't dropped and created over but **altered** (columns and procedures added, types changed). This feature is a key feature, since it allows to generate continuously, driving developments from the model. 
+Furthermore, the Microsoft SQL Server Producer has a **differential engine**, meaning that between generations the database isn't dropped and created over but **altered** (columns and procedures added, types changed, etc...) only if needed. This feature is a key feature, since it allows to generate continuously, driving developments from the model. 
 
 ## Configuration
 
-Here are the configuration options.
+Here are the standard configuration options.
 
 ![](img/sql-server-01.png)
 
