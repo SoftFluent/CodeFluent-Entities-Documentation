@@ -1,13 +1,13 @@
 # Generate your data layers
 
-You will need to create Visual Studio projects to host your generated source code:
+You will need to create two Visual Studio projects to host your generated source code:
 * C# class library project - **OrderProcess**
 * SQL Server database project - **OrderProcess.Persistence**
 
 
 ## Generate the persistence layer
 
-Then you can add a "Producer" (the term  we use for "code generator") to generate the persistence layer.
+Then you can add a "Code Generator", or "Producer" (a legacy term you still see in the documentation) to generate the persistence layer code.
 
 ![](img/generate-your-data-layers-01.png)
 
@@ -17,7 +17,7 @@ Configure the Connection String and target the SQL Server database project.
 
 ![](img/generate-your-data-layers-02.png)
 
-Build your CodeFluent entities model and see the generated T-SQL scripts.
+Build your CodeFluent entities model and have a loot at the generated T-SQL scripts.
 
 ![](img/generate-your-data-layers-04.png)
 
@@ -110,7 +110,7 @@ Now add the Producer for your C# data access layer and target the C# class libra
 
 ![](img/generate-your-data-layers-05.png)
 
-If you build your model, you can have a look at the entity and entity collection classes source code.
+If you build your model, you can have a look at the entities and entity collections classes C# source code.
 
 ![](img/generate-your-data-layers-06.png)
 
