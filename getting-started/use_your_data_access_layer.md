@@ -31,7 +31,7 @@ namespace OrderProcess.Application
 
 ## Add instances
 
-Your application source code should be ready for display, now let's add some data into our model. Select the Product entity and open the Instances Grid windows from the ribbon.
+Now let's add some data to our model. Select the Product entity and open the Instances Grid windows from the ribbon.
 
 ![](img/use-your-dal-02.png)
 
@@ -39,7 +39,7 @@ Fill the grid with all the products you need to initialize your database.
 
 ![](img/use-your-dal-03.png)
 
-Build your model and your database is now up to date.
+Build your model and your database is now filled with your initial data.
 
 ![](img/use-your-dal-04.png)
 
