@@ -3,26 +3,26 @@
 
 ## Create your first project
 
-Create the project from the Visual Studio templates in the CodeFluent Entities category.
+Create a project from the Visual Studio templates in the CodeFluent Entities category.
 
 ![](img/model-your-business-00.png)
 
-Select the blank CodeFluent Entities Model template, we will name **OrderProcess.Model**, we will use the OrderProcess namespace as default.
+Select the "Blank CodeFluent Entities" Model template, and name it **OrderProcess.Model**, we will use the proposed "OrderProcess" namespace.
 
 ![](img/model-your-business-14.png)
 
 
 ## Create an entity
 
-CodeFluent Entities allows you to define entities and enumerations. You can use the ribbon of the graphical modeler, directly integrated into the Visual Studio.
+CodeFluent Entities allows you to define entities and enumerations. You can use the ribbon of top of the graphical modeler surface integrated into the Visual Studio.
 
 ![](img/model-your-business-01.png)
 
-When you create an entity, you need to choose the namespace location.
+When you create an entity, you also need to choose a namespace (which will ultimately correspond to a .NET namespace).
 
 ![](img/model-your-business-02.png)
 
-When you add a property to an entity, you need to specify the data type.
+When you add a property to an entity, you also need to specify its data type.
 
 ![](img/model-your-business-03.png)
 
