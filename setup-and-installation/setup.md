@@ -2,11 +2,11 @@
 
 ## Get your free key
 
-Generate your free key on http://www.softfluent.com/product/codefluent-entities/.
+Connect to http://www.softfluent.com/product/codefluent-entities/ and generate your free key.
 
 ![](img/first-setup-01.png)
 
-Then download the installer.
+Download the installer.
 
 ## Install
 
@@ -26,6 +26,6 @@ Run the installer and follow the steps.
 
 ## Uninstall
 
-Uninstalling the CodeFluent Entities Modeler can be done in the **Control Panel** from the **Add or Remove Programs on XP** or the **Programs and Features panel** on Vista and 7.
+To uninstall CodeFluent Entities, open the **Control Panel** from **Add or Remove Programs on XP** or the **Programs and Features panel** on Vista and higher.
 
 ![](img/uninstall-01.jpg)
