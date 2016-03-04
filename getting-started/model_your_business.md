@@ -39,6 +39,8 @@ You may also need an enumeration to define a list of possible values of a proper
 
 ![](img/model-your-business-05.png)
 
+After creating the property, add a new enumeration. 
+
 ![](img/model-your-business-06.png)
 
 And configure the possible values.
