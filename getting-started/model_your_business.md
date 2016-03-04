@@ -14,6 +14,10 @@ Select the "Blank CodeFluent Entities" Model template, and name it **OrderProces
 
 ## Create an entity
 
+First, you need to open the model from the Default Surface project item.
+
+![](img/model-your-business-16.png)
+
 CodeFluent Entities allows you to define entities and enumerations. You can use the ribbon of top of the graphical modeler surface integrated into the Visual Studio.
 
 ![](img/model-your-business-01.png)
