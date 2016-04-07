@@ -28,6 +28,16 @@ namespace OrderProcess.Application
 }
 ```
 
+Then configure the ```App.config``` file. Declare a new configuration section with a section name matching your default namespace and set up your connection string.
+```xml
+<configuration>
+  <configSections>
+    <section name="MyDefaultNamespace"
+             type="CodeFluent.Runtime.CodeFluentConfigurationSectionHandler, CodeFluent.Runtime" />
+  </configSections>
+  <MyDefaultNamespace connectionString="database=[MyDatabaseName];server=[ServerName];Trusted_Connection=true" />
+</configuration>
+```
 
 ## Add instances
 
